@@ -1,0 +1,2774 @@
+﻿{
+"scenario": "batch_send",
+"version": "0.12.1",
+"user": "vkr_Administrator",
+"at": "2026-09-10T06:04:42",
+"ok": true,
+"snapshot": {
+"employees": 10,
+"events": 60,
+"notifications": 120,
+"sent": 120,
+"errors": 10,
+"queue": [
+{
+"Notification": "984c4991-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4990-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 2,
+"NextTry": "2026-09-10T06:04:35",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4992-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4990-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 2,
+"NextTry": "2026-09-10T06:04:35",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4995-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4994-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 2,
+"NextTry": "2026-09-10T06:04:35",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4996-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4994-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 2,
+"NextTry": "2026-09-10T06:04:35",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4999-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4998-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 2,
+"NextTry": "2026-09-10T06:04:35",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c499a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4998-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 2,
+"NextTry": "2026-09-10T06:04:35",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c499d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c499c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 2,
+"NextTry": "2026-09-10T06:04:35",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c499e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c499c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 2,
+"NextTry": "2026-09-10T06:04:35",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c49a1-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a0-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 2,
+"NextTry": "2026-09-10T06:04:35",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c49a2-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a0-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 2,
+"NextTry": "2026-09-10T06:04:35",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c49a5-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a4-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c49a6-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a4-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e11-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a8-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e12-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a8-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e15-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e14-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e16-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e14-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e19-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e18-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e1a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e18-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e1d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e1c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e1e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e1c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e21-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e20-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e22-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e20-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e25-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e24-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e26-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e24-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e29-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e28-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e2a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e28-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e2d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e2c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e2e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e2c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e31-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e30-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e32-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e30-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e35-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e34-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e36-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e34-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e39-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e38-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e3a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e38-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e3d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e3c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e3e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e3c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e41-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e40-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e42-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e40-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e45-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e44-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e46-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e44-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e49-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e48-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e4a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e48-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e4d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e4c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e4e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e4c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5511-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e50-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5512-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e50-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5515-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5514-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5516-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5514-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5519-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5518-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c551a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5518-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c551d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c551c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c551e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c551c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5521-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5520-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5522-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5520-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5525-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5524-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5526-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5524-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5529-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5528-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c552a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5528-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c552d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c552c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c552e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c552c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5531-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5530-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5532-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5530-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5535-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5534-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5536-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5534-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5539-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5538-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c553a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5538-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c553d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c553c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c553e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c553c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5541-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5540-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5542-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5540-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5545-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5544-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5546-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5544-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5549-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5548-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c554a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5548-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c554d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c554c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c554e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c554c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c11-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5550-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c12-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5550-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c15-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c14-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c16-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c14-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c19-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c18-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c1a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c18-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c1d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c1c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c1e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c1c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c21-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c20-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c22-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c20-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c25-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c24-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c26-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c24-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c29-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c28-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c2a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c28-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c2d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c2c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c2e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c2c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c31-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c30-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c32-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c30-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c35-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c34-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c36-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c34-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c39-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c38-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c3a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c38-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c3d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c3c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c3e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c3c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c41-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c40-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c42-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c40-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c45-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c44-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c46-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c44-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c49-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c48-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c4a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c48-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c4d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c4c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c4e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c4c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6311-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c50-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6312-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c50-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6315-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6314-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6316-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6314-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6319-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6318-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c631a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6318-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c631d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c631c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c631e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c631c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6321-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6320-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6322-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6320-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6325-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6324-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6326-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6324-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Принято SMTP-сервером",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+}
+],
+"links": [
+{
+"Source": "984c498f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4990-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c49a7-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a8-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e27-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e28-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e3f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e40-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5517-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5518-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c552f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5530-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5547-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5548-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c1f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c20-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c37-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c38-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c4f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c50-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4993-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4994-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e13-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e14-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e2b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e2c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e43-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e44-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c551b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c551c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5533-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5534-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c554b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c554c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c23-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c24-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c3b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c3c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c6313-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6314-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4997-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4998-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e17-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e18-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e2f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e30-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e47-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e48-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c551f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5520-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5537-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5538-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c554f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5550-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c27-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c28-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c3f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c40-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c6317-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6318-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c499b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c499c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e1b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e1c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e33-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e34-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e4b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e4c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5523-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5524-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c553b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c553c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c13-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c14-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c2b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c2c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c43-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c44-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c631b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c631c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c499f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a0-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e1f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e20-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e37-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e38-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e4f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e50-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5527-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5528-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c553f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5540-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c17-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c18-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c2f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c30-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c47-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c48-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c631f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6320-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c49a3-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a4-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e23-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e24-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e3b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e3c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5513-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5514-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c552b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c552c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5543-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5544-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c1b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c1c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c33-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c34-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c4b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c4c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c6323-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6324-acc2-11f1-9587-ccf9e42e08f0"
+}
+],
+"revisions": [
+{
+"Event": "984c4990-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4994-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4998-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c499c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c49a0-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c49a4-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c49a8-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e14-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e18-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e1c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e20-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e24-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e28-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e2c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e30-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e34-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e38-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e3c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e40-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e44-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e48-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e4c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e50-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5514-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5518-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c551c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5520-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5524-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5528-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c552c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5530-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5534-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5538-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c553c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5540-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5544-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5548-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c554c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5550-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c14-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c18-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c1c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c20-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c24-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c28-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c2c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c30-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c34-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c38-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c3c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c40-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c44-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c48-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c4c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c50-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c6314-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c6318-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c631c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c6320-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c6324-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+}
+],
+"attempts": [
+{
+"AttemptID": "084de248-fc2c-4427-bf1d-35cba1c67546",
+"Notification": "984c4999-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:58:00",
+"Finished": "2026-09-10T05:58:00",
+"Outcome": "Результат неизвестен",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(68)}: Ошибка при вызове метода контекста (Послать): Неизвестная ошибка (SMTP error code 3)"
+},
+{
+"AttemptID": "59e8bad6-35e7-4427-b490-ef7330c43f2a",
+"Notification": "984c4991-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:58:00",
+"Finished": "2026-09-10T05:58:00",
+"Outcome": "Результат неизвестен",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(68)}: Ошибка при вызове метода контекста (Послать): Неизвестная ошибка (SMTP error code 3)"
+},
+{
+"AttemptID": "86a088f4-13d5-406c-a02d-1cd63b8d9463",
+"Notification": "984c4995-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:58:00",
+"Finished": "2026-09-10T05:58:00",
+"Outcome": "Результат неизвестен",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(68)}: Ошибка при вызове метода контекста (Послать): Неизвестная ошибка (SMTP error code 3)"
+},
+{
+"AttemptID": "9ab9f12d-850d-4f54-86e4-b1f44f457cc7",
+"Notification": "984c4992-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:58:00",
+"Finished": "2026-09-10T05:58:00",
+"Outcome": "Результат неизвестен",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(68)}: Ошибка при вызове метода контекста (Послать): Неизвестная ошибка (SMTP error code 3)"
+},
+{
+"AttemptID": "f330031e-5c28-4587-8b89-d0300cd8f721",
+"Notification": "984c4996-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:58:00",
+"Finished": "2026-09-10T05:58:00",
+"Outcome": "Результат неизвестен",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(68)}: Ошибка при вызове метода контекста (Послать): Неизвестная ошибка (SMTP error code 3)"
+},
+{
+"AttemptID": "1c62bd8d-9bf3-4707-9669-6f515f9b2f25",
+"Notification": "984c49a1-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:58:04",
+"Finished": "2026-09-10T05:58:04",
+"Outcome": "Результат неизвестен",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(68)}: Ошибка при вызове метода контекста (Послать): Неизвестная ошибка (SMTP error code 3)"
+},
+{
+"AttemptID": "1ef46b0e-8e69-439d-ae2e-8cee9b91be20",
+"Notification": "984c49a2-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:58:04",
+"Finished": "2026-09-10T05:58:04",
+"Outcome": "Результат неизвестен",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(68)}: Ошибка при вызове метода контекста (Послать): Неизвестная ошибка (SMTP error code 3)"
+},
+{
+"AttemptID": "669a511f-505a-4d20-8b58-140a453d46b2",
+"Notification": "984c499a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:58:04",
+"Finished": "2026-09-10T05:58:04",
+"Outcome": "Результат неизвестен",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(68)}: Ошибка при вызове метода контекста (Послать): Неизвестная ошибка (SMTP error code 3)"
+},
+{
+"AttemptID": "d78cb39e-e413-47b7-a519-8474797454a9",
+"Notification": "984c499e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:58:04",
+"Finished": "2026-09-10T05:58:04",
+"Outcome": "Результат неизвестен",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(68)}: Ошибка при вызове метода контекста (Послать): Неизвестная ошибка (SMTP error code 3)"
+},
+{
+"AttemptID": "f94c9c1a-c5e2-403e-bac5-52b246b55516",
+"Notification": "984c499d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:58:04",
+"Finished": "2026-09-10T05:58:04",
+"Outcome": "Результат неизвестен",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(68)}: Ошибка при вызове метода контекста (Послать): Неизвестная ошибка (SMTP error code 3)"
+},
+{
+"AttemptID": "1aafbc4c-f118-4673-9480-bd54b75309ef",
+"Notification": "984c4e15-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:42",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "4cd23bf4-e051-4357-bda5-d55fe89332a3",
+"Notification": "984c4e12-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:42",
+"Finished": "2026-09-10T06:04:42",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "68a8d7a2-a3a5-40ab-8b42-e6891f990887",
+"Notification": "984c49a6-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:42",
+"Finished": "2026-09-10T06:04:42",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "dff5ecdb-6fcc-4605-a54f-e45481f7d1bf",
+"Notification": "984c4e11-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:42",
+"Finished": "2026-09-10T06:04:42",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "fa6e7d2b-9186-4ee5-aa94-1f976cd0bd83",
+"Notification": "984c49a5-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:42",
+"Finished": "2026-09-10T06:04:42",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "08c81fbd-62ed-43e5-a3eb-cbe634ba13bf",
+"Notification": "984c4e1a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "3a561f8c-e064-4216-b429-467d7614d87e",
+"Notification": "984c4e35-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "40b10042-a626-4198-80e0-378ceee5860b",
+"Notification": "984c4e31-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "41124b66-6d74-468a-8ec9-af2b776e4e34",
+"Notification": "984c4e26-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "490c6c47-a4b3-4435-a268-7f80de6a7214",
+"Notification": "984c4e2a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "7841ddc6-f3fd-4236-8396-b9b8cac31bc1",
+"Notification": "984c4e32-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "8035ef9f-8ae6-4b2e-bc10-354276ce0f42",
+"Notification": "984c4e1d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "944996ae-ff77-4959-b9fc-de4d231e9a90",
+"Notification": "984c4e29-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "a4e4cf7b-4fa0-4f57-8c39-9a6a1e2d368a",
+"Notification": "984c4e36-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "b0b6c306-359a-41cd-b14e-a9dd42de56b3",
+"Notification": "984c4e1e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "b3885fad-89bb-4b09-b83a-340a8fd00e7e",
+"Notification": "984c4e21-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "cad76019-0d57-4e35-a2f6-e397c62ec17f",
+"Notification": "984c4e2d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "d134126e-09d4-449d-9f43-9d1e257a8932",
+"Notification": "984c4e16-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "d5de23ed-ec47-4eef-b04d-16447de7af76",
+"Notification": "984c4e22-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "d7c9fe81-86bd-45da-aad5-06bf1a3184ea",
+"Notification": "984c4e2e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "fd33d2a1-67a7-405e-97a2-b9b25f42af98",
+"Notification": "984c4e25-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "ff222ceb-565d-4f5d-a1ca-84b2e5d9d67a",
+"Notification": "984c4e19-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:43",
+"Finished": "2026-09-10T06:04:43",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "08d277f4-2df1-4ca5-8ced-b61b624d16cb",
+"Notification": "984c5519-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "1bbce252-416b-423d-b6a8-4bc785438caa",
+"Notification": "984c5516-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "28484d25-b414-4d19-9f81-af5fd99ab2d5",
+"Notification": "984c4e42-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "2a14a164-ccaa-404c-8d87-f1fd8655d4ef",
+"Notification": "984c4e3a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "3a188b77-300c-4a43-ac74-e35c339545a4",
+"Notification": "984c4e3d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "624efcc2-6f74-4008-9e95-1eba6dda4b89",
+"Notification": "984c4e39-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "67f0e899-eafc-428f-ba9c-6115b507c48e",
+"Notification": "984c5515-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "77ed0434-b7bb-4528-af93-69f92afa963e",
+"Notification": "984c4e45-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "7ea545b6-3d26-49a9-b543-155d79247b35",
+"Notification": "984c4e41-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "83dc2553-a1ea-4811-979e-bcb64d13f163",
+"Notification": "984c4e4e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "845124d4-f07f-4975-acfc-ee741bf35c6b",
+"Notification": "984c4e4d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "86ee781d-c16a-464d-a072-f7ec797b7ed4",
+"Notification": "984c4e4a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "ab994da8-2500-41fa-8096-ec66faf2f882",
+"Notification": "984c4e3e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "abaa55cd-1db5-4c89-9ce7-0daf3bdba182",
+"Notification": "984c4e46-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "ac2e0f2e-2fcf-4849-a2a3-765d6eae2912",
+"Notification": "984c5511-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "b1668ff1-649e-4798-b080-697853706abe",
+"Notification": "984c5512-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "c014addf-63e1-404f-a519-c6c6eeefb599",
+"Notification": "984c4e49-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:44",
+"Finished": "2026-09-10T06:04:44",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "2bcf7a95-d147-4e37-810c-8703df567081",
+"Notification": "984c5535-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "3967ad77-d4c1-419d-8c49-87a011652442",
+"Notification": "984c5532-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "48aa36e9-804c-4885-acd9-f4fa328cc814",
+"Notification": "984c551d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "4ba59293-6028-42f9-8dc6-f532674a65af",
+"Notification": "984c551a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "62ea5009-8494-438e-a4a6-89fd2b91bf7a",
+"Notification": "984c5531-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "6d1837c4-fc9a-48f8-979c-4cc4722eb805",
+"Notification": "984c552e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "8519c207-4ac8-4ff5-b643-1182d154d682",
+"Notification": "984c5536-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "87423863-33e3-4e07-ac8d-98d15a9e3f7d",
+"Notification": "984c5529-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "9517b3e6-12cf-4ccd-bff0-2eb2542d77e6",
+"Notification": "984c5525-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "9ef22130-f425-43cb-bee6-431ce65b4db7",
+"Notification": "984c551e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "ad9999bb-4613-4956-8def-748166b347af",
+"Notification": "984c5526-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "c7401b47-548d-4d8c-aecc-a925c66b3919",
+"Notification": "984c552d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "da7bd56c-c151-4caf-984d-2db13c28ae95",
+"Notification": "984c5522-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "e3597df3-e27a-4f14-83b3-d6353131ba2a",
+"Notification": "984c552a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "e64e0121-ce6b-4511-8728-525867cec286",
+"Notification": "984c5521-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:45",
+"Finished": "2026-09-10T06:04:45",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "2fada14c-6392-440d-9484-d97f79f54064",
+"Notification": "984c554a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "54b74a58-c06b-4203-bce1-e10c5000461a",
+"Notification": "984c553d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "58174aee-cbc1-4e4e-8926-4ee8f49b64fd",
+"Notification": "984c5541-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "5cd1e252-3cb4-44f8-a672-31fb5585b128",
+"Notification": "984c5539-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "7e337f39-f5e5-4419-894c-998c0d436678",
+"Notification": "984c5c11-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "84ac848d-637c-4df5-8d5c-df0c18f6b4c4",
+"Notification": "984c5542-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "8a904ea9-ac84-424c-9bcd-910eced06aff",
+"Notification": "984c5545-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "8be25b9e-a47c-40b4-8bb1-f1db44c4a7c5",
+"Notification": "984c554d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "8ccb8970-8113-454b-b401-ddaa0f6d9d6e",
+"Notification": "984c5c12-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "9e16bedc-7667-46ad-a817-c1b4848d9560",
+"Notification": "984c5549-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "b47af28e-c760-4f58-98e7-f68c1d357ac8",
+"Notification": "984c554e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "de0578c3-cdff-4dd0-a81c-e43c181afaca",
+"Notification": "984c553a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "e1d19697-556a-4cd4-a017-810259a67a71",
+"Notification": "984c5546-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "e45840c9-68ef-41d2-a188-5a6676786617",
+"Notification": "984c5c15-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "e7d3b4d8-7aa5-4e5e-9bb6-db9775f1a833",
+"Notification": "984c553e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:46",
+"Finished": "2026-09-10T06:04:46",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "175d8fa4-9958-4e85-83c4-bb8522848624",
+"Notification": "984c5c1d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "31216da4-60f3-4dd1-bce3-1247c03e3ba6",
+"Notification": "984c5c2a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "4751e21b-1f8d-4ffe-8a5c-7895fedec7af",
+"Notification": "984c5c1e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "5a35132e-fecf-47aa-94ee-91882cf154d7",
+"Notification": "984c5c2d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "725e5ea8-f4c9-4f79-a1fc-7614a2d9297a",
+"Notification": "984c5c19-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "7bf86ba3-69db-40b4-ae3b-6a3b676eb551",
+"Notification": "984c5c29-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "9a0339da-191c-411c-b9fd-e9116f21e8d1",
+"Notification": "984c5c22-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "9c5d2bea-fbc8-4851-9663-e45cc3578d56",
+"Notification": "984c5c16-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "af21886f-1e54-488e-9a21-c803b70ae45a",
+"Notification": "984c5c21-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "d47c5111-97e5-4283-94c2-3984e66c8686",
+"Notification": "984c5c26-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "da80ba02-4247-4ee0-8b46-f5b6fa8e95b5",
+"Notification": "984c5c25-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "ea445d23-5a02-4008-bc44-fc8f3c64eaba",
+"Notification": "984c5c1a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:47",
+"Finished": "2026-09-10T06:04:47",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "07f33a96-9ab9-4c86-99ad-79ca6a42ea00",
+"Notification": "984c5c31-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "13599cb0-bb81-4577-8f2e-852a30fe7049",
+"Notification": "984c5c39-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "149718bc-e92c-400c-ad09-5a377f5f70b2",
+"Notification": "984c5c35-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "15edf4ef-7c48-4847-9e95-1303594e22be",
+"Notification": "984c5c42-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "22ae4d25-2507-433c-9423-8e59fda0b85b",
+"Notification": "984c5c45-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "333019db-e979-4066-aeae-bd18403bc311",
+"Notification": "984c5c3a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "541dffc4-1d27-4af3-8636-ad04bb1845df",
+"Notification": "984c5c41-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "643d0639-58e9-48ff-a378-c46c6400d41e",
+"Notification": "984c5c3e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "a3f5dcf1-b969-4db6-91ad-51b7c1923ed9",
+"Notification": "984c5c46-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "a7012d6e-1c7a-4b10-a409-022f0f1d8010",
+"Notification": "984c5c32-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "c2a3a282-67e8-4e98-a39e-8bcfcfe6b68f",
+"Notification": "984c5c36-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "d15833ac-316f-4772-86e3-536f0c7af931",
+"Notification": "984c5c3d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "ed199435-4b4a-4082-86e9-97de4ec91c9a",
+"Notification": "984c5c2e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:48",
+"Finished": "2026-09-10T06:04:48",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "00659437-22e7-41c9-998a-e0e623a1f1fe",
+"Notification": "984c6322-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "07171c23-a154-4a98-ba1e-041337b19f77",
+"Notification": "984c5c49-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "0a4c3980-fc90-4580-b81e-189673b37c00",
+"Notification": "984c6311-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "21eba938-478b-41bf-8fe5-5aaa92f2d889",
+"Notification": "984c5c4a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "3998fc39-20e5-4fce-835c-b3c3e6a4528e",
+"Notification": "984c6321-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "4ae285a3-4523-4163-8bce-545389ee916f",
+"Notification": "984c6325-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "8b861328-8bd2-4e6f-affb-24803711e2a7",
+"Notification": "984c631e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "cbfea0aa-8df5-49d5-90fa-3734c5b649a3",
+"Notification": "984c6316-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "d3cdcee2-906b-4402-b1cb-f7c64c4efc58",
+"Notification": "984c5c4d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "d6e8762c-6ea7-443e-a522-b6a430945934",
+"Notification": "984c5c4e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "dd165efc-6d30-41eb-a5a6-1e8b4eebc395",
+"Notification": "984c631a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "edc7641f-425a-4c0d-b22c-bdfa615efdb1",
+"Notification": "984c6315-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "ee2df591-ea70-41de-add5-3e388668f37d",
+"Notification": "984c631d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "f9e21153-d380-43e3-b568-dd812e42d0c4",
+"Notification": "984c6319-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "ff4a5df4-80d7-4f70-92ed-a8ed9384abb5",
+"Notification": "984c6312-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:49",
+"Finished": "2026-09-10T06:04:49",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "111b5b16-2064-4044-9bab-3c75d6e3dbe6",
+"Notification": "984c4992-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "3cbd403f-df2c-4ee2-be11-70e18e6417d8",
+"Notification": "984c4995-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "42861b8d-a45a-48c3-a70a-cbe5c4689329",
+"Notification": "984c49a1-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "6e95bd92-9b7e-463d-9a9b-10f9305de8ce",
+"Notification": "984c6326-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "76cec5ee-40d4-448e-8756-51f7e3f06e7a",
+"Notification": "984c499d-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "93c223f6-01c2-4b38-8ef6-323aa988dbf9",
+"Notification": "984c499e-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "95e2f165-0f49-47b0-be56-53a545c2b875",
+"Notification": "984c49a2-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "bcb05d30-8b24-45b9-a685-f3c6a1dee765",
+"Notification": "984c4991-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "c1864ae5-009a-4b9b-a7b2-211fbf156915",
+"Notification": "984c499a-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "e5672a4f-60b3-4d1a-8897-4d89941161b2",
+"Notification": "984c4996-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+},
+{
+"AttemptID": "e907a0c6-1af0-4f8d-8beb-32e6f52fc41a",
+"Notification": "984c4999-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T06:04:50",
+"Finished": "2026-09-10T06:04:50",
+"Outcome": "Принято SMTP-сервером",
+"ErrorText": ""
+}
+],
+"decisions": [
+{
+"DecisionID": "58dbc928-acc4-11f1-9587-ccf9e42e08f0",
+"Notification": "984c4991-acc2-11f1-9587-ccf9e42e08f0",
+"DecidedAt": "2026-09-10T06:04:35",
+"OperatorName": "vkr_OperatorUvedomleniy",
+"PreviousState": "Результат неизвестен",
+"NewState": "Ожидает повтора",
+"Reason": "Локальный испытательный приёмник закрыл соединение до подтверждения DATA. После сверки журнала разрешён контролируемый повтор в Mailpit."
+},
+{
+"DecisionID": "58dbc929-acc4-11f1-9587-ccf9e42e08f0",
+"Notification": "984c4992-acc2-11f1-9587-ccf9e42e08f0",
+"DecidedAt": "2026-09-10T06:04:35",
+"OperatorName": "vkr_OperatorUvedomleniy",
+"PreviousState": "Результат неизвестен",
+"NewState": "Ожидает повтора",
+"Reason": "Локальный испытательный приёмник закрыл соединение до подтверждения DATA. После сверки журнала разрешён контролируемый повтор в Mailpit."
+},
+{
+"DecisionID": "58dbc92a-acc4-11f1-9587-ccf9e42e08f0",
+"Notification": "984c4995-acc2-11f1-9587-ccf9e42e08f0",
+"DecidedAt": "2026-09-10T06:04:35",
+"OperatorName": "vkr_OperatorUvedomleniy",
+"PreviousState": "Результат неизвестен",
+"NewState": "Ожидает повтора",
+"Reason": "Локальный испытательный приёмник закрыл соединение до подтверждения DATA. После сверки журнала разрешён контролируемый повтор в Mailpit."
+},
+{
+"DecisionID": "58dbc92b-acc4-11f1-9587-ccf9e42e08f0",
+"Notification": "984c4996-acc2-11f1-9587-ccf9e42e08f0",
+"DecidedAt": "2026-09-10T06:04:35",
+"OperatorName": "vkr_OperatorUvedomleniy",
+"PreviousState": "Результат неизвестен",
+"NewState": "Ожидает повтора",
+"Reason": "Локальный испытательный приёмник закрыл соединение до подтверждения DATA. После сверки журнала разрешён контролируемый повтор в Mailpit."
+},
+{
+"DecisionID": "58dbc92c-acc4-11f1-9587-ccf9e42e08f0",
+"Notification": "984c4999-acc2-11f1-9587-ccf9e42e08f0",
+"DecidedAt": "2026-09-10T06:04:35",
+"OperatorName": "vkr_OperatorUvedomleniy",
+"PreviousState": "Результат неизвестен",
+"NewState": "Ожидает повтора",
+"Reason": "Локальный испытательный приёмник закрыл соединение до подтверждения DATA. После сверки журнала разрешён контролируемый повтор в Mailpit."
+},
+{
+"DecisionID": "58dbc92d-acc4-11f1-9587-ccf9e42e08f0",
+"Notification": "984c499a-acc2-11f1-9587-ccf9e42e08f0",
+"DecidedAt": "2026-09-10T06:04:35",
+"OperatorName": "vkr_OperatorUvedomleniy",
+"PreviousState": "Результат неизвестен",
+"NewState": "Ожидает повтора",
+"Reason": "Локальный испытательный приёмник закрыл соединение до подтверждения DATA. После сверки журнала разрешён контролируемый повтор в Mailpit."
+},
+{
+"DecisionID": "58dbc92e-acc4-11f1-9587-ccf9e42e08f0",
+"Notification": "984c499d-acc2-11f1-9587-ccf9e42e08f0",
+"DecidedAt": "2026-09-10T06:04:35",
+"OperatorName": "vkr_OperatorUvedomleniy",
+"PreviousState": "Результат неизвестен",
+"NewState": "Ожидает повтора",
+"Reason": "Локальный испытательный приёмник закрыл соединение до подтверждения DATA. После сверки журнала разрешён контролируемый повтор в Mailpit."
+},
+{
+"DecisionID": "58dbc92f-acc4-11f1-9587-ccf9e42e08f0",
+"Notification": "984c499e-acc2-11f1-9587-ccf9e42e08f0",
+"DecidedAt": "2026-09-10T06:04:35",
+"OperatorName": "vkr_OperatorUvedomleniy",
+"PreviousState": "Результат неизвестен",
+"NewState": "Ожидает повтора",
+"Reason": "Локальный испытательный приёмник закрыл соединение до подтверждения DATA. После сверки журнала разрешён контролируемый повтор в Mailpit."
+},
+{
+"DecisionID": "58dbc930-acc4-11f1-9587-ccf9e42e08f0",
+"Notification": "984c49a1-acc2-11f1-9587-ccf9e42e08f0",
+"DecidedAt": "2026-09-10T06:04:35",
+"OperatorName": "vkr_OperatorUvedomleniy",
+"PreviousState": "Результат неизвестен",
+"NewState": "Ожидает повтора",
+"Reason": "Локальный испытательный приёмник закрыл соединение до подтверждения DATA. После сверки журнала разрешён контролируемый повтор в Mailpit."
+},
+{
+"DecisionID": "58dbc931-acc4-11f1-9587-ccf9e42e08f0",
+"Notification": "984c49a2-acc2-11f1-9587-ccf9e42e08f0",
+"DecidedAt": "2026-09-10T06:04:35",
+"OperatorName": "vkr_OperatorUvedomleniy",
+"PreviousState": "Результат неизвестен",
+"NewState": "Ожидает повтора",
+"Reason": "Локальный испытательный приёмник закрыл соединение до подтверждения DATA. После сверки журнала разрешён контролируемый повтор в Mailpit."
+}
+]
+}
+}
