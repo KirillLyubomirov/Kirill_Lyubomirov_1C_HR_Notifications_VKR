@@ -1,0 +1,71 @@
+﻿{
+"scenario": "rls_setup",
+"version": "0.12.0",
+"user": "vkr_Administrator",
+"at": "2026-09-10T05:39:55",
+"ok": true,
+"users": [
+{
+"user": "vkr_RukovoditelPodrazdeleniya",
+"id": "ce47d49e-3806-4fba-83a9-10546a502df9"
+},
+{
+"user": "vkr_Manager_B",
+"id": "4fe54ba7-759e-4f9f-8907-24f23b7a4d8e"
+},
+{
+"user": "vkr_Manager_None",
+"id": "c90502ca-d3ab-4d5c-aba1-2141cb7d3f61"
+}
+],
+"notifications": [
+{
+"Ссылка": "d270ea9c-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270ea9d-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaa2-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaa3-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaa8-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaa9-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaae-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaaf-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eab4-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eab5-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaba-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eabb-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+}
+]
+}
