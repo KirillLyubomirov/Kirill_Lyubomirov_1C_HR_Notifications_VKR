@@ -1,0 +1,145 @@
+﻿{
+"scenario": "rls_read",
+"version": "0.12.0",
+"user": "vkr_Manager_B",
+"at": "2026-09-10T05:40:45",
+"ok": true,
+"visible": {
+"employees": [
+{
+"Ссылка": "d270ea90-acb4-11f1-9587-ccf9e42e08f0",
+"Наименование": "ВКР11: Сотрудник 2",
+"Podrazdelenie": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+}
+],
+"events": [
+{
+"Ссылка": "d270eaa1-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdelenieDo": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdeleniePosle": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eab3-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdelenieDo": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdeleniePosle": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+}
+],
+"notifications": [
+{
+"Ссылка": "d270eaa2-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaa3-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eab4-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eab5-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+}
+],
+"queue": [
+{
+"Notification": "d270eaa2-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+},
+{
+"Notification": "d270eaa3-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+},
+{
+"Notification": "d270eab4-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+},
+{
+"Notification": "d270eab5-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+}
+],
+"movements": [
+{
+"Регистратор": "d270eaa1-acb4-11f1-9587-ccf9e42e08f0",
+"Podrazdelenie": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0",
+"Kolichestvo": 1
+},
+{
+"Регистратор": "d270eab3-acb4-11f1-9587-ccf9e42e08f0",
+"Podrazdelenie": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0",
+"Kolichestvo": 1
+}
+],
+"reports": [
+{
+"report": "KadrovyeIzmeneniyaZaPeriod",
+"rows": 2,
+"height": 7,
+"data": [
+{
+"Документ": "d270eaa1-acb4-11f1-9587-ccf9e42e08f0",
+"ДатаИзменения": "2026-09-10T00:00:00",
+"Сотрудник": "ВКР11: Сотрудник 2",
+"ВидИзменения": "ВКР11: Перевод",
+"ПодразделениеДо": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"ПодразделениеПосле": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Документ": "d270eab3-acb4-11f1-9587-ccf9e42e08f0",
+"ДатаИзменения": "2026-09-10T00:00:00",
+"Сотрудник": "ВКР11: Сотрудник 2",
+"ВидИзменения": "ВКР11: Изменение подразделения",
+"ПодразделениеДо": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"ПодразделениеПосле": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0"
+}
+]
+},
+{
+"report": "OtpravlennyeUvedomleniyaZaPeriod",
+"rows": 0,
+"height": 5,
+"data": []
+},
+{
+"report": "OshibkiOtpravkiUvedomleniyZaPeriod",
+"rows": 0,
+"height": 5,
+"data": []
+},
+{
+"report": "StatistikaPoVidamKadrovykhIzmeneniy",
+"rows": 2,
+"height": 7,
+"data": [
+{
+"ВидИзменения": "d270ea9e-acb4-11f1-9587-ccf9e42e08f0",
+"КоличествоСобытий": 1
+},
+{
+"ВидИзменения": "d270eab0-acb4-11f1-9587-ccf9e42e08f0",
+"КоличествоСобытий": 1
+}
+]
+},
+{
+"report": "UvedomleniyaPoPodrazdeleniyam",
+"rows": 1,
+"height": 6,
+"data": [
+{
+"Подразделение": "d270ea8e-acb4-11f1-9587-ccf9e42e08f0",
+"Состояние": "Подготовлено",
+"КоличествоУведомлений": 4
+}
+]
+}
+],
+"subject_write_denied": true,
+"subject_write_error": "{ОбщийМодуль.VKRTestDriver.Модуль(169)}: Ошибка при установке значения атрибута контекста (VKRCurrentUserID): Нарушение прав доступа!",
+"unfiltered_read_denied": true,
+"unfiltered_read_error": "{ОбщийМодуль.VKRTestDriver.Модуль(26)}: Ошибка при вызове метода контекста (Выполнить): Ошибка выполнения запроса: У пользователя недостаточно прав на исполнение операции над базой данных.",
+"mapping_write_right": false
+}
+}
