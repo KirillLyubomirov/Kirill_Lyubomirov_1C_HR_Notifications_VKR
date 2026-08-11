@@ -1,0 +1,3011 @@
+{
+  "total": 120,
+  "unread": 120,
+  "count": 120,
+  "messages_count": 120,
+  "messages_unread": 120,
+  "start": 0,
+  "tags": [],
+  "messages": [
+    {
+      "ID": "1RTxs2jf8OcZLb99Be8G67",
+      "MessageID": "bf5a98b8-3fac-427e-95b8-1cd870aded80@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:50.612+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1034,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 01. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "1I20ZYhXGhviwbytbha1Wn",
+      "MessageID": "bb8dcf94-ec04-46bc-a62a-bb6cc73c8781@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:50.556+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1034,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 01. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "3VKh7OJzHh9YaiNd3VbN9O",
+      "MessageID": "79c7b4be-1f5c-47d2-8713-f4577dce0d79@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr04@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение должности: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:50.497+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1017,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение должности. Сотрудник: Учебный сотрудник 01. Дата изменения: 12.08.2026. Основание: Прик..."
+    },
+    {
+      "ID": "5SjV5o7wNqEbd0hApgs1Uw",
+      "MessageID": "c0d1fde2-5f55-4059-829f-de70afd4a26e@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr04@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение должности: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:50.437+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1017,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение должности. Сотрудник: Учебный сотрудник 01. Дата изменения: 12.08.2026. Основание: Прик..."
+    },
+    {
+      "ID": "36IiKyGNcHWUMIxS3f2rWu",
+      "MessageID": "f3e56f0b-9fdc-4b2d-8be3-d9f47d372643@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:50.381+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 971,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 01. Дата изменения: 15.08.2026. Основание: Приказ об уво..."
+    },
+    {
+      "ID": "11FWyjLkEU1EtzF6GEXrQE",
+      "MessageID": "8331cf3f-2225-476f-8d80-8478ba4a938e@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:50.325+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 971,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 01. Дата изменения: 15.08.2026. Основание: Приказ об уво..."
+    },
+    {
+      "ID": "17SaTY1m2yeGaMd4KM62ps",
+      "MessageID": "458eceb3-4abf-43df-9020-bc989232a52d@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr02@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Перевод: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:50.268+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 936,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Перевод. Сотрудник: Учебный сотрудник 01. Дата изменения: 11.08.2026. Основание: Приказ о перевод..."
+    },
+    {
+      "ID": "198eZub1en837TjkeXbxI7",
+      "MessageID": "0665d4d0-b2a8-4280-856e-fe5ce8985bbb@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr02@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient02@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Перевод: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:50.21+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 936,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Перевод. Сотрудник: Учебный сотрудник 01. Дата изменения: 11.08.2026. Основание: Приказ о перевод..."
+    },
+    {
+      "ID": "0rYD4puGfMOME4XhN0KmWK",
+      "MessageID": "28bc73f8-e4ed-49bb-9628-a886edffe572@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr01@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient02@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:50.151+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 922,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём. Сотрудник: Учебный сотрудник 01. Дата изменения: 10.08.2026. Основание: Приказ о приёме. Пр..."
+    },
+    {
+      "ID": "3qB4QsqqKxLtFTCU1dnAVK",
+      "MessageID": "0f20a51e-07d1-49de-8fb6-991aaeffe724@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr01@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient01@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:50.095+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 922,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём. Сотрудник: Учебный сотрудник 01. Дата изменения: 10.08.2026. Основание: Приказ о приёме. Пр..."
+    },
+    {
+      "ID": "3VkpYdKYAlUM7x0uVk5hFe",
+      "MessageID": "cdf6d96e-12cc-4575-90ec-75607d0df4e1@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr10@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient01@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Индексация оклада: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:50.038+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1006,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Индексация оклада. Сотрудник: Учебный сотрудник 10. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "71EeGLbtBbIhpg09FP9ZRQ",
+      "MessageID": "1e364637-3320-4232-9618-0580b265a1c1@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr10@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient10@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Индексация оклада: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.982+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1006,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Индексация оклада. Сотрудник: Учебный сотрудник 10. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "6vYJudTqIoQzXyYOBqBEqP",
+      "MessageID": "4b4a3878-c258-43ff-bb42-d918fb0876d7@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.919+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1033,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 10. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "5EZ562564N6K9TMe54hc0h",
+      "MessageID": "da1fc70b-c431-4474-b737-8db525cfa4dc@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.858+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1033,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 10. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "0dT7V9IHz2pBPGP1s0wkMs",
+      "MessageID": "05101c17-e7e8-4adc-bc11-a666fea04f36@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr09@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient10@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Повышение в должности: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.797+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1019,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Повышение в должности. Сотрудник: Учебный сотрудник 10. Дата изменения: 12.08.2026. Основание: Пр..."
+    },
+    {
+      "ID": "4NCW2HhVhN18r49qO05foh",
+      "MessageID": "040269c9-79a9-4d72-9e6b-84aa2d2d3deb@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr09@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient09@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Повышение в должности: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.737+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1019,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Повышение в должности. Сотрудник: Учебный сотрудник 10. Дата изменения: 12.08.2026. Основание: Пр..."
+    },
+    {
+      "ID": "0kgnjPA2o7D5crLhNuHJiZ",
+      "MessageID": "5615635b-d36f-4c2d-93db-dac2b4740b33@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.675+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 950,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 10. Дата изменения: 15.08.2026. Основание: Приказ о пере..."
+    },
+    {
+      "ID": "7Oe3iIexdOLY0JYpEbbMK9",
+      "MessageID": "6ded1557-8436-440c-ba83-07c973f663ea@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.608+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 950,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 10. Дата изменения: 15.08.2026. Основание: Приказ о пере..."
+    },
+    {
+      "ID": "2fuC6FjGQoahJDhVi02TgB",
+      "MessageID": "e317daf9-aa70-4f2f-bdcf-2cc4b87d70e5@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr08@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient09@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Временный перевод: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.537+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 973,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Временный перевод. Сотрудник: Учебный сотрудник 10. Дата изменения: 11.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "1KAoSXAXtGz5uLoZLOwjm7",
+      "MessageID": "bbd09cfb-4167-4524-b16a-33c1704396fa@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr08@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient08@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Временный перевод: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.468+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 973,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Временный перевод. Сотрудник: Учебный сотрудник 10. Дата изменения: 11.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "1VWUsPWdob6ecwSWR4cMki",
+      "MessageID": "23402677-fa7a-4646-9c61-34da540a633a@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr07@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient08@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём на временную работу: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.397+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1060,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём на временную работу. Сотрудник: Учебный сотрудник 10. Дата изменения: 10.08.2026. Основание:..."
+    },
+    {
+      "ID": "6wggLxHvQl8zIT5N8D3h6r",
+      "MessageID": "fcaa8858-1281-4657-b4d5-21b6b61885ff@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr07@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient07@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём на временную работу: Учебный сотрудник 10",
+      "Created": "2026-09-10T06:04:49.334+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1060,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём на временную работу. Сотрудник: Учебный сотрудник 10. Дата изменения: 10.08.2026. Основание:..."
+    },
+    {
+      "ID": "4bDt1eTIgiSeLzQ0fuhyEF",
+      "MessageID": "ce13ba0d-675b-4c91-b4a0-75a6ce8ce1d1@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr10@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient01@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Индексация оклада: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:49.273+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1005,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Индексация оклада. Сотрудник: Учебный сотрудник 09. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "1coHCmHwkIMamwiF7VBUA3",
+      "MessageID": "d9dd90e4-3ada-42b0-9679-82cd917e083b@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr10@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient10@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Индексация оклада: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:49.204+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1005,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Индексация оклада. Сотрудник: Учебный сотрудник 09. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "6EpzoXaFQLqEM4mW4n8E9l",
+      "MessageID": "1ad61f74-c32a-481d-a448-b220a2136efa@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:49.134+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1028,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 09. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "3imUYA9XknzeDNVgZziAoz",
+      "MessageID": "80404e73-420c-4e3a-b29b-7c3488fd27ab@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:49.064+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1028,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 09. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "6T26SmlXWWEPCtIS7L263s",
+      "MessageID": "32c1b8e7-58e3-4c39-a9be-1a2e61a34548@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr09@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient10@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Повышение в должности: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:48.992+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 998,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Повышение в должности. Сотрудник: Учебный сотрудник 09. Дата изменения: 12.08.2026. Основание: Пр..."
+    },
+    {
+      "ID": "1X1rMcxD7ehpujyspmWRf3",
+      "MessageID": "71871626-aa7e-45c1-b4b8-77fea7aa68ae@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr09@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient09@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Повышение в должности: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:48.921+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 998,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Повышение в должности. Сотрудник: Учебный сотрудник 09. Дата изменения: 12.08.2026. Основание: Пр..."
+    },
+    {
+      "ID": "5lkJUf3V3wVdCNs6BUEyZL",
+      "MessageID": "65b88a6b-7661-4fed-98ee-bfee8e421942@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:48.843+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 944,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 09. Дата изменения: 15.08.2026. Основание: Приказ о приё..."
+    },
+    {
+      "ID": "3CEhDg37MPg5xScQTwOH4q",
+      "MessageID": "3487edbf-da78-4469-82ee-c57f398e1339@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:48.762+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 944,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 09. Дата изменения: 15.08.2026. Основание: Приказ о приё..."
+    },
+    {
+      "ID": "2RWysHA0lPVqgMqQf7w8J9",
+      "MessageID": "b7c9ccd2-74ac-4246-a54c-b85df4936a99@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr08@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient09@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Временный перевод: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:48.684+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1026,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Временный перевод. Сотрудник: Учебный сотрудник 09. Дата изменения: 11.08.2026. Основание: Решени..."
+    },
+    {
+      "ID": "0shjzfzuJQaQTPraSnaTxR",
+      "MessageID": "5917acba-5c61-41eb-b33d-f361c5ef4b85@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr08@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient08@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Временный перевод: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:48.622+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1026,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Временный перевод. Сотрудник: Учебный сотрудник 09. Дата изменения: 11.08.2026. Основание: Решени..."
+    },
+    {
+      "ID": "1zahcjeF3DkzI3LDSaGNsn",
+      "MessageID": "dc5b50b4-eb8d-4710-afe4-edcc8eec0754@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr07@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient08@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём на временную работу: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:48.554+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1000,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём на временную работу. Сотрудник: Учебный сотрудник 09. Дата изменения: 10.08.2026. Основание:..."
+    },
+    {
+      "ID": "54qb5O5EKkM4qJc9D4einP",
+      "MessageID": "f122685c-7ca7-4256-8312-97217b83897b@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr07@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient07@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём на временную работу: Учебный сотрудник 09",
+      "Created": "2026-09-10T06:04:48.48+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1000,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём на временную работу. Сотрудник: Учебный сотрудник 09. Дата изменения: 10.08.2026. Основание:..."
+    },
+    {
+      "ID": "4VmNcec8MP8SYa2lrccj0d",
+      "MessageID": "3a9d696e-5c4a-4313-b9d8-8d758df145de@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr10@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient01@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Индексация оклада: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:48.402+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1000,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Индексация оклада. Сотрудник: Учебный сотрудник 08. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "2XM6MlTSWnA8BBtXXAG0s1",
+      "MessageID": "2e195469-9083-45bb-a653-981ea89177ca@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr10@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient10@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Индексация оклада: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:48.296+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1000,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Индексация оклада. Сотрудник: Учебный сотрудник 08. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "0adKZTFHl2MyBy5sbb7Dx2",
+      "MessageID": "cf0f09f8-358b-4f95-ac77-d9d519ed8bcc@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:48.209+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1007,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 08. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "4HWpHCJzCb3XLQjgWOzBqn",
+      "MessageID": "ee5e610c-b38b-44c4-a611-b97d0c2817f1@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:48.136+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1007,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 08. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "1U5dT8MRhCXiSN6zeYixto",
+      "MessageID": "6a11a0e0-45b0-49c2-8808-3b5724aa562f@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr09@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient10@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Повышение в должности: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:48.066+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 992,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Повышение в должности. Сотрудник: Учебный сотрудник 08. Дата изменения: 12.08.2026. Основание: Пр..."
+    },
+    {
+      "ID": "2QG74zsevKcrTqz01kGzMB",
+      "MessageID": "fb9ce316-5eb6-4c91-b9ee-4fd07bfbaeb8@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr09@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient09@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Повышение в должности: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:47.997+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 992,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Повышение в должности. Сотрудник: Учебный сотрудник 08. Дата изменения: 12.08.2026. Основание: Пр..."
+    },
+    {
+      "ID": "4VzNukzqEy2dh9BLmM0wkE",
+      "MessageID": "089ae6d4-f56b-4a8f-a766-28451ee392e8@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:47.928+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 997,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 08. Дата изменения: 15.08.2026. Основание: Решение об из..."
+    },
+    {
+      "ID": "5oOIl1ehKTvfekOOJ6rYRo",
+      "MessageID": "4fd18848-b884-405a-8d82-e4490fed7e61@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:47.855+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 997,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 08. Дата изменения: 15.08.2026. Основание: Решение об из..."
+    },
+    {
+      "ID": "658DKOropNBAHYL8Pk8Ir1",
+      "MessageID": "aeac9161-ff41-43d2-9d21-a50418bbc61d@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr08@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient09@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Временный перевод: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:47.78+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 966,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Временный перевод. Сотрудник: Учебный сотрудник 08. Дата изменения: 11.08.2026. Основание: Служеб..."
+    },
+    {
+      "ID": "11zwANV2RjWfzv1eMpE7Ap",
+      "MessageID": "8a856e89-d7d6-4714-a4d4-6158dea38724@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr08@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient08@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Временный перевод: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:47.711+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 966,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Временный перевод. Сотрудник: Учебный сотрудник 08. Дата изменения: 11.08.2026. Основание: Служеб..."
+    },
+    {
+      "ID": "0hhOIykhyShlfOuHdGMEMo",
+      "MessageID": "ff8b3a11-293b-446c-a3dc-7c0dcee8fdab@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr07@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient08@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём на временную работу: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:47.542+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1017,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём на временную работу. Сотрудник: Учебный сотрудник 08. Дата изменения: 10.08.2026. Основание:..."
+    },
+    {
+      "ID": "5hzmZADpRqK1Ra8nBRaop5",
+      "MessageID": "383c600e-47bb-4c69-93c9-230eb569ff02@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr07@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient07@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём на временную работу: Учебный сотрудник 08",
+      "Created": "2026-09-10T06:04:47.356+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1017,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём на временную работу. Сотрудник: Учебный сотрудник 08. Дата изменения: 10.08.2026. Основание:..."
+    },
+    {
+      "ID": "5GMhkyBAvTyw2SI9MH7Wux",
+      "MessageID": "c8fa5a6f-7faf-4bf8-9146-523c14095fa1@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr10@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient01@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Индексация оклада: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:47.288+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 979,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Индексация оклада. Сотрудник: Учебный сотрудник 07. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "5XRvrdBISLeQrX07wzrEqI",
+      "MessageID": "861349ac-62f7-4fa5-9d44-9483cd5df9cc@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr10@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient10@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Индексация оклада: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:47.219+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 979,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Индексация оклада. Сотрудник: Учебный сотрудник 07. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "7lC9N8N854XzwOl0nDYDm6",
+      "MessageID": "de1b2e40-5da2-48b4-b374-64c5e1afbb72@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:47.153+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1001,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 07. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "2wqAmLz5noQsJBppMs9Lvq",
+      "MessageID": "bb87a09a-a580-43ca-a012-1175d77b2804@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:47.092+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1001,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 07. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "428zvURXIygpu57gJvZWDh",
+      "MessageID": "d5216db9-b506-4cd0-84a6-1969f2d3ea4d@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr09@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient10@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Повышение в должности: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:47.03+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1045,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Повышение в должности. Сотрудник: Учебный сотрудник 07. Дата изменения: 12.08.2026. Основание: Ре..."
+    },
+    {
+      "ID": "4dwQ7WsPNrQqazakqlqe3h",
+      "MessageID": "c822365f-f6b8-4f92-9c03-b489a9f2f656@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr09@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient09@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Повышение в должности: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:46.97+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1045,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Повышение в должности. Сотрудник: Учебный сотрудник 07. Дата изменения: 12.08.2026. Основание: Ре..."
+    },
+    {
+      "ID": "7PIYJ00nR1Ji2wbjWn7D2Y",
+      "MessageID": "c4b69b08-7893-4465-9987-f8f82cd56de4@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:46.909+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 937,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 07. Дата изменения: 15.08.2026. Основание: Служебная зап..."
+    },
+    {
+      "ID": "4oKE3VbKk9wWcJmLOPtvWG",
+      "MessageID": "489b11ba-596d-484b-80fd-39c3d74e3a94@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:46.848+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 937,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 07. Дата изменения: 15.08.2026. Основание: Служебная зап..."
+    },
+    {
+      "ID": "4kBU5peRFJCpmiv2fqczzR",
+      "MessageID": "f83c7b73-d660-4ef9-b16e-4a45309b2543@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr08@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient09@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Временный перевод: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:46.779+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 983,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Временный перевод. Сотрудник: Учебный сотрудник 07. Дата изменения: 11.08.2026. Основание: Заявле..."
+    },
+    {
+      "ID": "5URiiqA2aQASyX3m14RLRH",
+      "MessageID": "43122635-a854-494c-bdd7-241f83b33245@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr08@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient08@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Временный перевод: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:46.705+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 983,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Временный перевод. Сотрудник: Учебный сотрудник 07. Дата изменения: 11.08.2026. Основание: Заявле..."
+    },
+    {
+      "ID": "03bEt2KyLRAx9b5SktNQhq",
+      "MessageID": "d6d7d418-cd42-4729-a923-32820bc8f7fe@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr07@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient08@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём на временную работу: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:46.635+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1021,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём на временную работу. Сотрудник: Учебный сотрудник 07. Дата изменения: 10.08.2026. Основание:..."
+    },
+    {
+      "ID": "41zIoP3jOqATmERLYYgCqb",
+      "MessageID": "df543aba-16e5-4f50-b2f4-601da1a0d088@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr07@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient07@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём на временную работу: Учебный сотрудник 07",
+      "Created": "2026-09-10T06:04:46.571+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1021,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём на временную работу. Сотрудник: Учебный сотрудник 07. Дата изменения: 10.08.2026. Основание:..."
+    },
+    {
+      "ID": "54WVJMv8UOETGTNZqgEbVt",
+      "MessageID": "47a74293-b5b0-4bf4-ad81-373dfbe1ef37@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr10@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient01@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Индексация оклада: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:46.513+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 973,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Индексация оклада. Сотрудник: Учебный сотрудник 06. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "3xhzoFGKysF4qVO3luGiKH",
+      "MessageID": "6eb4704b-3f4b-4b59-a5da-c54d4b40fe6d@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr10@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient10@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Индексация оклада: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:46.453+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 973,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Индексация оклада. Сотрудник: Учебный сотрудник 06. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "2TVaD7KYVmtws40WtQPcq0",
+      "MessageID": "40ab9e34-89a2-40b5-8618-5d8ee74c20f0@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:46.391+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1054,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 06. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "2ghF819l1QM3pAMfrxuLHj",
+      "MessageID": "5fe71f6f-4ef1-438c-9488-19d38047aabc@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:46.33+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1054,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 06. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "0loxRGC8QiUORMKOysfS6R",
+      "MessageID": "c6537c0b-c4bd-4735-8beb-db7bdbe99884@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr09@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient10@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Повышение в должности: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:46.267+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 985,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Повышение в должности. Сотрудник: Учебный сотрудник 06. Дата изменения: 12.08.2026. Основание: Сл..."
+    },
+    {
+      "ID": "6OnUgSBA4BsAP6vslzB8Ma",
+      "MessageID": "a939cdd9-6000-4d7a-a2ac-fcc4a4a56812@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr09@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient09@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Повышение в должности: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:46.204+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 985,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Повышение в должности. Сотрудник: Учебный сотрудник 06. Дата изменения: 12.08.2026. Основание: Сл..."
+    },
+    {
+      "ID": "33NSDzNzFLQjq1NrMM7da3",
+      "MessageID": "05d41284-958e-42d8-af4f-00482a64de83@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:46.127+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 954,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 06. Дата изменения: 15.08.2026. Основание: Заявление сот..."
+    },
+    {
+      "ID": "4blWKvlRBR90gYgzNknk9I",
+      "MessageID": "659bf36b-e565-46e6-898e-a7a92a4fde98@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:46.05+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 954,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 06. Дата изменения: 15.08.2026. Основание: Заявление сот..."
+    },
+    {
+      "ID": "1W59wnsSttTpp669ctpFOc",
+      "MessageID": "f4e05acf-6d84-432d-859a-2d0dacf96f5d@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr08@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient09@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Временный перевод: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:45.983+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 987,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Временный перевод. Сотрудник: Учебный сотрудник 06. Дата изменения: 11.08.2026. Основание: Дополн..."
+    },
+    {
+      "ID": "7X4GXlj9gFonaNtrGgMs5V",
+      "MessageID": "ff1d5725-b491-4156-9867-f3de2fb7c7f6@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr08@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient08@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Временный перевод: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:45.918+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 987,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Временный перевод. Сотрудник: Учебный сотрудник 06. Дата изменения: 11.08.2026. Основание: Дополн..."
+    },
+    {
+      "ID": "3kNGeGjWfJUtROyIXFy35z",
+      "MessageID": "e1ac5b40-30da-4071-9507-7cd5b6acb955@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr07@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient08@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём на временную работу: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:45.852+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1014,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём на временную работу. Сотрудник: Учебный сотрудник 06. Дата изменения: 10.08.2026. Основание:..."
+    },
+    {
+      "ID": "0q3wjalFcAOePXtlBzgF4M",
+      "MessageID": "4d3c085c-ba8f-4c30-8d41-232d6cafeb29@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr07@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient07@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём на временную работу: Учебный сотрудник 06",
+      "Created": "2026-09-10T06:04:45.786+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1014,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём на временную работу. Сотрудник: Учебный сотрудник 06. Дата изменения: 10.08.2026. Основание:..."
+    },
+    {
+      "ID": "2tw9xC7oEHJQJxfsqxpLGQ",
+      "MessageID": "3ee8e28d-ad67-4374-930b-b0e153d10df8@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr06@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient07@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение оклада: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.717+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1024,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение оклада. Сотрудник: Учебный сотрудник 05. Дата изменения: 14.08.2026. Основание: Решение ..."
+    },
+    {
+      "ID": "6OZOZs9HKvqSlqrppKaT89",
+      "MessageID": "fa0fcf96-2819-4a41-8a46-fb19469d4c12@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr06@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение оклада: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.649+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1024,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение оклада. Сотрудник: Учебный сотрудник 05. Дата изменения: 14.08.2026. Основание: Решение ..."
+    },
+    {
+      "ID": "2QDjPYfSg8Nfv7fPFoIVx9",
+      "MessageID": "6112acdb-cf9b-4e36-bb5b-c83e03b9e517@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.579+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 994,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 05. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "3w1D63lnq69xpHZD8CeX6k",
+      "MessageID": "60d85cbe-2e58-4ad9-9493-730fda311876@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.507+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 994,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 05. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "2qtIKRyyDxaj456rJ5dG7u",
+      "MessageID": "54f47540-7bc8-4f01-99b8-ed375a95062e@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr04@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение должности: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.434+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 995,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение должности. Сотрудник: Учебный сотрудник 05. Дата изменения: 12.08.2026. Основание: Заяв..."
+    },
+    {
+      "ID": "1LosxyMpobOCQCJi3HCHeW",
+      "MessageID": "e4fce6b0-d496-4c45-8f9f-8ed95f2944f6@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr04@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение должности: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.369+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 995,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение должности. Сотрудник: Учебный сотрудник 05. Дата изменения: 12.08.2026. Основание: Заяв..."
+    },
+    {
+      "ID": "5j74peY6zrvda8nTEsWj00",
+      "MessageID": "68db089c-7229-4e69-a8ca-a47b5f2f44cc@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.308+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 958,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 05. Дата изменения: 15.08.2026. Основание: Дополнительн..."
+    },
+    {
+      "ID": "23wDSZ39FTrbrSPLftE7Pj",
+      "MessageID": "52807117-1d5c-4487-a659-e8e79161eac7@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.254+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 958,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 05. Дата изменения: 15.08.2026. Основание: Дополнительн..."
+    },
+    {
+      "ID": "4gNinBNAVwk5A0fE03OsPW",
+      "MessageID": "4287c368-a429-4c1e-af84-0b8e32a5e71d@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr02@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Перевод: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.197+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 937,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Перевод. Сотрудник: Учебный сотрудник 05. Дата изменения: 11.08.2026. Основание: Приказ об измене..."
+    },
+    {
+      "ID": "3KBod4aNejuIFBE34teo1F",
+      "MessageID": "66aff531-918c-4d3f-8a23-dba0a26ec031@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr02@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient02@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Перевод: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.138+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 937,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Перевод. Сотрудник: Учебный сотрудник 05. Дата изменения: 11.08.2026. Основание: Приказ об измене..."
+    },
+    {
+      "ID": "4y8EK8oTEHPelJHZb5BeS7",
+      "MessageID": "760b30ed-a815-452d-8fad-b34ee49188fd@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr01@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient02@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45.074+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 955,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём. Сотрудник: Учебный сотрудник 05. Дата изменения: 10.08.2026. Основание: Приказ об изменени..."
+    },
+    {
+      "ID": "4ph13coITfLpsvqptLB4BY",
+      "MessageID": "51c9d86e-7fcb-4543-8a2c-f70ea769f1a1@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr01@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient01@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём: Учебный сотрудник 05",
+      "Created": "2026-09-10T06:04:45+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 955,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём. Сотрудник: Учебный сотрудник 05. Дата изменения: 10.08.2026. Основание: Приказ об изменени..."
+    },
+    {
+      "ID": "4RtArkAfvUi6HRgtiDtYkN",
+      "MessageID": "a2148562-b5db-40f4-bd03-c2ef5fedf414@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr06@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient07@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение оклада: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.939+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 964,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение оклада. Сотрудник: Учебный сотрудник 04. Дата изменения: 14.08.2026. Основание: Служебн..."
+    },
+    {
+      "ID": "4do0q1lQUDEAoDLD9TvMUT",
+      "MessageID": "1becced0-ff7c-4eda-b739-f3a4e25db2e8@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr06@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение оклада: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.883+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 964,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение оклада. Сотрудник: Учебный сотрудник 04. Дата изменения: 14.08.2026. Основание: Служебн..."
+    },
+    {
+      "ID": "3UBR7qQZVanyFeZrXxJp7L",
+      "MessageID": "bde278b9-9ded-42eb-99ab-e6f1f3f284f9@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.827+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1011,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 04. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "1EUmyS0riyPdh8ArX1rVOe",
+      "MessageID": "43149224-6897-4e26-a3b2-6e2b147bd124@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.769+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1011,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 04. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "0rgXlYGU6puCmSITBmBwDM",
+      "MessageID": "5d927ceb-681d-4ae8-b72e-4ba83304fc75@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr04@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение должности: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.708+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 999,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение должности. Сотрудник: Учебный сотрудник 04. Дата изменения: 12.08.2026. Основание: Допо..."
+    },
+    {
+      "ID": "70EzgMGjBKqXdp332PRHxZ",
+      "MessageID": "efc16dcf-8015-4171-8dae-859bae668cdd@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr04@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение должности: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.648+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 999,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение должности. Сотрудник: Учебный сотрудник 04. Дата изменения: 12.08.2026. Основание: Допо..."
+    },
+    {
+      "ID": "6EEHhF40fAYG1G5QuDlxS0",
+      "MessageID": "2e09cdae-abbc-4d26-a8dc-e6264636d195@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.583+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 951,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 04. Дата изменения: 15.08.2026. Основание: Приказ об изм..."
+    },
+    {
+      "ID": "5QWlUWYHKe8SQXQ8jggr9v",
+      "MessageID": "6ffbaf23-6043-440c-8657-ca58e3a3412d@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.521+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 951,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 04. Дата изменения: 15.08.2026. Основание: Приказ об изм..."
+    },
+    {
+      "ID": "6p3MpqAD510UHZsPjPpL08",
+      "MessageID": "37e59be8-2163-46b7-a8a7-73cb65cf4c90@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr02@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Перевод: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.461+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 963,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Перевод. Сотрудник: Учебный сотрудник 04. Дата изменения: 11.08.2026. Основание: Приказ об измене..."
+    },
+    {
+      "ID": "45ZynMlV23fCebBgHXdivM",
+      "MessageID": "3f0cfdb4-5a8e-46e0-be2e-1fcace8eaee2@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr02@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient02@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Перевод: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.403+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 963,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Перевод. Сотрудник: Учебный сотрудник 04. Дата изменения: 11.08.2026. Основание: Приказ об измене..."
+    },
+    {
+      "ID": "1KBTQZRNKeFpTp93bxCfvI",
+      "MessageID": "be06b39e-5f95-4b76-9329-8d9703cd4bf3@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr01@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient02@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.345+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 954,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём. Сотрудник: Учебный сотрудник 04. Дата изменения: 10.08.2026. Основание: Приказ об изменени..."
+    },
+    {
+      "ID": "0NfQfH9dJ9gB6FalcfU9zx",
+      "MessageID": "a671edbd-3350-410b-bf38-27d3e25b771a@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr01@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient01@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём: Учебный сотрудник 04",
+      "Created": "2026-09-10T06:04:44.279+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 954,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём. Сотрудник: Учебный сотрудник 04. Дата изменения: 10.08.2026. Основание: Приказ об изменени..."
+    },
+    {
+      "ID": "462itVqDFvKW0ykuVhYnTW",
+      "MessageID": "adee1307-691b-423b-a2bd-07795874853c@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr06@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient07@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение оклада: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:44.216+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 981,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение оклада. Сотрудник: Учебный сотрудник 03. Дата изменения: 14.08.2026. Основание: Заявлен..."
+    },
+    {
+      "ID": "1ozXHyPaE9gUpmtTQPpmoI",
+      "MessageID": "fa2b66df-6775-4915-b866-5701ada02f8f@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr06@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение оклада: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:44.154+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 981,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение оклада. Сотрудник: Учебный сотрудник 03. Дата изменения: 14.08.2026. Основание: Заявлен..."
+    },
+    {
+      "ID": "72UXQkxvFGw6jb1IytSFze",
+      "MessageID": "06ed6f16-8d1c-4a7b-b9cb-ce9973547cb5@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:44.098+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1015,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 03. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "6QhZUCjgAiHCzRXaDJARUg",
+      "MessageID": "50557598-c83a-4acf-a441-73b1bd21ee35@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:44.044+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1015,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 03. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "6gGJVHhy0E6Et7JGe4Irgy",
+      "MessageID": "74ed3f04-b973-49b0-83f0-7807b88b1095@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr04@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение должности: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:43.992+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 992,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение должности. Сотрудник: Учебный сотрудник 03. Дата изменения: 12.08.2026. Основание: Прик..."
+    },
+    {
+      "ID": "17ss5740IPHJ2oqUiqvh12",
+      "MessageID": "cc935709-8b2b-4b2e-971b-a78df98418ff@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr04@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение должности: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:43.936+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 992,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение должности. Сотрудник: Учебный сотрудник 03. Дата изменения: 12.08.2026. Основание: Прик..."
+    },
+    {
+      "ID": "0qUcLfUI3RiLp9vBcGESxd",
+      "MessageID": "7825a3b8-eedb-4dbb-b378-bcb96b3e6487@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:43.879+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 977,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 03. Дата изменения: 15.08.2026. Основание: Приказ об изм..."
+    },
+    {
+      "ID": "6cNfACN7bFEn3Gz62jL6w1",
+      "MessageID": "dd7efe6b-6675-4ee9-ab87-b733f6bbb7fb@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:43.821+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 977,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 03. Дата изменения: 15.08.2026. Основание: Приказ об изм..."
+    },
+    {
+      "ID": "75iUsWjNKJpTG47HzWo2sr",
+      "MessageID": "059b3063-e0df-4727-8ffd-e8c78b9532fe@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr02@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Перевод: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:43.766+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 962,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Перевод. Сотрудник: Учебный сотрудник 03. Дата изменения: 11.08.2026. Основание: Приказ об измене..."
+    },
+    {
+      "ID": "69xjymJjr19r3E7Q2xdeBh",
+      "MessageID": "21a1d52b-5371-4ee9-ab0f-01d2a3d90c75@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr02@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient02@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Перевод: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:43.705+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 962,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Перевод. Сотрудник: Учебный сотрудник 03. Дата изменения: 11.08.2026. Основание: Приказ об измене..."
+    },
+    {
+      "ID": "2fxoJ7Qpm0b7smmGUkZHnT",
+      "MessageID": "881addf4-78ff-4ca2-ae79-8a285edf4ba4@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr01@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient02@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:43.638+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 949,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём. Сотрудник: Учебный сотрудник 03. Дата изменения: 10.08.2026. Основание: Приказ об увольнен..."
+    },
+    {
+      "ID": "4zhUmmxFRG9uK5Fw7MRbDG",
+      "MessageID": "1bb38179-1eec-4690-92fa-769791200285@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr01@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient01@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём: Учебный сотрудник 03",
+      "Created": "2026-09-10T06:04:43.577+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 949,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём. Сотрудник: Учебный сотрудник 03. Дата изменения: 10.08.2026. Основание: Приказ об увольнен..."
+    },
+    {
+      "ID": "6a3rGAsYCMxvwPNTkIKUl9",
+      "MessageID": "10dd8065-23f1-4e50-bc64-8efe19705e89@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr06@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient07@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение оклада: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:43.524+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 985,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение оклада. Сотрудник: Учебный сотрудник 02. Дата изменения: 14.08.2026. Основание: Дополни..."
+    },
+    {
+      "ID": "2cLH1OACfP2YN5KYkJAa52",
+      "MessageID": "3e60d58d-edeb-4e89-b1a8-4fe270f625a2@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr06@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение оклада: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:43.469+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 985,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение оклада. Сотрудник: Учебный сотрудник 02. Дата изменения: 14.08.2026. Основание: Дополни..."
+    },
+    {
+      "ID": "3ScVybJfqR79KViOERIQam",
+      "MessageID": "61c53ed7-16cf-4c04-85bc-466476655955@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:43.414+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1008,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 02. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "6ULZCRAycM8quQoOg91QC9",
+      "MessageID": "cbd5cb07-8b03-4ca0-8248-8d19eb07c07b@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr05@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение подразделения: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:43.361+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1008,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение подразделения. Сотрудник: Учебный сотрудник 02. Дата изменения: 13.08.2026. Основание: ..."
+    },
+    {
+      "ID": "6XWAdIapTiFS7f1l8Q4leT",
+      "MessageID": "a427b540-8de0-4534-ab3f-60c5af1677f0@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr04@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient05@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение должности: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:43.305+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1018,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение должности. Сотрудник: Учебный сотрудник 02. Дата изменения: 12.08.2026. Основание: Прик..."
+    },
+    {
+      "ID": "5x85ebPfQcAyrlMRdUijWP",
+      "MessageID": "f682e4da-238c-4f75-b3b1-d8aff6529bd6@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr04@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение должности: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:43.251+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 1018,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение должности. Сотрудник: Учебный сотрудник 02. Дата изменения: 12.08.2026. Основание: Прик..."
+    },
+    {
+      "ID": "6naoFeKF8UNBFOA4GvX14D",
+      "MessageID": "d2e5baec-ec06-412c-af10-04e2e9747ba3@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient04@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:43.197+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 976,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 02. Дата изменения: 15.08.2026. Основание: Приказ об изм..."
+    },
+    {
+      "ID": "7Ekk6TFExIeamOIuCvOLT7",
+      "MessageID": "c9957c54-41dc-4c2d-8e12-2bf14dca00a5@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr03@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Увольнение: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:43.145+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 976,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Увольнение. Сотрудник: Учебный сотрудник 02. Дата изменения: 15.08.2026. Основание: Приказ об изм..."
+    },
+    {
+      "ID": "54D48yROamuTP7kPq2gYFV",
+      "MessageID": "d97276a4-33d5-42d4-8a99-43b3f5a24a04@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr02@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient03@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Перевод: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:43.09+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 957,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Перевод. Сотрудник: Учебный сотрудник 02. Дата изменения: 11.08.2026. Основание: Приказ об увольн..."
+    },
+    {
+      "ID": "5Lvm7z0iUbb2oTXf0slP1b",
+      "MessageID": "f78ab04a-5846-49da-b680-5e593705a093@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr02@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient02@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Перевод: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:43.025+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 957,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Перевод. Сотрудник: Учебный сотрудник 02. Дата изменения: 11.08.2026. Основание: Приказ об увольн..."
+    },
+    {
+      "ID": "1muDtbqB0ODhkUbDFROFnw",
+      "MessageID": "901b4a82-f785-41ec-a5b4-8921049dfac7@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr01@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient02@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:42.947+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 928,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём. Сотрудник: Учебный сотрудник 02. Дата изменения: 10.08.2026. Основание: Приказ о переводе. ..."
+    },
+    {
+      "ID": "10mYFDdrYRwI9fjlLCUTb8",
+      "MessageID": "6e448597-3797-4ef4-bd02-7bce1c1ae246@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr01@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient01@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Приём: Учебный сотрудник 02",
+      "Created": "2026-09-10T06:04:42.866+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 928,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Приём. Сотрудник: Учебный сотрудник 02. Дата изменения: 10.08.2026. Основание: Приказ о переводе. ..."
+    },
+    {
+      "ID": "7N6JYd6FLXs00AgIjS6lYD",
+      "MessageID": "de2187d6-be17-4e8e-950f-f4d26f807dc7@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr06@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient07@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение оклада: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:42.777+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 978,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение оклада. Сотрудник: Учебный сотрудник 01. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    },
+    {
+      "ID": "3NhMHEox2gf3nWx8Tn1f2x",
+      "MessageID": "6b65e464-4b93-441b-a9d6-ef35fb421f04@example.test",
+      "Read": false,
+      "From": {
+        "Name": "",
+        "Address": "hr06@example.test"
+      },
+      "To": [
+        {
+          "Name": "",
+          "Address": "recipient06@example.test"
+        }
+      ],
+      "Cc": null,
+      "Bcc": null,
+      "ReplyTo": [],
+      "Subject": "Изменение оклада: Учебный сотрудник 01",
+      "Created": "2026-09-10T06:04:42.704+03:00",
+      "Username": "",
+      "Tags": [],
+      "Size": 978,
+      "Attachments": 0,
+      "Snippet": "Кадровое событие: Изменение оклада. Сотрудник: Учебный сотрудник 01. Дата изменения: 14.08.2026. Основание: Приказ ..."
+    }
+  ]
+}
