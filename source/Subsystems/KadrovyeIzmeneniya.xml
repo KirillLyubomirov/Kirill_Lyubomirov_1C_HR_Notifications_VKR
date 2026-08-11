@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="60241e24-b203-4611-bba0-5fe9afb260f3">
+		<Properties>
+			<Name>KadrovyeIzmeneniya</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кадровые изменения</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Organizatsii</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Podrazdeleniya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Dolzhnosti</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Sotrudniki</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.VidyKadrovykhIzmeneniy</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.KadrovoyeIzmenenie</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.KadrovyeSobytiya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.PrichinyKadrovykhIzmeneniy</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.VidyDokumentovOsnovaniy</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.PriemSotrudnika</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.PerevodSotrudnika</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.UvolnenieSotrudnika</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.IzmenenieDolzhnosti</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.IzmeneniePodrazdeleniya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.IzmenenieOklada</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.KadrovyeIzmeneniyaZaPeriod</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.StatistikaPoVidamKadrovykhIzmeneniy</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Task.ZadachaPoKadrovomuIzmeneniyu</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.ObrabotkaKadrovogoIzmeneniya</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
