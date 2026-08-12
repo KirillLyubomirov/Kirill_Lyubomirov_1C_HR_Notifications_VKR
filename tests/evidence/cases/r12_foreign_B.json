@@ -1,0 +1,9 @@
+﻿{
+"scenario": "rls_forbidden:d270ea9c-acb4-11f1-9587-ccf9e42e08f0",
+"version": "0.12.0",
+"user": "vkr_Manager_B",
+"at": "2026-09-10T05:41:47",
+"ok": true,
+"direct_read_denied": true,
+"direct_read_error": "{ОбщийМодуль.VKRTestDriver.Модуль(197)}: Ошибка при вызове метода контекста (ПолучитьОбъект): У пользователя недостаточно прав на исполнение операции над базой данных."
+}
