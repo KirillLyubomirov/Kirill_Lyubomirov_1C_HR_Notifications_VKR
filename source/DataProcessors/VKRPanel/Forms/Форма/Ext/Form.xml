@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="КоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="КнопкаRefresh" id="10">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Refresh</CommandName>
+				<ExtendedTooltip name="RefreshПодсказка" id="11"/>
+			</Button>
+			<Button name="КнопкаCheck" id="12">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Check</CommandName>
+				<ExtendedTooltip name="CheckПодсказка" id="13"/>
+			</Button>
+			<Button name="КнопкаDemo" id="14">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Demo</CommandName>
+				<ExtendedTooltip name="DemoПодсказка" id="15"/>
+			</Button>
+			<Button name="КнопкаEnable" id="16">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Enable</CommandName>
+				<ExtendedTooltip name="EnableПодсказка" id="17"/>
+			</Button>
+			<Button name="КнопкаDisable" id="18">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Disable</CommandName>
+				<ExtendedTooltip name="DisableПодсказка" id="19"/>
+			</Button>
+			<Button name="КнопкаProcess" id="20">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Process</CommandName>
+				<ExtendedTooltip name="ProcessПодсказка" id="21"/>
+			</Button>
+			<Button name="КнопкаRetry" id="22">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Retry</CommandName>
+				<ExtendedTooltip name="RetryПодсказка" id="23"/>
+			</Button>
+			<Button name="КнопкаCancel" id="24">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Cancel</CommandName>
+				<ExtendedTooltip name="CancelПодсказка" id="25"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Уведомление" id="1">
+			<DataPath>Уведомление</DataPath>
+			<Width>100</Width>
+			<HorizontalStretch>true</HorizontalStretch>
+			<ContextMenu name="УведомлениеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="УведомлениеПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Обоснование" id="4">
+			<DataPath>Обоснование</DataPath>
+			<Width>100</Width>
+			<Height>3</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ОбоснованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ОбоснованиеПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Результат" id="7">
+			<DataPath>Результат</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Width>100</Width>
+			<Height>9</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="РезультатКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РезультатПодсказка" id="9"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.VKRPanel</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Уведомление" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уведомление</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentRef.OtpravkaUvedomleniya</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Обоснование" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основание решения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>1000</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Результат" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние очереди и результаты проверки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Refresh" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Refresh</Action>
+		</Command>
+		<Command name="Check" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить алгоритмы</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Check</Action>
+		</Command>
+		<Command name="Demo" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать учебные данные</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Demo</Action>
+		</Command>
+		<Command name="Enable" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить отправку</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Enable</Action>
+		</Command>
+		<Command name="Disable" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остановить отправку</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Disable</Action>
+		</Command>
+		<Command name="Process" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать очередь</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Process</Action>
+		</Command>
+		<Command name="Retry" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Повторить выбранное</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Retry</Action>
+		</Command>
+		<Command name="Cancel" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прекратить обработку</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Cancel</Action>
+		</Command>
+	</Commands>
+</Form>

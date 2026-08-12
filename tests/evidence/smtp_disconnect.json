@@ -1,0 +1,122 @@
+[
+  {
+    "index": 1,
+    "commands": [
+      "EHLO DESKTOP-5AA2SPC",
+      "MAIL FROM:<hr01@example.test>",
+      "RCPT TO:<recipient01@example.test>",
+      "DATA"
+    ],
+    "received_at": "2026-09-10T02:58:00.579224+00:00",
+    "payload_file": "message_01.eml",
+    "final_250_sent": false
+  },
+  {
+    "index": 2,
+    "commands": [
+      "EHLO DESKTOP-5AA2SPC",
+      "MAIL FROM:<hr01@example.test>",
+      "RCPT TO:<recipient02@example.test>",
+      "DATA"
+    ],
+    "received_at": "2026-09-10T02:58:00.638587+00:00",
+    "payload_file": "message_02.eml",
+    "final_250_sent": false
+  },
+  {
+    "index": 3,
+    "commands": [
+      "EHLO DESKTOP-5AA2SPC",
+      "MAIL FROM:<hr02@example.test>",
+      "RCPT TO:<recipient02@example.test>",
+      "DATA"
+    ],
+    "received_at": "2026-09-10T02:58:00.700457+00:00",
+    "payload_file": "message_03.eml",
+    "final_250_sent": false
+  },
+  {
+    "index": 4,
+    "commands": [
+      "EHLO DESKTOP-5AA2SPC",
+      "MAIL FROM:<hr02@example.test>",
+      "RCPT TO:<recipient03@example.test>",
+      "DATA"
+    ],
+    "received_at": "2026-09-10T02:58:00.754184+00:00",
+    "payload_file": "message_04.eml",
+    "final_250_sent": false
+  },
+  {
+    "index": 5,
+    "commands": [
+      "EHLO DESKTOP-5AA2SPC",
+      "MAIL FROM:<hr03@example.test>",
+      "RCPT TO:<recipient03@example.test>",
+      "DATA"
+    ],
+    "received_at": "2026-09-10T02:58:00.811665+00:00",
+    "payload_file": "message_05.eml",
+    "final_250_sent": false
+  },
+  {
+    "index": 6,
+    "commands": [
+      "EHLO DESKTOP-5AA2SPC",
+      "MAIL FROM:<hr03@example.test>",
+      "RCPT TO:<recipient04@example.test>",
+      "DATA"
+    ],
+    "received_at": "2026-09-10T02:58:04.416778+00:00",
+    "payload_file": "message_06.eml",
+    "final_250_sent": false
+  },
+  {
+    "index": 7,
+    "commands": [
+      "EHLO DESKTOP-5AA2SPC",
+      "MAIL FROM:<hr04@example.test>",
+      "RCPT TO:<recipient04@example.test>",
+      "DATA"
+    ],
+    "received_at": "2026-09-10T02:58:04.479403+00:00",
+    "payload_file": "message_07.eml",
+    "final_250_sent": false
+  },
+  {
+    "index": 8,
+    "commands": [
+      "EHLO DESKTOP-5AA2SPC",
+      "MAIL FROM:<hr04@example.test>",
+      "RCPT TO:<recipient05@example.test>",
+      "DATA"
+    ],
+    "received_at": "2026-09-10T02:58:04.536404+00:00",
+    "payload_file": "message_08.eml",
+    "final_250_sent": false
+  },
+  {
+    "index": 9,
+    "commands": [
+      "EHLO DESKTOP-5AA2SPC",
+      "MAIL FROM:<hr05@example.test>",
+      "RCPT TO:<recipient05@example.test>",
+      "DATA"
+    ],
+    "received_at": "2026-09-10T02:58:04.590900+00:00",
+    "payload_file": "message_09.eml",
+    "final_250_sent": false
+  },
+  {
+    "index": 10,
+    "commands": [
+      "EHLO DESKTOP-5AA2SPC",
+      "MAIL FROM:<hr05@example.test>",
+      "RCPT TO:<recipient06@example.test>",
+      "DATA"
+    ],
+    "received_at": "2026-09-10T02:58:04.644356+00:00",
+    "payload_file": "message_10.eml",
+    "final_250_sent": false
+  }
+]
