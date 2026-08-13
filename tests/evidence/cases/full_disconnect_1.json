@@ -1,0 +1,1683 @@
+﻿{
+"scenario": "cycle",
+"version": "0.12.1",
+"user": "vkr_Administrator",
+"at": "2026-09-10T05:54:54",
+"ok": true,
+"snapshot": {
+"employees": 10,
+"events": 60,
+"notifications": 120,
+"sent": 0,
+"errors": 5,
+"queue": [
+{
+"Notification": "984c4991-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4990-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Ожидает повтора",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:55:06",
+"ClaimUntil": "",
+"LastError": "{ОбщийМодуль.VKRMail.Модуль(60)}: Ошибка при вызове метода контекста (Подключиться): Произошла ошибка при работе с SMTP. Код ошибки: 25 (Отказ в установлении соединения со стороны сервера.)"
+},
+{
+"Notification": "984c4992-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4990-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Ожидает повтора",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:55:08",
+"ClaimUntil": "",
+"LastError": "{ОбщийМодуль.VKRMail.Модуль(60)}: Ошибка при вызове метода контекста (Подключиться): Произошла ошибка при работе с SMTP. Код ошибки: 25 (Отказ в установлении соединения со стороны сервера.)"
+},
+{
+"Notification": "984c4995-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4994-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Ожидает повтора",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:55:10",
+"ClaimUntil": "",
+"LastError": "{ОбщийМодуль.VKRMail.Модуль(60)}: Ошибка при вызове метода контекста (Подключиться): Произошла ошибка при работе с SMTP. Код ошибки: 25 (Отказ в установлении соединения со стороны сервера.)"
+},
+{
+"Notification": "984c4996-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4994-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Ожидает повтора",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:55:12",
+"ClaimUntil": "",
+"LastError": "{ОбщийМодуль.VKRMail.Модуль(60)}: Ошибка при вызове метода контекста (Подключиться): Произошла ошибка при работе с SMTP. Код ошибки: 25 (Отказ в установлении соединения со стороны сервера.)"
+},
+{
+"Notification": "984c4999-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4998-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Ожидает повтора",
+"Attempts": 1,
+"NextTry": "2026-09-10T05:55:14",
+"ClaimUntil": "",
+"LastError": "{ОбщийМодуль.VKRMail.Модуль(60)}: Ошибка при вызове метода контекста (Подключиться): Произошла ошибка при работе с SMTP. Код ошибки: 25 (Отказ в установлении соединения со стороны сервера.)"
+},
+{
+"Notification": "984c499a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4998-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c499d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c499c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c499e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c499c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c49a1-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a0-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c49a2-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a0-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c49a5-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a4-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c49a6-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a4-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e11-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a8-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e12-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a8-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e15-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e14-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e16-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e14-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e19-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e18-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e1a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e18-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e1d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e1c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e1e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e1c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e21-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e20-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e22-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e20-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e25-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e24-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e26-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e24-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e29-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e28-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e2a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e28-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e2d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e2c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e2e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e2c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e31-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e30-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e32-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e30-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e35-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e34-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e36-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e34-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e39-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e38-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e3a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e38-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e3d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e3c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e3e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e3c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e41-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e40-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e42-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e40-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e45-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e44-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e46-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e44-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e49-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e48-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e4a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e48-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e4d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e4c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c4e4e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e4c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5511-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e50-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5512-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e50-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5515-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5514-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5516-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5514-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5519-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5518-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c551a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5518-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c551d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c551c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c551e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c551c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5521-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5520-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5522-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5520-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5525-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5524-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5526-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5524-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5529-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5528-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c552a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5528-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c552d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c552c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c552e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c552c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5531-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5530-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5532-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5530-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5535-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5534-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5536-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5534-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:03",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5539-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5538-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c553a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5538-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c553d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c553c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c553e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c553c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5541-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5540-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5542-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5540-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5545-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5544-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5546-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5544-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5549-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5548-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c554a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5548-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c554d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c554c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c554e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c554c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c11-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5550-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c12-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5550-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c15-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c14-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c16-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c14-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c19-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c18-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c1a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c18-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c1d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c1c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c1e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c1c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c21-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c20-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c22-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c20-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c25-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c24-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c26-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c24-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c29-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c28-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c2a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c28-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c2d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c2c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c2e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c2c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c31-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c30-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c32-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c30-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c35-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c34-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c36-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c34-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c39-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c38-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c3a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c38-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c3d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c3c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c3e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c3c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c41-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c40-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c42-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c40-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c45-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c44-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c46-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c44-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c49-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c48-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c4a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c48-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c4d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c4c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c5c4e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c4c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6311-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c50-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6312-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c50-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6315-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6314-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6316-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6314-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6319-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6318-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c631a-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6318-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c631d-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c631c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c631e-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c631c-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6321-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6320-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6322-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6320-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6325-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6324-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+},
+{
+"Notification": "984c6326-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6324-acc2-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено",
+"Attempts": 0,
+"NextTry": "2026-09-10T05:52:04",
+"ClaimUntil": "",
+"LastError": ""
+}
+],
+"links": [
+{
+"Source": "984c498f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4990-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c49a7-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a8-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e27-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e28-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e3f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e40-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5517-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5518-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c552f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5530-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5547-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5548-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c1f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c20-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c37-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c38-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c4f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c50-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4993-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4994-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e13-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e14-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e2b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e2c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e43-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e44-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c551b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c551c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5533-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5534-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c554b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c554c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c23-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c24-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c3b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c3c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c6313-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6314-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4997-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4998-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e17-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e18-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e2f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e30-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e47-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e48-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c551f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5520-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5537-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5538-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c554f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5550-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c27-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c28-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c3f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c40-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c6317-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6318-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c499b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c499c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e1b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e1c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e33-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e34-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e4b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e4c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5523-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5524-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c553b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c553c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c13-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c14-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c2b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c2c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c43-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c44-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c631b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c631c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c499f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a0-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e1f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e20-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e37-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e38-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e4f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e50-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5527-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5528-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c553f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5540-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c17-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c18-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c2f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c30-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c47-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c48-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c631f-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6320-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c49a3-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c49a4-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e23-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e24-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c4e3b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c4e3c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5513-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5514-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c552b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c552c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5543-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5544-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c1b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c1c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c33-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c34-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c5c4b-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c5c4c-acc2-11f1-9587-ccf9e42e08f0"
+},
+{
+"Source": "984c6323-acc2-11f1-9587-ccf9e42e08f0",
+"Event": "984c6324-acc2-11f1-9587-ccf9e42e08f0"
+}
+],
+"revisions": [
+{
+"Event": "984c4990-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4994-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4998-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c499c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c49a0-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c49a4-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c49a8-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e14-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e18-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e1c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e20-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e24-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e28-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e2c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e30-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e34-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e38-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e3c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e40-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e44-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e48-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e4c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c4e50-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5514-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5518-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c551c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5520-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5524-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5528-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c552c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5530-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5534-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5538-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c553c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5540-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5544-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5548-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c554c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5550-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c14-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c18-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c1c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c20-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c24-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c28-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c2c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c30-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c34-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c38-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c3c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c40-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c44-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c48-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c4c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c5c50-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c6314-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c6318-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c631c-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c6320-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+},
+{
+"Event": "984c6324-acc2-11f1-9587-ccf9e42e08f0",
+"Revision": 1,
+"Cancelled": false
+}
+],
+"attempts": [
+{
+"AttemptID": "c6e085db-902a-4e5f-a695-7bd4ebc305c9",
+"Notification": "984c4991-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:54:54",
+"Finished": "2026-09-10T05:54:56",
+"Outcome": "Ожидает повтора",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(60)}: Ошибка при вызове метода контекста (Подключиться): Произошла ошибка при работе с SMTP. Код ошибки: 25 (Отказ в установлении соединения со стороны сервера.)"
+},
+{
+"AttemptID": "eb28bf30-57cc-4f34-9d9e-a25f20bcda23",
+"Notification": "984c4992-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:54:56",
+"Finished": "2026-09-10T05:54:58",
+"Outcome": "Ожидает повтора",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(60)}: Ошибка при вызове метода контекста (Подключиться): Произошла ошибка при работе с SMTP. Код ошибки: 25 (Отказ в установлении соединения со стороны сервера.)"
+},
+{
+"AttemptID": "ebba5b14-9347-430e-9c6f-0690cee7c742",
+"Notification": "984c4995-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:54:58",
+"Finished": "2026-09-10T05:55:00",
+"Outcome": "Ожидает повтора",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(60)}: Ошибка при вызове метода контекста (Подключиться): Произошла ошибка при работе с SMTP. Код ошибки: 25 (Отказ в установлении соединения со стороны сервера.)"
+},
+{
+"AttemptID": "87eebbfc-aa38-49c2-8dbc-21dc35b1b8b6",
+"Notification": "984c4996-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:55:00",
+"Finished": "2026-09-10T05:55:02",
+"Outcome": "Ожидает повтора",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(60)}: Ошибка при вызове метода контекста (Подключиться): Произошла ошибка при работе с SMTP. Код ошибки: 25 (Отказ в установлении соединения со стороны сервера.)"
+},
+{
+"AttemptID": "0955f744-f501-48a2-8540-7d98a5bc074d",
+"Notification": "984c4999-acc2-11f1-9587-ccf9e42e08f0",
+"Started": "2026-09-10T05:55:02",
+"Finished": "2026-09-10T05:55:04",
+"Outcome": "Ожидает повтора",
+"ErrorText": "{ОбщийМодуль.VKRMail.Модуль(60)}: Ошибка при вызове метода контекста (Подключиться): Произошла ошибка при работе с SMTP. Код ошибки: 25 (Отказ в установлении соединения со стороны сервера.)"
+}
+],
+"decisions": []
+}
+}

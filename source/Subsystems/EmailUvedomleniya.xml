@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="c7d9d47e-e048-4638-abc7-0b1af124a72e">
+		<Properties>
+			<Name>EmailUvedomleniya</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Email-уведомления</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.PoluchateliUvedomleniy</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ShablonyPisem</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.PravilaRassylki</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.SMTPServery</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.KadrovoyeIzmenenie</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.OtpravlennyeUvedomleniya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.OshibkiOtpravkiUvedomleniy</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.OtpravkaUvedomleniya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.RegistratsiyaOshibkiOtpravki</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.PovtornayaOtpravkaUvedomleniya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.TipyUvedomleniy</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.KanalyUvedomleniy</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.OtpravlennyeUvedomleniyaZaPeriod</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.OshibkiOtpravkiUvedomleniyZaPeriod</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.UvedomleniyaPoPodrazdeleniyam</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.ObrabotkaKadrovogoIzmeneniya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.TestovyyRezhimOtpravki</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.EmailOtpravitelyaPoUmolchaniyu</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.TemaPismaPoUmolchaniyu</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ProverkaNastroekUvedomleniy</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.VKRPanel</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.VKRQueue</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.VKRAttempts</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.VKROperatorDecisions</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Task.ZadachaPoKadrovomuIzmeneniyu</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
