@@ -1,0 +1,51 @@
+﻿{
+"scenario": "rls_read",
+"version": "0.12.0",
+"user": "vkr_Manager_None",
+"at": "2026-09-10T05:40:49",
+"ok": true,
+"visible": {
+"employees": [],
+"events": [],
+"notifications": [],
+"queue": [],
+"movements": [],
+"reports": [
+{
+"report": "KadrovyeIzmeneniyaZaPeriod",
+"rows": 0,
+"height": 5,
+"data": []
+},
+{
+"report": "OtpravlennyeUvedomleniyaZaPeriod",
+"rows": 0,
+"height": 5,
+"data": []
+},
+{
+"report": "OshibkiOtpravkiUvedomleniyZaPeriod",
+"rows": 0,
+"height": 5,
+"data": []
+},
+{
+"report": "StatistikaPoVidamKadrovykhIzmeneniy",
+"rows": 0,
+"height": 5,
+"data": []
+},
+{
+"report": "UvedomleniyaPoPodrazdeleniyam",
+"rows": 0,
+"height": 5,
+"data": []
+}
+],
+"subject_write_denied": true,
+"subject_write_error": "{ОбщийМодуль.VKRTestDriver.Модуль(169)}: Ошибка при установке значения атрибута контекста (VKRCurrentUserID): Нарушение прав доступа!",
+"unfiltered_read_denied": true,
+"unfiltered_read_error": "{ОбщийМодуль.VKRTestDriver.Модуль(26)}: Ошибка при вызове метода контекста (Выполнить): Ошибка выполнения запроса: У пользователя недостаточно прав на исполнение операции над базой данных.",
+"mapping_write_right": false
+}
+}
