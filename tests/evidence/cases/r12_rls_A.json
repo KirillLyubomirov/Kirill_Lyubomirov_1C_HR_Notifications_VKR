@@ -1,0 +1,231 @@
+﻿{
+"scenario": "rls_read",
+"version": "0.12.0",
+"user": "vkr_RukovoditelPodrazdeleniya",
+"at": "2026-09-10T05:40:41",
+"ok": true,
+"visible": {
+"employees": [
+{
+"Ссылка": "d270ea8f-acb4-11f1-9587-ccf9e42e08f0",
+"Наименование": "ВКР11: Сотрудник 1",
+"Podrazdelenie": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270ea90-acb4-11f1-9587-ccf9e42e08f0",
+"Наименование": "ВКР11: Сотрудник 2",
+"Podrazdelenie": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270ea91-acb4-11f1-9587-ccf9e42e08f0",
+"Наименование": "ВКР11: Сотрудник 3",
+"Podrazdelenie": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+}
+],
+"events": [
+{
+"Ссылка": "d270ea9b-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdelenieDo": "00000000-0000-0000-0000-000000000000",
+"PodrazdeleniePosle": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaa7-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdelenieDo": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdeleniePosle": "00000000-0000-0000-0000-000000000000"
+},
+{
+"Ссылка": "d270eaad-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdelenieDo": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdeleniePosle": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eab9-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdelenieDo": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"PodrazdeleniePosle": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+}
+],
+"notifications": [
+{
+"Ссылка": "d270ea9c-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270ea9d-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaa8-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaa9-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaae-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaaf-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eaba-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Ссылка": "d270eabb-acb4-11f1-9587-ccf9e42e08f0",
+"VKRDepartment": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+}
+],
+"queue": [
+{
+"Notification": "d270ea9c-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+},
+{
+"Notification": "d270ea9d-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+},
+{
+"Notification": "d270eaa8-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+},
+{
+"Notification": "d270eaa9-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+},
+{
+"Notification": "d270eaae-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+},
+{
+"Notification": "d270eaaf-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+},
+{
+"Notification": "d270eaba-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+},
+{
+"Notification": "d270eabb-acb4-11f1-9587-ccf9e42e08f0",
+"State": "Подготовлено"
+}
+],
+"movements": [
+{
+"Регистратор": "d270ea9b-acb4-11f1-9587-ccf9e42e08f0",
+"Podrazdelenie": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"Kolichestvo": 1
+},
+{
+"Регистратор": "d270eaa7-acb4-11f1-9587-ccf9e42e08f0",
+"Podrazdelenie": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"Kolichestvo": 1
+},
+{
+"Регистратор": "d270eaad-acb4-11f1-9587-ccf9e42e08f0",
+"Podrazdelenie": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"Kolichestvo": 1
+},
+{
+"Регистратор": "d270eab9-acb4-11f1-9587-ccf9e42e08f0",
+"Podrazdelenie": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"Kolichestvo": 1
+}
+],
+"reports": [
+{
+"report": "KadrovyeIzmeneniyaZaPeriod",
+"rows": 4,
+"height": 9,
+"data": [
+{
+"Документ": "d270ea9b-acb4-11f1-9587-ccf9e42e08f0",
+"ДатаИзменения": "2026-09-10T00:00:00",
+"Сотрудник": "ВКР11: Сотрудник 1",
+"ВидИзменения": "ВКР11: Приём",
+"ПодразделениеДо": "00000000-0000-0000-0000-000000000000",
+"ПодразделениеПосле": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Документ": "d270eaa7-acb4-11f1-9587-ccf9e42e08f0",
+"ДатаИзменения": "2026-09-10T00:00:00",
+"Сотрудник": "ВКР11: Сотрудник 3",
+"ВидИзменения": "ВКР11: Увольнение",
+"ПодразделениеДо": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"ПодразделениеПосле": "00000000-0000-0000-0000-000000000000"
+},
+{
+"Документ": "d270eaad-acb4-11f1-9587-ccf9e42e08f0",
+"ДатаИзменения": "2026-09-10T00:00:00",
+"Сотрудник": "ВКР11: Сотрудник 1",
+"ВидИзменения": "ВКР11: Изменение должности",
+"ПодразделениеДо": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"ПодразделениеПосле": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+},
+{
+"Документ": "d270eab9-acb4-11f1-9587-ccf9e42e08f0",
+"ДатаИзменения": "2026-09-10T00:00:00",
+"Сотрудник": "ВКР11: Сотрудник 3",
+"ВидИзменения": "ВКР11: Изменение оклада",
+"ПодразделениеДо": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"ПодразделениеПосле": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0"
+}
+]
+},
+{
+"report": "OtpravlennyeUvedomleniyaZaPeriod",
+"rows": 0,
+"height": 5,
+"data": []
+},
+{
+"report": "OshibkiOtpravkiUvedomleniyZaPeriod",
+"rows": 0,
+"height": 5,
+"data": []
+},
+{
+"report": "StatistikaPoVidamKadrovykhIzmeneniy",
+"rows": 4,
+"height": 9,
+"data": [
+{
+"ВидИзменения": "d270ea98-acb4-11f1-9587-ccf9e42e08f0",
+"КоличествоСобытий": 1
+},
+{
+"ВидИзменения": "d270eaa4-acb4-11f1-9587-ccf9e42e08f0",
+"КоличествоСобытий": 1
+},
+{
+"ВидИзменения": "d270eaaa-acb4-11f1-9587-ccf9e42e08f0",
+"КоличествоСобытий": 1
+},
+{
+"ВидИзменения": "d270eab6-acb4-11f1-9587-ccf9e42e08f0",
+"КоличествоСобытий": 1
+}
+]
+},
+{
+"report": "UvedomleniyaPoPodrazdeleniyam",
+"rows": 1,
+"height": 6,
+"data": [
+{
+"Подразделение": "d270ea8b-acb4-11f1-9587-ccf9e42e08f0",
+"Состояние": "Подготовлено",
+"КоличествоУведомлений": 8
+}
+]
+}
+],
+"subject_write_denied": true,
+"subject_write_error": "{ОбщийМодуль.VKRTestDriver.Модуль(169)}: Ошибка при установке значения атрибута контекста (VKRCurrentUserID): Нарушение прав доступа!",
+"unfiltered_read_denied": true,
+"unfiltered_read_error": "{ОбщийМодуль.VKRTestDriver.Модуль(26)}: Ошибка при вызове метода контекста (Выполнить): Ошибка выполнения запроса: У пользователя недостаточно прав на исполнение операции над базой данных.",
+"mapping_write_right": false
+}
+}
