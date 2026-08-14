@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.KadrovyeSobytiya" id="ea448697-208f-481f-840b-73fbd8d9d4c2" configVersion="5111a94a45aa5c489555a5f09102c6b800000000">
+			<Metadata name="AccumulationRegister.KadrovyeSobytiya.Resource.Kolichestvo" id="31dddcb3-3759-452f-b2cf-49f6f2d1b27d"/>
+			<Metadata name="AccumulationRegister.KadrovyeSobytiya.Dimension.Podrazdelenie" id="77b553b9-a99d-480c-8e07-3715f908a31f"/>
+			<Metadata name="AccumulationRegister.KadrovyeSobytiya.Dimension.Sotrudnik" id="9ae2b94d-b9a4-4a95-a8e3-c6df95bd3441"/>
+			<Metadata name="AccumulationRegister.KadrovyeSobytiya.Dimension.VidIzmeneniya" id="a5609054-9c53-4a54-b074-aefcb1c1b334"/>
+			<Metadata name="AccumulationRegister.KadrovyeSobytiya.Attribute.Kommentariy" id="e4ad1d44-b167-40e8-af9f-e9fb843f3531"/>
+			<Metadata name="AccumulationRegister.KadrovyeSobytiya.Attribute.DokumentOsnovanie" id="ee386854-412b-4128-8237-9731e537e73a"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.OshibkiOtpravkiUvedomleniy" id="e12715dd-7840-45cb-80f7-4addb8ff0344" configVersion="863b110951b26e4d89678a6cb036913c00000000">
+			<Metadata name="AccumulationRegister.OshibkiOtpravkiUvedomleniy.Dimension.Podrazdelenie" id="316252bb-75ec-5d5f-b9c3-3340a87344d5"/>
+			<Metadata name="AccumulationRegister.OshibkiOtpravkiUvedomleniy.Attribute.DokumentOsnovanie" id="435d4182-60eb-4192-8a35-71bcfddda1f9"/>
+			<Metadata name="AccumulationRegister.OshibkiOtpravkiUvedomleniy.Dimension.VidIzmeneniya" id="74166256-2a9b-4019-9293-27f7a9a5f9cb"/>
+			<Metadata name="AccumulationRegister.OshibkiOtpravkiUvedomleniy.Dimension.Poluchatel" id="cb06f7c8-c2f5-4a84-b53a-f38ecb814030"/>
+			<Metadata name="AccumulationRegister.OshibkiOtpravkiUvedomleniy.Resource.Kolichestvo" id="ceb17a99-6e4e-462b-9f5d-a87e71a9f035"/>
+			<Metadata name="AccumulationRegister.OshibkiOtpravkiUvedomleniy.Attribute.OpisanieOshibki" id="f68df2af-290e-4cc6-a81e-85f4db897ea3"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.OtpravlennyeUvedomleniya" id="5cf0d54a-436c-421f-b78c-9f8ef8546d4a" configVersion="46db3ed5493e0f4cbac32177794eae2900000000">
+			<Metadata name="AccumulationRegister.OtpravlennyeUvedomleniya.Attribute.DokumentOsnovanie" id="0af05038-aa06-40ca-bd27-71cac8c8c3b9"/>
+			<Metadata name="AccumulationRegister.OtpravlennyeUvedomleniya.Attribute.Email" id="336126cf-773c-4e0a-8b49-71cebc99a8c9"/>
+			<Metadata name="AccumulationRegister.OtpravlennyeUvedomleniya.Dimension.Status" id="540cde2a-ebaa-47c0-8489-f4ef34488934"/>
+			<Metadata name="AccumulationRegister.OtpravlennyeUvedomleniya.Attribute.TemaPisma" id="58be1ef7-587a-4c25-b0f9-f1668c6a0dc6"/>
+			<Metadata name="AccumulationRegister.OtpravlennyeUvedomleniya.Dimension.Sotrudnik" id="693317d9-f757-4039-8a77-f4bd48cebbf4"/>
+			<Metadata name="AccumulationRegister.OtpravlennyeUvedomleniya.Dimension.Poluchatel" id="8e1b8920-b885-4051-9a52-7e2764349bfa"/>
+			<Metadata name="AccumulationRegister.OtpravlennyeUvedomleniya.Dimension.VidIzmeneniya" id="c8ed6fc2-00b9-4bbc-86d1-aa87c89cefb5"/>
+			<Metadata name="AccumulationRegister.OtpravlennyeUvedomleniya.Resource.Kolichestvo" id="cb4ede7f-ed9d-4e42-883c-95e0b303d508"/>
+			<Metadata name="AccumulationRegister.OtpravlennyeUvedomleniya.Dimension.Podrazdelenie" id="e51c2cf5-4ded-5e2d-b9e4-3a01a800d951"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.ObrabotkaKadrovogoIzmeneniya" id="802a1a48-9965-4de7-b2a3-00de8249e9f2" configVersion="5b45fea265d5a741ad30e37c9f1e9ebe00000000">
+			<Metadata name="BusinessProcess.ObrabotkaKadrovogoIzmeneniya.Attribute.KadrovoyeIzmenenie" id="4f5911e9-c03d-4fc1-8a7b-31ea61762b96"/>
+			<Metadata name="BusinessProcess.ObrabotkaKadrovogoIzmeneniya.Attribute.VidIzmeneniya" id="8de69aeb-739a-43c2-99b6-705931e0aaef"/>
+			<Metadata name="BusinessProcess.ObrabotkaKadrovogoIzmeneniya.Attribute.Sotrudnik" id="d5d93e0a-f52b-4ae7-bdfe-5adae5490869"/>
+			<Metadata name="BusinessProcess.ObrabotkaKadrovogoIzmeneniya.Attribute.StatusUvedomleniya" id="f4f94799-b53c-42d0-a913-eb2bd11236c9"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.ObrabotkaKadrovogoIzmeneniya.Flowchart" id="802a1a48-9965-4de7-b2a3-00de8249e9f2.7" configVersion="55d7faf28ee1d049a2f7d179cb0bf57900000000"/>
+		<Metadata name="BusinessProcess.ObrabotkaKadrovogoIzmeneniya.ObjectModule" id="802a1a48-9965-4de7-b2a3-00de8249e9f2.6" configVersion="42295cacb35c3e43b0d2bea548010a3c00000000"/>
+		<Metadata name="Catalog.Dolzhnosti" id="d1a0cd2e-febc-44dd-abd1-49975f18e471" configVersion="b14602f46825204a98de49de709ec64100000000">
+			<Metadata name="Catalog.Dolzhnosti.Attribute.BazovyyOklad" id="be269b70-3989-4dec-a793-143fd45ccc40"/>
+			<Metadata name="Catalog.Dolzhnosti.Attribute.Kategoriya" id="eafb8373-1417-4d62-8625-a55a46666e5c"/>
+		</Metadata>
+		<Metadata name="Catalog.GrafikiRaboty" id="b0b2c37d-38f1-4a0b-94e2-1d4166d24b65" configVersion="5c4e97aa39af9449a23f77a085c80bfd00000000">
+			<Metadata name="Catalog.GrafikiRaboty.Attribute.Opisanie" id="894e9b76-4b34-4ca6-8e1a-10e8481d9236"/>
+			<Metadata name="Catalog.GrafikiRaboty.Attribute.KolichestvoRabochikhDney" id="a4ade1cf-953e-457e-bd47-fe3f411bf4e4"/>
+		</Metadata>
+		<Metadata name="Catalog.GruppyPoluchateley" id="76cffb81-37ed-4507-a525-285cb2546d58" configVersion="a9a017cfb8c69844ae9d92a3de13677900000000">
+			<Metadata name="Catalog.GruppyPoluchateley.Attribute.Opisanie" id="00536219-1e70-4cbf-9b01-73d8c09c05ab"/>
+			<Metadata name="Catalog.GruppyPoluchateley.TabularSection.SostavGruppy.Attribute.Poluchatel" id="3dc8c066-925e-49e2-80e5-b8b883d09a9d"/>
+			<Metadata name="Catalog.GruppyPoluchateley.TabularSection.SostavGruppy" id="913e9892-acd1-4ee2-a54b-2cf748f7071f"/>
+			<Metadata name="Catalog.GruppyPoluchateley.TabularSection.SostavGruppy.Attribute.Kommentariy" id="cd9abf95-7b4a-45f9-81dd-fe68baea80f5"/>
+		</Metadata>
+		<Metadata name="Catalog.KanalyUvedomleniy" id="3b3ba7ed-ab29-45ec-a1f6-08d1740d18c7" configVersion="ae0bcd81b57ac141b47a0921e793788b00000000">
+			<Metadata name="Catalog.KanalyUvedomleniy.Attribute.VKRSMTPProfile" id="528b00ae-705a-5d26-bfef-7614bb312782"/>
+			<Metadata name="Catalog.KanalyUvedomleniy.Attribute.Opisanie" id="780154af-2a8a-4947-b359-17ef0b7cab84"/>
+			<Metadata name="Catalog.KanalyUvedomleniy.Attribute.Aktiven" id="c7705a43-a078-44e2-95b5-6cffda01db2e"/>
+		</Metadata>
+		<Metadata name="Catalog.KategoriiPersonala" id="7db3293b-7efb-4935-a6c0-0076653e5bb1" configVersion="5558751a8c9463489372c5fddfd93b1100000000">
+			<Metadata name="Catalog.KategoriiPersonala.Attribute.Opisanie" id="9c103210-8b7b-42c3-a1d7-df256ce0f574"/>
+		</Metadata>
+		<Metadata name="Catalog.Organizatsii" id="0da089d9-4d2d-4739-995d-d14bf8480006" configVersion="46e58eb5e7c703438ca6ef1d8f88576500000000">
+			<Metadata name="Catalog.Organizatsii.Attribute.Adres" id="3576a1e8-56b0-40b2-90e8-0e3531f47c10"/>
+			<Metadata name="Catalog.Organizatsii.Attribute.INN" id="602b131a-5a9a-491d-820a-8ed1edfd60e2"/>
+			<Metadata name="Catalog.Organizatsii.Attribute.KPP" id="79c79c5a-64be-44c0-928d-2dd0c1044434"/>
+			<Metadata name="Catalog.Organizatsii.Attribute.Email" id="f9a59290-0065-4d80-a8ce-ec85187613b1"/>
+		</Metadata>
+		<Metadata name="Catalog.Podrazdeleniya" id="e2163978-6ef8-4734-b8d9-15bfa3230f2b" configVersion="1b40d0226cc23648ab54e5251ee41cf000000000">
+			<Metadata name="Catalog.Podrazdeleniya.Attribute.KodPodrazdeleniya" id="287b8704-cf5e-43e5-9d65-0d9f73121ec1"/>
+			<Metadata name="Catalog.Podrazdeleniya.Attribute.Rukovoditel" id="eb4f1dc0-a010-4eab-bdac-fc280bc89022"/>
+		</Metadata>
+		<Metadata name="Catalog.PoluchateliUvedomleniy" id="06566073-467c-416b-bc47-4e5fa4a12ab6" configVersion="b0581f394bd653458ab1eaf673efbdba00000000">
+			<Metadata name="Catalog.PoluchateliUvedomleniy.Attribute.Aktiven" id="05093d4a-7376-41d7-ac6d-52fda8c73f37"/>
+			<Metadata name="Catalog.PoluchateliUvedomleniy.Attribute.Podrazdelenie" id="4194b8b8-e5da-4c9e-8e7e-547f03809d47"/>
+			<Metadata name="Catalog.PoluchateliUvedomleniy.Attribute.FIO" id="53e3f91d-cd55-4e1b-9c6f-7d8db71c4a3c"/>
+			<Metadata name="Catalog.PoluchateliUvedomleniy.Attribute.Dolzhnost" id="74fc5384-60f5-4dc4-a77e-c9a7fb364a13"/>
+			<Metadata name="Catalog.PoluchateliUvedomleniy.Attribute.TipPoluchatelya" id="80e6cd05-fe2d-471b-ab8e-a96e14e5ae72"/>
+			<Metadata name="Catalog.PoluchateliUvedomleniy.Attribute.Email" id="c835b94e-d97f-4224-a1f2-de67ddce43f5"/>
+		</Metadata>
+		<Metadata name="Catalog.PravilaRassylki" id="6b3f2204-9902-47eb-b4b8-513021539d77" configVersion="8bae4906c709e245946213546f8fdaec00000000">
+			<Metadata name="Catalog.PravilaRassylki.Attribute.ShablonPisma" id="1187992e-61a1-4829-823e-182af2d46cf7"/>
+			<Metadata name="Catalog.PravilaRassylki.Attribute.VKRNotificationType" id="5f30d7ed-4a32-5e6e-92f3-2f7d96097cb8"/>
+			<Metadata name="Catalog.PravilaRassylki.Attribute.VKRChannel" id="81a214c5-c616-56c4-950a-d82b5f141d31"/>
+			<Metadata name="Catalog.PravilaRassylki.Attribute.VidIzmeneniya" id="8ef39e1b-e1d3-4190-a5d8-0cb3837b82c5"/>
+			<Metadata name="Catalog.PravilaRassylki.Attribute.GruppaPoluchateley" id="93622937-129a-41db-baa8-af0efef7a207"/>
+			<Metadata name="Catalog.PravilaRassylki.Attribute.Prioritet" id="c9df437f-e983-4a05-9d68-86594431687b"/>
+			<Metadata name="Catalog.PravilaRassylki.Attribute.Aktivno" id="f268c875-d4a2-4298-95c4-53711893b219"/>
+		</Metadata>
+		<Metadata name="Catalog.PrichinyKadrovykhIzmeneniy" id="6b8e776b-ddc2-4773-97e4-eae042525bab" configVersion="73fd4c42a88fbf4db71022639053781100000000">
+			<Metadata name="Catalog.PrichinyKadrovykhIzmeneniy.Attribute.Opisanie" id="9f333e7e-8270-4af3-8174-3a80cfb89aa5"/>
+		</Metadata>
+		<Metadata name="Catalog.SMTPServery" id="82b96539-3327-4a3d-8dea-b57b972629f9" configVersion="3a084446af0d3148a0db19beb2035a6800000000">
+			<Metadata name="Catalog.SMTPServery.Attribute.TestovyyRezhim" id="05769c22-4de6-4024-b8c2-9caf09341958"/>
+			<Metadata name="Catalog.SMTPServery.Attribute.Port" id="9a98c803-72ad-438f-95c8-5dff78b6fd01"/>
+			<Metadata name="Catalog.SMTPServery.Attribute.Server" id="bb86553f-fc6b-4787-adc2-a40836943a19"/>
+			<Metadata name="Catalog.SMTPServery.Attribute.Login" id="c457598d-5a8a-4861-8dba-93b58bae0c8d"/>
+			<Metadata name="Catalog.SMTPServery.Attribute.EmailOtpravitelya" id="c88e7ba9-3f9d-406d-8c86-3bee625a60ac"/>
+		</Metadata>
+		<Metadata name="Catalog.ShablonyPisem" id="48e3f666-5f87-4a2f-a307-bcb5b56be1b2" configVersion="27e40d607f5bbc4f95ace72b5dc39ad600000000">
+			<Metadata name="Catalog.ShablonyPisem.Attribute.TemaPisma" id="46db18b9-2e74-4956-b1eb-cb6e60f796cd"/>
+			<Metadata name="Catalog.ShablonyPisem.Attribute.Aktiven" id="806d47c2-a481-4715-8bc3-aabcc54ba174"/>
+			<Metadata name="Catalog.ShablonyPisem.Attribute.TekstPisma" id="cbf0d7ad-e758-4639-896e-5d49d52b09e6"/>
+		</Metadata>
+		<Metadata name="Catalog.Sotrudniki" id="fbbb8ef2-cd55-4976-8848-f53c0b111dab" configVersion="81bc9675dfd0be42977c3adbeaf1684600000000">
+			<Metadata name="Catalog.Sotrudniki.Attribute.Organizatsiya" id="042fc234-4a53-4b12-95ba-7ce1b096a11f"/>
+			<Metadata name="Catalog.Sotrudniki.Attribute.FIO" id="28add7ba-3ca6-4fa1-ac2e-b675f9833d00"/>
+			<Metadata name="Catalog.Sotrudniki.Attribute.Podrazdelenie" id="2ad6cb9a-1b5e-4c3e-893a-f71a5bcaa44d"/>
+			<Metadata name="Catalog.Sotrudniki.Attribute.TabelnyyNomer" id="2e21d0ed-e6d9-4a55-b820-62046a8d5d24"/>
+			<Metadata name="Catalog.Sotrudniki.Attribute.DataPriema" id="6a5007b5-16b5-454a-931a-f5ca31fe233b"/>
+			<Metadata name="Catalog.Sotrudniki.Attribute.VKRSchedule" id="98621f32-3799-5beb-ab4a-2e92cce0e17a"/>
+			<Metadata name="Catalog.Sotrudniki.Attribute.Aktiven" id="aeab17ba-60a5-4c43-918b-d82504258b52"/>
+			<Metadata name="Catalog.Sotrudniki.Attribute.Dolzhnost" id="dbb2419a-5662-4c06-9036-a51f87066b26"/>
+			<Metadata name="Catalog.Sotrudniki.Attribute.VKRCategory" id="df31761e-2b08-5d7f-8b93-e3fb7c56ff89"/>
+			<Metadata name="Catalog.Sotrudniki.Attribute.Email" id="e741f99b-fd6d-4388-a8e8-ed1201e74220"/>
+			<Metadata name="Catalog.Sotrudniki.Attribute.Telefon" id="f89211b3-e246-4a73-9f5d-2c87832d9200"/>
+		</Metadata>
+		<Metadata name="Catalog.TipyUvedomleniy" id="95d4d86c-7eef-47ff-a0cb-165821cc4685" configVersion="398287ddfb1779458b46c51433876b3100000000">
+			<Metadata name="Catalog.TipyUvedomleniy.Attribute.Opisanie" id="43cf186c-7591-4fc9-abf7-91bcbb8890c0"/>
+		</Metadata>
+		<Metadata name="Catalog.VidyDokumentovOsnovaniy" id="39bad37f-cf5c-43e8-9d58-ea39bf0b7ad9" configVersion="a95affdbb0c6a244b9d0925d2305810100000000">
+			<Metadata name="Catalog.VidyDokumentovOsnovaniy.Attribute.Opisanie" id="b470384f-150c-4a92-ab81-f1012afe6996"/>
+		</Metadata>
+		<Metadata name="Catalog.VidyKadrovykhIzmeneniy" id="c95e3aac-4273-43b7-8c71-27a1e510c9a4" configVersion="9d3066d99d3b60449044e229ab268d2b00000000">
+			<Metadata name="Catalog.VidyKadrovykhIzmeneniy.Attribute.VKRDefault" id="03214bf5-2eda-526c-afa7-6be2a9ec8792"/>
+			<Metadata name="Catalog.VidyKadrovykhIzmeneniy.Attribute.TipIzmeneniya" id="92c8a360-e478-466d-9673-1535eecc4bd3"/>
+			<Metadata name="Catalog.VidyKadrovykhIzmeneniy.Attribute.Opisanie" id="af32a0b2-0716-4258-b4d3-462f912b7fc9"/>
+			<Metadata name="Catalog.VidyKadrovykhIzmeneniy.Attribute.TrebuyetUvedomleniya" id="ded5ad7d-add8-4ce6-894f-d1e284062e11"/>
+		</Metadata>
+		<Metadata name="CommonModule.RabotaSEmailUvedomleniyamiServer" id="e6483150-3069-4849-9d15-96fdd297e44d" configVersion="1f24afa166cc0649adffa3363a0c646c00000000"/>
+		<Metadata name="CommonModule.RabotaSEmailUvedomleniyamiServer.Module" id="e6483150-3069-4849-9d15-96fdd297e44d.0" configVersion="37f8f95ba550f34881af520ce4fcef1000000000"/>
+		<Metadata name="CommonModule.VKRDemo" id="4992994a-8f4a-59c4-af66-a20a321cddb5" configVersion="91b50488511bdc4ab95d3a8e2342f99300000000"/>
+		<Metadata name="CommonModule.VKRDemo.Module" id="4992994a-8f4a-59c4-af66-a20a321cddb5.0" configVersion="b81f42aaabd25e49b1d705da272a857e00000000"/>
+		<Metadata name="CommonModule.VKRHR" id="d5f44a33-beca-5fab-82eb-8bf2628f3f5a" configVersion="7ded535f58bcaa4b9cdabbdec1e866c500000000"/>
+		<Metadata name="CommonModule.VKRHR.Module" id="d5f44a33-beca-5fab-82eb-8bf2628f3f5a.0" configVersion="f4aafabadd92fe46952ba98d84a1228e00000000"/>
+		<Metadata name="CommonModule.VKRJobs" id="9d1b1030-0644-5699-a4a2-2d2a0164ddb0" configVersion="090c18e4738802468c0a1ef9e9dcd55b00000000"/>
+		<Metadata name="CommonModule.VKRJobs.Module" id="9d1b1030-0644-5699-a4a2-2d2a0164ddb0.0" configVersion="2b1133a4c3b6084593072c4d4952f92600000000"/>
+		<Metadata name="CommonModule.VKRMail" id="c91ac0f4-eb63-56f4-89b2-87e5653e8520" configVersion="19876dbff752d447adfe4f0331bf156200000000"/>
+		<Metadata name="CommonModule.VKRMail.Module" id="c91ac0f4-eb63-56f4-89b2-87e5653e8520.0" configVersion="d22394dc28c734499ee41592a4e35c8e00000000"/>
+		<Metadata name="CommonModule.VKROperator" id="1d4f5b2a-9592-5059-8136-fcc1b1abee68" configVersion="f6a9749d9012c84ba319233aa1b5567f00000000"/>
+		<Metadata name="CommonModule.VKROperator.Module" id="1d4f5b2a-9592-5059-8136-fcc1b1abee68.0" configVersion="90543abaa58519439ca0dc2cd2d18c3900000000"/>
+		<Metadata name="CommonModule.VKROutbox" id="eb496ada-9020-5eb8-8a01-87e247bb1d06" configVersion="41e94ccb22eccc419f21913b11abd64800000000"/>
+		<Metadata name="CommonModule.VKROutbox.Module" id="eb496ada-9020-5eb8-8a01-87e247bb1d06.0" configVersion="9754d0f36fe74a4a8b0f8864303a66ab00000000"/>
+		<Metadata name="CommonModule.VKRRules" id="eb4cde74-433c-5708-bed5-2e810a6c6e35" configVersion="ffb5f971c0b2f54b80b0b2cff3cf9c2200000000"/>
+		<Metadata name="CommonModule.VKRRules.Module" id="eb4cde74-433c-5708-bed5-2e810a6c6e35.0" configVersion="ecdcdbe3fc553a41954e1f5008fece2400000000"/>
+		<Metadata name="CommonModule.VKRSecurity" id="5d7d068a-854d-5df7-b764-9691b927981d" configVersion="1f2f27970d803940a898c86a5ac42a9700000000"/>
+		<Metadata name="CommonModule.VKRSecurity.Module" id="5d7d068a-854d-5df7-b764-9691b927981d.0" configVersion="9a4b9820496a0b45b54b241b4804550600000000"/>
+		<Metadata name="CommonModule.VKRSelfTests" id="f23bb984-e39e-5750-8d74-8b001b772872" configVersion="647943a487e2874fb6e91779a2e1d33600000000"/>
+		<Metadata name="CommonModule.VKRSelfTests.Module" id="f23bb984-e39e-5750-8d74-8b001b772872.0" configVersion="5229be07772bcb49a4a4b5621bc607c700000000"/>
+		<Metadata name="Configuration.Lubomirov_Kirill_Sergeevich_KadrovyeUvedomleniya" id="c0ccc122-6fbe-456c-8eab-aa062fd28ed9" configVersion="7018414b9163a245b9302b7393d78c1200000000"/>
+		<Metadata name="Configuration.Lubomirov_Kirill_Sergeevich_KadrovyeUvedomleniya.ManagedApplicationModule" id="c46a757c-a847-4c7f-a9cd-6106eec84af4.6" configVersion="f6e779eb8c8a084db2364580c6b5a80500000000"/>
+		<Metadata name="Configuration.Lubomirov_Kirill_Sergeevich_KadrovyeUvedomleniya.SessionModule" id="c46a757c-a847-4c7f-a9cd-6106eec84af4.7" configVersion="3acb079d0fbff246b907f2db757bf9fd00000000"/>
+		<Metadata name="Constant.EmailOtpravitelyaPoUmolchaniyu" id="84f8b862-8cab-46ea-84e0-f14edad597b8" configVersion="9b903f1b57a4d94e9431cc9c4ca6d56c00000000"/>
+		<Metadata name="Constant.TemaPismaPoUmolchaniyu" id="6d1a1c76-fbe6-4772-83fb-f055b3b9833d" configVersion="7c25c1734e235b4b9ba02d822cd03d3900000000"/>
+		<Metadata name="Constant.TestovyyRezhimOtpravki" id="3f9cd0d4-e6ea-466e-8302-bc328da058a1" configVersion="606f344bb035a74ab4bc3605df909e3900000000"/>
+		<Metadata name="Constant.VKRMaxAttempts" id="add144ae-850a-5ad3-bda1-d7ac8cb2bc18" configVersion="048703ff9453fd48baab6153f0bfe43000000000"/>
+		<Metadata name="Constant.VKRRetrySeconds" id="4cd603fe-160e-5d69-b4b4-4de55c9acda2" configVersion="9d0738f6978ab6418a2d2e0bab264a6100000000"/>
+		<Metadata name="Constant.VKRSMTPProfile" id="c0107be6-5d77-5ea2-8f8b-4063f40c6655" configVersion="7f5afc0d3904ab4dacabd537a7c0f29300000000"/>
+		<Metadata name="Constant.VKRSendEnabled" id="93026fd8-9a5b-5608-aca2-a338e6307469" configVersion="77987d891252c44fb7bd66a85531266400000000"/>
+		<Metadata name="DataProcessor.ProverkaNastroekUvedomleniy" id="f794165f-e3a6-4fdc-946f-52e0b7a7831a" configVersion="565c9d8732f5f54f991ef289a34be87500000000"/>
+		<Metadata name="DataProcessor.ProverkaNastroekUvedomleniy.Form.Форма" id="a6848c3c-620c-45b0-9940-4de4408c2169" configVersion="735f9e7f61601b46bf15dfc3cee3387800000000"/>
+		<Metadata name="DataProcessor.ProverkaNastroekUvedomleniy.Form.Форма.Form" id="a6848c3c-620c-45b0-9940-4de4408c2169.0" configVersion="57cc8e19ec8cdf4b983499092f9c8a8200000000"/>
+		<Metadata name="DataProcessor.VKRPanel" id="d13e230a-ec4f-5384-b380-2299bed1772e" configVersion="a31909e18127a143beb5da0a742792aa00000000"/>
+		<Metadata name="DataProcessor.VKRPanel.Form.Форма" id="e6add3f1-692d-5c22-a1a5-c93fabe9d55c" configVersion="f6b6b1aec17204498ac451a4aa61583300000000"/>
+		<Metadata name="DataProcessor.VKRPanel.Form.Форма.Form" id="e6add3f1-692d-5c22-a1a5-c93fabe9d55c.0" configVersion="0b99ad0c285c1c41901f078e768bf63c00000000"/>
+		<Metadata name="Document.IzmenenieDolzhnosti" id="2499ea2b-1c8a-4231-ab0b-096de7e6d96e" configVersion="ef5c2f9b8a0f3e44a38b540ed786e55200000000">
+			<Metadata name="Document.IzmenenieDolzhnosti.Attribute.VKRReason" id="068478a8-e0c6-5d76-9dc0-d6d0f7eb2903"/>
+			<Metadata name="Document.IzmenenieDolzhnosti.Attribute.VKRSourceKind" id="07b620de-4344-594b-90af-d2c9ba35bdda"/>
+			<Metadata name="Document.IzmenenieDolzhnosti.Attribute.DataIzmeneniya" id="3ec3a9a4-1893-4027-9212-799cbe6df452"/>
+			<Metadata name="Document.IzmenenieDolzhnosti.Attribute.DolzhnostPosle" id="65665077-8a37-4ca9-b794-53bc523dea74"/>
+			<Metadata name="Document.IzmenenieDolzhnosti.Attribute.Sotrudnik" id="8e68db58-6c86-4555-b1a1-77229f1a9d94"/>
+			<Metadata name="Document.IzmenenieDolzhnosti.Attribute.Osnovanie" id="9e8c72f7-84d0-4362-b361-b7028b106e1e"/>
+			<Metadata name="Document.IzmenenieDolzhnosti.Attribute.VKRChangeKind" id="c35d8af1-d59f-5291-aac7-23c5a836038e"/>
+			<Metadata name="Document.IzmenenieDolzhnosti.Attribute.DolzhnostDo" id="d95d61bb-4ad1-40f4-88db-1055b24a7cf6"/>
+		</Metadata>
+		<Metadata name="Document.IzmenenieDolzhnosti.ObjectModule" id="2499ea2b-1c8a-4231-ab0b-096de7e6d96e.0" configVersion="899243734b3dec429fd93938b13e860500000000"/>
+		<Metadata name="Document.IzmenenieOklada" id="485a840d-adea-4bb9-8f90-a0f7b08e824b" configVersion="694203ae4691304cac5e712658b83cf900000000">
+			<Metadata name="Document.IzmenenieOklada.Attribute.VKRReason" id="1a39e3b6-8991-538c-b11a-c2c284d8f63d"/>
+			<Metadata name="Document.IzmenenieOklada.Attribute.Osnovanie" id="38c53d41-1701-4ebf-9e38-8f7785a7676d"/>
+			<Metadata name="Document.IzmenenieOklada.Attribute.VKRSourceKind" id="429b81fd-653f-53a6-8b4d-4d0e608bed8e"/>
+			<Metadata name="Document.IzmenenieOklada.Attribute.VKRChangeKind" id="7f151b39-107d-5fcb-b7dc-76a881088b9f"/>
+			<Metadata name="Document.IzmenenieOklada.Attribute.OkladDo" id="8c06377b-a46b-4e36-9224-71e71b1b2f1a"/>
+			<Metadata name="Document.IzmenenieOklada.Attribute.Sotrudnik" id="a64b287b-8525-4138-a2bd-2e46a89c1ee4"/>
+			<Metadata name="Document.IzmenenieOklada.Attribute.DataIzmeneniya" id="cb0d26ac-272a-4d07-bde2-8a756f1ec172"/>
+			<Metadata name="Document.IzmenenieOklada.Attribute.OkladPosle" id="f74828d9-c969-4d1e-9d83-8ecc670bb115"/>
+		</Metadata>
+		<Metadata name="Document.IzmenenieOklada.ObjectModule" id="485a840d-adea-4bb9-8f90-a0f7b08e824b.0" configVersion="3d2cb77d1dd59e449834f228e3717f9500000000"/>
+		<Metadata name="Document.IzmeneniePodrazdeleniya" id="f7ef9b68-c59d-40a0-9e88-9654b0009a44" configVersion="bc4f00e43819424691dd07b070ebc94000000000">
+			<Metadata name="Document.IzmeneniePodrazdeleniya.Attribute.DataIzmeneniya" id="089e602c-7a63-4111-815b-df69110ff524"/>
+			<Metadata name="Document.IzmeneniePodrazdeleniya.Attribute.Sotrudnik" id="6253ee59-c976-45d0-a299-926d234feb49"/>
+			<Metadata name="Document.IzmeneniePodrazdeleniya.Attribute.VKRChangeKind" id="7d4abfce-9de9-5724-a891-f8abd93548a8"/>
+			<Metadata name="Document.IzmeneniePodrazdeleniya.Attribute.VKRReason" id="8a10b218-582c-5e5c-942c-090fafabc579"/>
+			<Metadata name="Document.IzmeneniePodrazdeleniya.Attribute.PodrazdeleniePosle" id="941cbbee-1117-4180-ac74-6431e97c7d19"/>
+			<Metadata name="Document.IzmeneniePodrazdeleniya.Attribute.PodrazdelenieDo" id="9dee0142-4cac-4066-b920-24c9f48bb577"/>
+			<Metadata name="Document.IzmeneniePodrazdeleniya.Attribute.Osnovanie" id="bf8bfa07-ef08-4a32-937c-587751354b0b"/>
+			<Metadata name="Document.IzmeneniePodrazdeleniya.Attribute.VKRSourceKind" id="f190ea8e-81f1-5bd4-a830-be6796953058"/>
+		</Metadata>
+		<Metadata name="Document.IzmeneniePodrazdeleniya.ObjectModule" id="f7ef9b68-c59d-40a0-9e88-9654b0009a44.0" configVersion="0994415b15dbfd41a947f1efbb80db2c00000000"/>
+		<Metadata name="Document.KadrovoyeIzmenenie" id="c286bd0a-a0c0-4a81-8369-7b7af5e0fac4" configVersion="8eea2ef3d041af4b97522c6cf16a9c7200000000">
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.Otvetstvennyy" id="07718b87-fa91-4d79-9382-d9e7ae86d437"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.VKRSourceKind" id="0d3ee9fc-aaa2-53a9-96f5-e572bb87c772"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.VKRReason" id="211ea039-6886-5d57-9e22-cf95b7ba5862"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.Kommentariy" id="26d7440c-ed8b-4b68-a898-ab624f03200d"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.TabularSection.Poluchateli.Attribute.Poluchatel" id="2d5cef84-096e-45cf-8f6b-39524cbe9cb3"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.StatusUvedomleniya" id="31f81b93-0998-4d1a-a018-ca8117f38e74"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.VidIzmeneniya" id="370b769a-9365-41bc-86ac-fb7e946830ec"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.Sotrudnik" id="391a8837-3659-4de5-9f43-7446fd194a86"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.Osnovanie" id="3ea9bbed-603c-4a18-a281-491acc882dc7"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.TrebuyetsyaUvedomleniye" id="43d24e58-e727-4ee4-a5e0-c52defbfe218"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.PodrazdeleniePosle" id="56e64131-a563-4a5f-83cd-b8c6074e6b87"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.TabularSection.Poluchateli.Attribute.Kommentariy" id="5f19b255-9c08-4cb7-a204-4a9cb1c5400d"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.DolzhnostDo" id="6900f48f-eb3f-4f8d-b6bc-d11a3c0636ef"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.TabularSection.Poluchateli.Attribute.Email" id="6972f91b-77ce-4de8-a53d-b1072d03a607"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.TabularSection.Poluchateli.Attribute.Status" id="738e8067-d13a-44b7-bc5b-28294d68ef59"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.TabularSection.Poluchateli" id="b5deb40d-71aa-461c-b74f-1abbcf0f1ee4"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.TipIzmeneniya" id="c00f9eaf-a25c-43a8-a5d7-d401f3e8e658"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.DataIzmeneniya" id="c4b10294-3062-40b8-8775-cc5d92817f48"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.OkladPosle" id="c7a18357-eec3-480c-85d9-b5577e8433e7"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.VKRManualRecipients" id="c7ed4426-13e8-5792-8a3a-26e0fd218cc3"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.OkladDo" id="d73ba356-11a3-4924-9d00-ebf95343e7e8"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.PodrazdelenieDo" id="e251c0fb-379b-434a-949e-2d1d9626023a"/>
+			<Metadata name="Document.KadrovoyeIzmenenie.Attribute.DolzhnostPosle" id="f82ab165-d8c8-40cc-8cb3-d3fb866517f4"/>
+		</Metadata>
+		<Metadata name="Document.KadrovoyeIzmenenie.ObjectModule" id="c286bd0a-a0c0-4a81-8369-7b7af5e0fac4.0" configVersion="0fc6f2d990ebd44aa3e0305be992555c00000000"/>
+		<Metadata name="Document.OtpravkaUvedomleniya" id="637f6d15-ef25-4ac4-b756-b9887dd6f663" configVersion="f2a43d513b312f49be1c7a51c35a7d5a00000000">
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.Email" id="1fc6ee00-6c6a-4152-8969-b13d6db9b36a"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.VKRRevision" id="23a5143d-d3ef-594a-a54c-2a9e637e68f2"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.Status" id="29381e86-f193-4c50-9ba9-89225bc89cee"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.Sotrudnik" id="2e494d4f-662f-496b-9aa0-974d904c06fe"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.VKRTemplate" id="37feac86-b885-578e-bd20-c16e6af42c79"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.VKRSMTPProfile" id="38fd8fec-912d-5d45-88c1-48be1febdb9e"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.DataOtpravki" id="429a0915-2913-445c-9452-3203d62a08cb"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.TemaPisma" id="50ede058-187e-4ef0-9d9d-5e14d02eb275"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.VKRSourceSnapshot" id="78e44cb7-9c97-5f10-8a05-6c5b53ce68ee"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.VKRChannel" id="7af5e22e-2689-5879-b4b3-1139bb9c304b"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.VKRChangeType" id="862c1e01-7022-5783-96a1-fd545e0cdc5c"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.VKRDepartment" id="8a46ba4d-34bf-5889-b1ad-16108a24d39b"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.KadrovoyeIzmenenie" id="97ed6731-d7d3-43a3-85a4-b83c2a4f8821"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.Poluchatel" id="9a674704-384e-4268-806a-5f51eb0032fd"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.TekstPisma" id="b1422b4c-c14b-4ed0-921a-76cf0b1e89fd"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.Kommentariy" id="c2688740-9fcd-4015-849e-dbea36bd4503"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.VKRNotificationType" id="d7cf77ee-dc25-5ee6-bce2-fc3b983b864f"/>
+			<Metadata name="Document.OtpravkaUvedomleniya.Attribute.VKRRule" id="f665db16-a0da-55d0-922e-312e59cd6aeb"/>
+		</Metadata>
+		<Metadata name="Document.OtpravkaUvedomleniya.Form.ФормаПросмотра" id="de7fed28-858b-5548-9b18-45c9c84e6251" configVersion="335fa162fb472c4d9fc4865f49a054ed00000000"/>
+		<Metadata name="Document.OtpravkaUvedomleniya.Form.ФормаПросмотра.Form" id="de7fed28-858b-5548-9b18-45c9c84e6251.0" configVersion="eac98befb3cfd9449c6e330c673a93c500000000"/>
+		<Metadata name="Document.OtpravkaUvedomleniya.ObjectModule" id="637f6d15-ef25-4ac4-b756-b9887dd6f663.0" configVersion="2fd00c142dd8064d987996b93ea1cf0a00000000"/>
+		<Metadata name="Document.PerevodSotrudnika" id="21f0ed2b-3b6f-46ed-bfb3-f72b31a13115" configVersion="ebc9d727514a424887a330740199e3bc00000000">
+			<Metadata name="Document.PerevodSotrudnika.Attribute.PodrazdeleniePosle" id="1a4d4bd1-4adb-47d8-96af-df998dde304b"/>
+			<Metadata name="Document.PerevodSotrudnika.Attribute.DolzhnostDo" id="5a65b45c-60b8-47f7-97fc-682c004e4e07"/>
+			<Metadata name="Document.PerevodSotrudnika.Attribute.Osnovanie" id="7b986738-f1dc-4bd3-b80e-2310762e5b79"/>
+			<Metadata name="Document.PerevodSotrudnika.Attribute.VKRSourceKind" id="7ba9f0e6-ba0a-5147-9b5c-2969e7681072"/>
+			<Metadata name="Document.PerevodSotrudnika.Attribute.DataPerevoda" id="8ca28288-f7c8-451c-9d42-53f7d6a08dcd"/>
+			<Metadata name="Document.PerevodSotrudnika.Attribute.VKRReason" id="bb484bfa-1c81-54f7-ba75-8b7cef17b661"/>
+			<Metadata name="Document.PerevodSotrudnika.Attribute.DolzhnostPosle" id="d37ab949-c486-4b79-9b99-ec75c8313778"/>
+			<Metadata name="Document.PerevodSotrudnika.Attribute.VKRChangeKind" id="dd63e2cd-bf5b-5f00-aacd-32b07697b85a"/>
+			<Metadata name="Document.PerevodSotrudnika.Attribute.Sotrudnik" id="e062600d-4c8e-4bf9-97fa-7bff17fcb854"/>
+			<Metadata name="Document.PerevodSotrudnika.Attribute.PodrazdelenieDo" id="e8a6dac2-8503-4c6d-a5c9-4059562ae08d"/>
+		</Metadata>
+		<Metadata name="Document.PerevodSotrudnika.ObjectModule" id="21f0ed2b-3b6f-46ed-bfb3-f72b31a13115.0" configVersion="b2d8a4f0954338478614495f95f5aa2b00000000"/>
+		<Metadata name="Document.PovtornayaOtpravkaUvedomleniya" id="1e44302f-a848-47f8-91bc-f77336032e5d" configVersion="23eda3bac3f01545bc1627ea1d93146c00000000">
+			<Metadata name="Document.PovtornayaOtpravkaUvedomleniya.Attribute.Kommentariy" id="21881b5f-d238-41e5-9343-badd9124bc77"/>
+			<Metadata name="Document.PovtornayaOtpravkaUvedomleniya.Attribute.DataPovtora" id="466430cc-ccd4-4d27-9198-04ed6ba89b9a"/>
+			<Metadata name="Document.PovtornayaOtpravkaUvedomleniya.Attribute.IshodnoyeUvedomleniye" id="c1dc610f-bb7c-4d39-8e7a-35aab48587c4"/>
+			<Metadata name="Document.PovtornayaOtpravkaUvedomleniya.Attribute.Status" id="ece1a901-4412-4a03-b722-34b3caaaedd7"/>
+		</Metadata>
+		<Metadata name="Document.PovtornayaOtpravkaUvedomleniya.ObjectModule" id="1e44302f-a848-47f8-91bc-f77336032e5d.0" configVersion="ba008dd41af1b74f94126d51d86e0e8400000000"/>
+		<Metadata name="Document.PriemSotrudnika" id="e7eb8fba-d37f-4e98-a0c0-d18735bc46ce" configVersion="4c736487b089cf4cb22da422b53ba14800000000">
+			<Metadata name="Document.PriemSotrudnika.Attribute.VKRChangeKind" id="26ab3687-33ad-58ef-a37b-292f9cce6987"/>
+			<Metadata name="Document.PriemSotrudnika.Attribute.Kommentariy" id="554bfbaa-2d93-4402-a4f6-3e2776630aed"/>
+			<Metadata name="Document.PriemSotrudnika.Attribute.Oklad" id="6abbd25d-d120-4e99-a02e-4890f218edf9"/>
+			<Metadata name="Document.PriemSotrudnika.Attribute.VKRReason" id="8bdeac0e-3131-50e6-9267-5eb8f9690226"/>
+			<Metadata name="Document.PriemSotrudnika.Attribute.Podrazdelenie" id="8dd961e6-9cc1-4347-a5f1-8cccb3eb622b"/>
+			<Metadata name="Document.PriemSotrudnika.Attribute.Osnovanie" id="93889b23-ab90-450b-8d67-5a8850572be8"/>
+			<Metadata name="Document.PriemSotrudnika.Attribute.Dolzhnost" id="c9795ddc-9926-418d-9e6f-e531652e9791"/>
+			<Metadata name="Document.PriemSotrudnika.Attribute.DataPriema" id="e4fdc952-023c-498b-a45a-c7a77b7a03ff"/>
+			<Metadata name="Document.PriemSotrudnika.Attribute.VKRSourceKind" id="ed08a656-98a1-52c8-88c3-2d3c7852af02"/>
+			<Metadata name="Document.PriemSotrudnika.Attribute.Sotrudnik" id="f54d6fd4-9ca9-4e50-85a3-0ed748302078"/>
+		</Metadata>
+		<Metadata name="Document.PriemSotrudnika.ObjectModule" id="e7eb8fba-d37f-4e98-a0c0-d18735bc46ce.0" configVersion="5d8a43fc350dc941830020ae250600ab00000000"/>
+		<Metadata name="Document.RegistratsiyaOshibkiOtpravki" id="6115aa37-48f7-4352-9866-f1278f95dca2" configVersion="305e9a82a4cd3d4e87a0907c7ba6fe2400000000">
+			<Metadata name="Document.RegistratsiyaOshibkiOtpravki.Attribute.Email" id="072262f7-2ed3-4a4d-8cef-8c7dc9932d55"/>
+			<Metadata name="Document.RegistratsiyaOshibkiOtpravki.Attribute.Poluchatel" id="88c558e5-ba53-4299-8126-0b71a954d727"/>
+			<Metadata name="Document.RegistratsiyaOshibkiOtpravki.Attribute.OpisanieOshibki" id="9520617b-c9c5-4cdb-9fb4-5943d3447201"/>
+			<Metadata name="Document.RegistratsiyaOshibkiOtpravki.Attribute.KadrovoyeIzmenenie" id="a710ebb9-531c-4029-8abc-6d191c57f9d8"/>
+			<Metadata name="Document.RegistratsiyaOshibkiOtpravki.Attribute.VKRAttemptID" id="c8517540-e8f2-5728-aefc-b5b7e52b170c"/>
+			<Metadata name="Document.RegistratsiyaOshibkiOtpravki.Attribute.VKRDescription" id="cfa1f66f-8b9c-5f11-a170-dda14b4af445"/>
+			<Metadata name="Document.RegistratsiyaOshibkiOtpravki.Attribute.DataOshibki" id="f0d6656c-c253-4725-be94-5cc25e881cc0"/>
+			<Metadata name="Document.RegistratsiyaOshibkiOtpravki.Attribute.VKRNotification" id="f44b4ecd-f763-55ee-b3af-6d28289363ad"/>
+		</Metadata>
+		<Metadata name="Document.RegistratsiyaOshibkiOtpravki.ObjectModule" id="6115aa37-48f7-4352-9866-f1278f95dca2.0" configVersion="1fc4637e661ada40ac4806597e2890bc00000000"/>
+		<Metadata name="Document.UvolnenieSotrudnika" id="0021cef8-0612-4e6d-be1b-dbedebb6d487" configVersion="57f1c2510912bc479510e2a93a7753fe00000000">
+			<Metadata name="Document.UvolnenieSotrudnika.Attribute.Osnovanie" id="0c49728e-b88f-4842-911c-649fc449eb9a"/>
+			<Metadata name="Document.UvolnenieSotrudnika.Attribute.DataUvolneniya" id="16ef360a-ca96-4b05-a358-7ae5ba889946"/>
+			<Metadata name="Document.UvolnenieSotrudnika.Attribute.Sotrudnik" id="4c457c4f-132a-44df-9eff-b58cf2074d9b"/>
+			<Metadata name="Document.UvolnenieSotrudnika.Attribute.Prichina" id="5fe7a137-21e6-41b6-9d25-75c2d14bd538"/>
+			<Metadata name="Document.UvolnenieSotrudnika.Attribute.VKRReason" id="6c41c1f7-64c3-5dfe-b028-240993d9f182"/>
+			<Metadata name="Document.UvolnenieSotrudnika.Attribute.VKRChangeKind" id="8132d40e-6a52-5f3c-a973-fa5c28f9b05e"/>
+			<Metadata name="Document.UvolnenieSotrudnika.Attribute.Kommentariy" id="9f9d60d4-8037-4fc3-a2e3-1235acd9efb0"/>
+			<Metadata name="Document.UvolnenieSotrudnika.Attribute.VKRSourceKind" id="d9747220-f600-5031-8809-20bd38db226e"/>
+		</Metadata>
+		<Metadata name="Document.UvolnenieSotrudnika.ObjectModule" id="0021cef8-0612-4e6d-be1b-dbedebb6d487.0" configVersion="885af9e73f75ad4cb4287b870b32c05800000000"/>
+		<Metadata name="Enum.PrioritetyUvedomleniy" id="d51b2b89-90ab-4e73-b225-36a4b6d2f0a8" configVersion="83e176be00648c47a52b546131c8e2a000000000">
+			<Metadata name="Enum.PrioritetyUvedomleniy.EnumValue.Vysokiy" id="691260cb-9ccd-4043-8a24-d9445d2450e1"/>
+			<Metadata name="Enum.PrioritetyUvedomleniy.EnumValue.Obychnyy" id="95a400cc-83ea-431b-8d27-933383e30fe9"/>
+			<Metadata name="Enum.PrioritetyUvedomleniy.EnumValue.Nizkiy" id="af4475c9-33d5-4dc3-9217-87d19c633d8f"/>
+			<Metadata name="Enum.PrioritetyUvedomleniy.EnumValue.Kriticheskiy" id="b6820d07-d8c5-4369-8c25-e8c313871f06"/>
+		</Metadata>
+		<Metadata name="Enum.StatusyUvedomleniy" id="3793ce80-45ac-4b95-b2e3-269960e32abf" configVersion="8479881b025c074981b2db32cb2a3bbc00000000">
+			<Metadata name="Enum.StatusyUvedomleniy.EnumValue.Podgotovleno" id="73635e4d-dee2-4de1-b244-3ff1961dacb8"/>
+			<Metadata name="Enum.StatusyUvedomleniy.EnumValue.Otpravleno" id="90219c1f-4c4e-4230-9bdc-23315324f24e"/>
+			<Metadata name="Enum.StatusyUvedomleniy.EnumValue.Otmeneno" id="c22c4b22-e5c1-4208-8d9f-07829df1db67"/>
+			<Metadata name="Enum.StatusyUvedomleniy.EnumValue.PovtornoOtpravleno" id="d843345f-b4cf-4272-8c6d-e067b086654a"/>
+			<Metadata name="Enum.StatusyUvedomleniy.EnumValue.Oshibka" id="eccb5226-6c9b-4fcd-8a7c-1c4c6184c4d5"/>
+		</Metadata>
+		<Metadata name="Enum.TipyKadrovykhIzmeneniy" id="f8215c69-c000-411b-a68b-687ac792e6c7" configVersion="2d0ff5e107a2514fb3a9d833a0f1c2c100000000">
+			<Metadata name="Enum.TipyKadrovykhIzmeneniy.EnumValue.IzmenenieDolzhnosti" id="2a2d1f59-fef5-4c00-befe-5bfd5969210f"/>
+			<Metadata name="Enum.TipyKadrovykhIzmeneniy.EnumValue.Priem" id="781aa427-1d4a-4d1d-b436-d97275446e45"/>
+			<Metadata name="Enum.TipyKadrovykhIzmeneniy.EnumValue.IzmeneniePodrazdeleniya" id="9de8bea7-70d6-488b-9e13-78755ea6994b"/>
+			<Metadata name="Enum.TipyKadrovykhIzmeneniy.EnumValue.IzmenenieOklada" id="af378ce9-54a9-4998-9c47-663e3666fde2"/>
+			<Metadata name="Enum.TipyKadrovykhIzmeneniy.EnumValue.Perevod" id="c2be7ab8-d830-409b-b89c-558da1cfde2f"/>
+			<Metadata name="Enum.TipyKadrovykhIzmeneniy.EnumValue.Uvolnenie" id="ef2bfa63-e283-48b4-b42a-e202a7bcb7e6"/>
+		</Metadata>
+		<Metadata name="Enum.TipyPoluchateley" id="8e2c6e44-f543-404f-bf3e-c3e825230c1f" configVersion="25358330af2f1f4f986ec49065aa0e6f00000000">
+			<Metadata name="Enum.TipyPoluchateley.EnumValue.VneshniyAdresat" id="02d72c49-160d-4a90-9101-2dd0d322462b"/>
+			<Metadata name="Enum.TipyPoluchateley.EnumValue.Bukhgalter" id="2ac571e5-1162-419f-bcf0-8a40d529d12e"/>
+			<Metadata name="Enum.TipyPoluchateley.EnumValue.Administrator" id="8866fc8c-8e12-47c6-a95d-c6355bfe5003"/>
+			<Metadata name="Enum.TipyPoluchateley.EnumValue.Kadrovik" id="eb644837-a40c-42ae-a235-2d34deaf79e1"/>
+			<Metadata name="Enum.TipyPoluchateley.EnumValue.Rukovoditel" id="fec11c1e-fccc-4748-b94b-bb58ca3d4254"/>
+		</Metadata>
+		<Metadata name="Enum.VKRQueueStates" id="0411ade3-9697-5c61-9157-54ec65646e9b" configVersion="36130e1c94924a4590de955c9633db0d00000000">
+			<Metadata name="Enum.VKRQueueStates.EnumValue.Prepared" id="1f18e4c1-b223-544b-b5fa-fa64006f2203"/>
+			<Metadata name="Enum.VKRQueueStates.EnumValue.Sending" id="27b92a74-ab28-5dbd-bed1-7305b0afc787"/>
+			<Metadata name="Enum.VKRQueueStates.EnumValue.Unknown" id="29ea68e3-23f0-5015-b0f1-9813d7d04fd5"/>
+			<Metadata name="Enum.VKRQueueStates.EnumValue.Retry" id="60950213-0281-5063-9f08-bec8e43aae09"/>
+			<Metadata name="Enum.VKRQueueStates.EnumValue.Cancelled" id="8645942d-e0d4-51d2-a3aa-9e2a29e41db5"/>
+			<Metadata name="Enum.VKRQueueStates.EnumValue.Failed" id="c2dc630c-5801-5434-a4f3-f96a51e1f782"/>
+			<Metadata name="Enum.VKRQueueStates.EnumValue.Sent" id="deb22cc9-653e-57b9-89f2-cdd2fc6aa5f7"/>
+		</Metadata>
+		<Metadata name="InformationRegister.VKRAttempts" id="3bf12d7c-8068-5042-a10d-3f7c5327c543" configVersion="984427d5ee97974d89d4a94e683ed36200000000">
+			<Metadata name="InformationRegister.VKRAttempts.Resource.Outcome" id="0a84de01-9583-5477-8223-a35c3f4177c5"/>
+			<Metadata name="InformationRegister.VKRAttempts.Resource.Finished" id="12e0da34-e51e-5a02-ae33-0e94e5cb9206"/>
+			<Metadata name="InformationRegister.VKRAttempts.Resource.Notification" id="1d2241cf-342b-5d7a-af6d-cf25d55ea2c8"/>
+			<Metadata name="InformationRegister.VKRAttempts.Dimension.AttemptID" id="4aad9052-ecfe-55d8-86b8-4dbf334c5d1e"/>
+			<Metadata name="InformationRegister.VKRAttempts.Resource.ErrorText" id="851a6137-2c1e-5277-9a08-cf067b986db1"/>
+			<Metadata name="InformationRegister.VKRAttempts.Resource.Started" id="e74b2378-46a9-595c-8620-39218b61bef7"/>
+		</Metadata>
+		<Metadata name="InformationRegister.VKRDepartmentAccess" id="f1381c88-8f1b-5875-a665-df81c3186ad1" configVersion="079140d4108859419f5a0352e3f83a2b00000000">
+			<Metadata name="InformationRegister.VKRDepartmentAccess.Dimension.Department" id="8bf377f7-1752-5999-9001-b5ded45a897e"/>
+			<Metadata name="InformationRegister.VKRDepartmentAccess.Resource.Enabled" id="91897714-59df-55f7-9fe1-0c5b7f083e3c"/>
+			<Metadata name="InformationRegister.VKRDepartmentAccess.Dimension.UserID" id="b409e8f3-3b50-5092-9fbf-24a5af976762"/>
+		</Metadata>
+		<Metadata name="InformationRegister.VKRDocumentLinks" id="069c48c4-c826-5835-8f59-5687bdbb17ec" configVersion="11e6891bace18b49a8ecdfecddb2e08000000000">
+			<Metadata name="InformationRegister.VKRDocumentLinks.Resource.Event" id="bb7ab2dc-35c5-530f-9bd7-e37e9777d3bf"/>
+			<Metadata name="InformationRegister.VKRDocumentLinks.Dimension.Source" id="c6714f77-0090-580f-a768-c15b3df50abc"/>
+		</Metadata>
+		<Metadata name="InformationRegister.VKRNotificationKeys" id="d84be7f4-50f8-5028-a015-7ed26778b48f" configVersion="7c03a43022ee5549a9c0c2350ba59b3700000000">
+			<Metadata name="InformationRegister.VKRNotificationKeys.Dimension.Email" id="03adec63-f770-57ad-81a6-f1e87140caa4"/>
+			<Metadata name="InformationRegister.VKRNotificationKeys.Dimension.Revision" id="15695a7d-2845-58b0-89d8-939ca38867ba"/>
+			<Metadata name="InformationRegister.VKRNotificationKeys.Dimension.Event" id="6ce737b4-4d50-58fc-993b-867fcf59b339"/>
+			<Metadata name="InformationRegister.VKRNotificationKeys.Resource.Notification" id="c9fddd79-53f6-5c0d-89bb-de628c056828"/>
+		</Metadata>
+		<Metadata name="InformationRegister.VKROperatorDecisions" id="66b92fc1-7f15-54b5-bf6a-a3185b1eb2ee" configVersion="93e73f9398c0d2479a2dfb81bad22ca400000000">
+			<Metadata name="InformationRegister.VKROperatorDecisions.Resource.OperatorName" id="28295dcb-a6ca-5d03-9c3d-7caf1a15dd8b"/>
+			<Metadata name="InformationRegister.VKROperatorDecisions.Dimension.DecisionID" id="41646074-58fe-5ab2-a497-5095a19b6e15"/>
+			<Metadata name="InformationRegister.VKROperatorDecisions.Resource.Reason" id="600c5376-5b19-5203-afe1-7aa0022b68f4"/>
+			<Metadata name="InformationRegister.VKROperatorDecisions.Resource.DecidedAt" id="92426d3f-9988-5e31-af2f-ac6de567b9c2"/>
+			<Metadata name="InformationRegister.VKROperatorDecisions.Resource.NewState" id="b69d172d-0854-5c82-a463-f34eb36e02c5"/>
+			<Metadata name="InformationRegister.VKROperatorDecisions.Resource.PreviousState" id="c84b8531-e95f-54aa-8d2e-ec983be5cdd8"/>
+			<Metadata name="InformationRegister.VKROperatorDecisions.Resource.Notification" id="f2cd281e-f974-5621-af72-b053003ea526"/>
+		</Metadata>
+		<Metadata name="InformationRegister.VKRQueue" id="5fcce21c-975e-53c3-8563-1faa1bba920d" configVersion="c5819fcc1eb96c4685ce18b18b54c78f00000000">
+			<Metadata name="InformationRegister.VKRQueue.Resource.NextTry" id="0f71c101-fe19-53fe-ad55-e08ca0a1a680"/>
+			<Metadata name="InformationRegister.VKRQueue.Resource.Attempts" id="17cf3cfa-c6c3-5b3b-a9f0-c9bf4343a80e"/>
+			<Metadata name="InformationRegister.VKRQueue.Resource.State" id="1e9ccc4b-6d68-597c-9447-85ec97d967b0"/>
+			<Metadata name="InformationRegister.VKRQueue.Dimension.Notification" id="a403b165-b25c-5713-ab0f-70dcdda9723e"/>
+			<Metadata name="InformationRegister.VKRQueue.Resource.LastError" id="af2d942d-3f1d-5120-be24-d61328ed3949"/>
+			<Metadata name="InformationRegister.VKRQueue.Resource.ClaimToken" id="af5c806d-7868-5b3f-895d-454c16ede17f"/>
+			<Metadata name="InformationRegister.VKRQueue.Resource.ClaimUntil" id="b8a04000-d35d-531d-a570-9e66c3ea3eb9"/>
+			<Metadata name="InformationRegister.VKRQueue.Resource.Event" id="c5ac9912-0621-5948-ae9c-3233600fc6af"/>
+		</Metadata>
+		<Metadata name="InformationRegister.VKRSourceStates" id="95afd4aa-57c4-55ed-9505-00d50f1a6cc5" configVersion="2d90b28abe297243ad0841a79583eefd00000000">
+			<Metadata name="InformationRegister.VKRSourceStates.Resource.Payload" id="2cdce324-9302-5ec4-8f97-599b44251102"/>
+			<Metadata name="InformationRegister.VKRSourceStates.Resource.Revision" id="5d07ccdb-420d-503c-acec-bc64f7572ab2"/>
+			<Metadata name="InformationRegister.VKRSourceStates.Dimension.Event" id="77dc6beb-f087-5f4b-b784-a4f69dcafa81"/>
+			<Metadata name="InformationRegister.VKRSourceStates.Resource.Cancelled" id="f58fdbad-ddcb-5714-a5af-b01a395fbe47"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="cc183f68-44a3-42db-9a01-1cb11ba2ba45" configVersion="b15a8f5cb4cc114da23733f060c159b700000000"/>
+		<Metadata name="Report.KadrovyeIzmeneniyaZaPeriod" id="4ecfea5f-f403-4996-87a8-a135e624b005" configVersion="db04facabde87542b796d48529210abd00000000"/>
+		<Metadata name="Report.KadrovyeIzmeneniyaZaPeriod.Template.ОсновнаяСхемаКомпоновкиДанных" id="c457ac3c-d527-4427-beee-ee660507da88" configVersion="e7a23c655b1a3842842892b1bace94ad00000000"/>
+		<Metadata name="Report.KadrovyeIzmeneniyaZaPeriod.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="c457ac3c-d527-4427-beee-ee660507da88.0" configVersion="d9081c7171a0ea40881b6abeebb926a700000000"/>
+		<Metadata name="Report.OshibkiOtpravkiUvedomleniyZaPeriod" id="51b62d1a-efab-4a25-9156-9e6e61dc698c" configVersion="35277711b80b92498a7b2dcf7bc119a200000000"/>
+		<Metadata name="Report.OshibkiOtpravkiUvedomleniyZaPeriod.Template.ОсновнаяСхемаКомпоновкиДанных" id="609d5496-66ce-4da4-a9ee-07305dd1266e" configVersion="6d2e5bdba65df84f9c62a95b172aeb9400000000"/>
+		<Metadata name="Report.OshibkiOtpravkiUvedomleniyZaPeriod.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="609d5496-66ce-4da4-a9ee-07305dd1266e.0" configVersion="3775b6897c406f45a567cc1cef2cf28700000000"/>
+		<Metadata name="Report.OtpravlennyeUvedomleniyaZaPeriod" id="d8a174e7-135f-4bd8-a1e1-84da5ca630e8" configVersion="305efbdca4721b49af3856e691c0b0dd00000000"/>
+		<Metadata name="Report.OtpravlennyeUvedomleniyaZaPeriod.Template.ОсновнаяСхемаКомпоновкиДанных" id="387883ce-7421-4369-ac43-26a45812efe3" configVersion="ad55b3bca9afc14685e1dc99136f1e2500000000"/>
+		<Metadata name="Report.OtpravlennyeUvedomleniyaZaPeriod.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="387883ce-7421-4369-ac43-26a45812efe3.0" configVersion="09f9e87bd31f6c42b1e1e53b884fe1c700000000"/>
+		<Metadata name="Report.StatistikaPoVidamKadrovykhIzmeneniy" id="5b6fb90a-5a68-4bce-b673-8f240140e414" configVersion="9b766e861ca7484fba26b543fefea83700000000"/>
+		<Metadata name="Report.StatistikaPoVidamKadrovykhIzmeneniy.Template.ОсновнаяСхемаКомпоновкиДанных" id="9a010c15-9f78-42f9-b0e7-978b0ad639a3" configVersion="11a9961734eecb4d9a43f26d91f9f57000000000"/>
+		<Metadata name="Report.StatistikaPoVidamKadrovykhIzmeneniy.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="9a010c15-9f78-42f9-b0e7-978b0ad639a3.0" configVersion="a8c355b30ef29e4485997950e8c4967a00000000"/>
+		<Metadata name="Report.UvedomleniyaPoPodrazdeleniyam" id="4a824dda-4d6c-4567-8421-19deaff74af8" configVersion="45a663c13d6d3849b4751975c585ae3300000000"/>
+		<Metadata name="Report.UvedomleniyaPoPodrazdeleniyam.Template.ОсновнаяСхемаКомпоновкиДанных" id="e25a01c6-32fc-4e3e-8042-eb5676591818" configVersion="2d12f0027d627147856749bed127a98100000000"/>
+		<Metadata name="Report.UvedomleniyaPoPodrazdeleniyam.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="e25a01c6-32fc-4e3e-8042-eb5676591818.0" configVersion="925612eac5bc1746811907c554c3dca900000000"/>
+		<Metadata name="Role.Administrator" id="7e06380e-09ff-4d9c-9760-6075c47240b1" configVersion="c2be74d57358a74a98c93a289bd30e8100000000"/>
+		<Metadata name="Role.Administrator.Rights" id="7e06380e-09ff-4d9c-9760-6075c47240b1.0" configVersion="712a515298af88409864a570d7383e9900000000"/>
+		<Metadata name="Role.Auditor" id="54801059-7e7a-4436-8aa9-7b442db950a3" configVersion="4087dc9d6b6f1e44b242bc1df6a5e49300000000"/>
+		<Metadata name="Role.Auditor.Rights" id="54801059-7e7a-4436-8aa9-7b442db950a3.0" configVersion="cf8ed977ad84614aa2bd50a89266991c00000000"/>
+		<Metadata name="Role.Kadrovik" id="8487bd1d-8554-413b-abea-a588d42e08dd" configVersion="fad6eddeccdef74faad35c3d6f81848200000000"/>
+		<Metadata name="Role.Kadrovik.Rights" id="8487bd1d-8554-413b-abea-a588d42e08dd.0" configVersion="3b47c1a54735ed4ea1555f904a71406600000000"/>
+		<Metadata name="Role.OperatorUvedomleniy" id="0a59b1d9-9edf-44e0-9be3-1b0be092b32d" configVersion="49cafb21dcddb34e91b1735d8569c0ea00000000"/>
+		<Metadata name="Role.OperatorUvedomleniy.Rights" id="0a59b1d9-9edf-44e0-9be3-1b0be092b32d.0" configVersion="1f940390b0e129409b7d6a2cd198307000000000"/>
+		<Metadata name="Role.RukovoditelPodrazdeleniya" id="39c0d923-40db-4c10-a02a-bd1cdf35356d" configVersion="3a8e7ceb34779744a885c055b056fb0500000000"/>
+		<Metadata name="Role.RukovoditelPodrazdeleniya.Rights" id="39c0d923-40db-4c10-a02a-bd1cdf35356d.0" configVersion="4e3d025c4db7d540bb9e71c6c969ab8500000000"/>
+		<Metadata name="SessionParameter.VKRCurrentUserID" id="18024f24-bb91-5629-83fa-abbf69c9608f" configVersion="23ba2d05e16b0a4782ea59d8a576f68800000000"/>
+		<Metadata name="Subsystem.Administrirovanie" id="d44f004d-8014-4988-8367-def743f89a8e" configVersion="e559435dc1339747a3226a2cce77842700000000"/>
+		<Metadata name="Subsystem.Administrirovanie.CommandInterface" id="d44f004d-8014-4988-8367-def743f89a8e.1" configVersion="40f63462eb30a24a9b100c7b755c410900000000"/>
+		<Metadata name="Subsystem.EmailUvedomleniya" id="c7d9d47e-e048-4638-abc7-0b1af124a72e" configVersion="8c50ff540d1cd14aa39c2eb7e45db9bf00000000"/>
+		<Metadata name="Subsystem.EmailUvedomleniya.CommandInterface" id="c7d9d47e-e048-4638-abc7-0b1af124a72e.1" configVersion="1bc0fd18e8787e49b6b9e4480a03a27b00000000"/>
+		<Metadata name="Subsystem.KadrovyeIzmeneniya" id="60241e24-b203-4611-bba0-5fe9afb260f3" configVersion="07a1466e48de664cbfdf638ae6d4a7c700000000"/>
+		<Metadata name="Subsystem.KadrovyeIzmeneniya.CommandInterface" id="60241e24-b203-4611-bba0-5fe9afb260f3.1" configVersion="1103c04c082ca2408ff453d59c3aedbd00000000"/>
+		<Metadata name="Subsystem.OtchetyIKontrol" id="64bc1f2b-10cd-4f60-b02d-12fb781e9a9d" configVersion="af84ac15d57d774796c7056512f4e5dd00000000"/>
+		<Metadata name="Subsystem.OtchetyIKontrol.CommandInterface" id="64bc1f2b-10cd-4f60-b02d-12fb781e9a9d.1" configVersion="2aa4e61cebd4bf40abb7cef8b05c2c4c00000000"/>
+		<Metadata name="Subsystem.PravilaRassylki" id="ebbb0ce8-7db0-47a1-9191-9f7688caf045" configVersion="f7fa32bb7043b54fad4a2f5c36e48bd400000000"/>
+		<Metadata name="Subsystem.PravilaRassylki.CommandInterface" id="ebbb0ce8-7db0-47a1-9191-9f7688caf045.1" configVersion="06eaeb57415ca44b987a714182abc72500000000"/>
+		<Metadata name="Subsystem.ZarplataIPersonal" id="e120e10e-6034-4645-b1c8-3290a0f5204f" configVersion="ce49a53c4e91bd4681c0e8469e99c8b800000000"/>
+		<Metadata name="Subsystem.ZarplataIPersonal.CommandInterface" id="e120e10e-6034-4645-b1c8-3290a0f5204f.1" configVersion="ca60290b1cd4c14fa3806c0285b4562e00000000"/>
+		<Metadata name="Task.ZadachaPoKadrovomuIzmeneniyu" id="cd9f4d45-4278-4f0f-aece-1b797b570294" configVersion="417e8fb33bc0fa48bf572a0196807e1500000000">
+			<Metadata name="Task.ZadachaPoKadrovomuIzmeneniyu.Attribute.KadrovoyeIzmenenie" id="0c6ecdc5-1de4-4b79-b094-75c852e492b9"/>
+			<Metadata name="Task.ZadachaPoKadrovomuIzmeneniyu.Attribute.Status" id="0fb0575a-c0da-483c-92ea-41b5ce3bf40f"/>
+			<Metadata name="Task.ZadachaPoKadrovomuIzmeneniyu.Attribute.OpisanieZadachi" id="9b19ac54-82f2-456e-8d87-e2c75cfd4abf"/>
+		</Metadata>
+		<Metadata name="Task.ZadachaPoKadrovomuIzmeneniyu.ObjectModule" id="cd9f4d45-4278-4f0f-aece-1b797b570294.6" configVersion="5e5c0264a54ede449156897f515a272b00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
