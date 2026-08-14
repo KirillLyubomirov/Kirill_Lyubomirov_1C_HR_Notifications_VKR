@@ -52,3 +52,57 @@
     Событие.Дата = Источник.Дата;
     Событие.Sotrudnik = Источник.Sotrudnik;
     Если ЗначениеЗаполнено(Источник.VKRChangeKind) Тогда
+        Если Источник.VKRChangeKind.TipIzmeneniya <> ТипИзменения Тогда
+            ВызватьИсключение "Вид изменения не соответствует типу кадрового документа.";
+        КонецЕсли;
+        Событие.VidIzmeneniya = Источник.VKRChangeKind;
+    Иначе
+        Событие.VidIzmeneniya = ВидПоТипу(ТипИзменения);
+    КонецЕсли;
+    Событие.TipIzmeneniya = ТипИзменения;
+    Событие.Osnovanie = Источник.Osnovanie;
+    Событие.TrebuyetsyaUvedomleniye = Событие.VidIzmeneniya.TrebuyetUvedomleniya;
+    Событие.VKRManualRecipients = Ложь;
+    Имя = Источник.Метаданные().Имя;
+    // Совпадающие реквизиты переносятся по именам метаданных; старые UUID сохраняются.
+    Для Каждого ИмяПоля Из СтрРазделить(
+        "PodrazdelenieDo,PodrazdeleniePosle,DolzhnostDo,DolzhnostPosle,OkladDo,OkladPosle,Kommentariy,VKRReason,VKRSourceKind", ",") Цикл
+        Если Источник.Метаданные().Реквизиты.Найти(ИмяПоля) <> Неопределено Тогда
+            Событие[ИмяПоля] = Источник[ИмяПоля];
+        КонецЕсли;
+    КонецЦикла;
+    Если Имя = "PriemSotrudnika" Тогда
+        Событие.DataIzmeneniya = Источник.DataPriema;
+        Событие.PodrazdeleniePosle = Источник.Podrazdelenie;
+        Событие.DolzhnostPosle = Источник.Dolzhnost;
+        Событие.OkladPosle = Источник.Oklad;
+    ИначеЕсли Имя = "PerevodSotrudnika" Тогда
+        Событие.DataIzmeneniya = Источник.DataPerevoda;
+    ИначеЕсли Имя = "UvolnenieSotrudnika" Тогда
+        Событие.DataIzmeneniya = Источник.DataUvolneniya;
+        Событие.PodrazdelenieDo = Источник.Sotrudnik.Podrazdelenie;
+        Событие.DolzhnostDo = Источник.Sotrudnik.Dolzhnost;
+    Иначе
+        Событие.DataIzmeneniya = Источник.DataIzmeneniya;
+        Если Имя = "IzmenenieOklada" Или Имя = "IzmenenieDolzhnosti" Тогда
+            Событие.PodrazdelenieDo = Источник.Sotrudnik.Podrazdelenie;
+            Событие.PodrazdeleniePosle = Источник.Sotrudnik.Podrazdelenie;
+        КонецЕсли;
+    КонецЕсли;
+    ПроверитьСобытие(Событие);
+    Событие.Записать(РежимЗаписиДокумента.Проведение);
+    Связь.Source = Источник.Ссылка;
+    Связь.Event = Событие.Ссылка;
+    Связь.Записать();
+КонецПроцедуры
+
+Процедура ОтменитьИсточник(Источник) Экспорт
+    VKROutbox.Заблокировать("VKRDocumentLinks", "Source", Источник);
+    Связь = РегистрыСведений.VKRDocumentLinks.СоздатьМенеджерЗаписи();
+    Связь.Source = Источник;
+    Связь.Прочитать();
+    Если Связь.Выбран() И Связь.Event.Проведен Тогда
+        Событие = Связь.Event.ПолучитьОбъект();
+        Событие.Записать(РежимЗаписиДокумента.ОтменаПроведения);
+    КонецЕсли;
+КонецПроцедуры
