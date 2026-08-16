@@ -31,3 +31,36 @@ def main():
                 with connection.makefile('rb') as stream:
                     connection.sendall(b'220 vkr-disconnect SMTP\r\n')
                     in_data = False
+                    payload = []
+                    while True:
+                        line = stream.readline()
+                        if not line:
+                            raise RuntimeError('Client closed before DATA was received')
+                        if in_data:
+                            if line == b'.\r\n':
+                                filename = f'message_{index + 1:02d}.eml'
+                                (args.evidence / filename).write_bytes(b''.join(payload))
+                                fact.update(received_at=datetime.now(timezone.utc).isoformat(),
+                                            payload_file=filename, final_250_sent=False)
+                                break
+                            payload.append(line)
+                            continue
+                        fact['commands'].append(line.decode('ascii', 'replace').rstrip())
+                        verb = line.split(b' ', 1)[0].strip().upper()
+                        if verb in (b'EHLO', b'HELO'):
+                            connection.sendall(b'250-vkr-disconnect\r\n250 8BITMIME\r\n')
+                        elif verb in (b'MAIL', b'RCPT', b'RSET'):
+                            connection.sendall(b'250 OK\r\n')
+                        elif verb == b'DATA':
+                            connection.sendall(b'354 End with dot\r\n')
+                            in_data = True
+                        else:
+                            connection.sendall(b'500 Unsupported\r\n')
+            facts.append(fact)
+            (args.evidence / 'smtp_disconnect.json').write_text(
+                json.dumps(facts, ensure_ascii=False, indent=2), encoding='utf-8')
+
+
+if __name__ == '__main__':
+    main()
+
