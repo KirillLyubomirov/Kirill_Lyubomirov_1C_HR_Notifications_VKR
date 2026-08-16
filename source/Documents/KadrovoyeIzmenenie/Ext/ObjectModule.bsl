@@ -18,3 +18,24 @@
         Движения.OshibkiOtpravkiUvedomleniy.Очистить();
         Д = Движения.KadrovyeSobytiya.Добавить();
         Д.Период = DataIzmeneniya;
+        Д.Sotrudnik = Sotrudnik;
+        Д.VidIzmeneniya = VidIzmeneniya;
+        Д.Podrazdelenie = ?(ЗначениеЗаполнено(PodrazdeleniePosle), PodrazdeleniePosle, PodrazdelenieDo);
+        Д.Kolichestvo = 1;
+        Д.DokumentOsnovanie = Ссылка;
+        Д.Kommentariy = Kommentariy;
+        VKROutbox.Подготовить(ЭтотОбъект);
+    Исключение
+        Отказ = Истина;
+        Сообщить(ОписаниеОшибки());
+    КонецПопытки;
+КонецПроцедуры
+
+Процедура ОбработкаУдаленияПроведения(Отказ)
+    Попытка
+        VKROutbox.ОтменитьСобытие(Ссылка);
+    Исключение
+        Отказ = Истина;
+        Сообщить(ОписаниеОшибки());
+    КонецПопытки;
+КонецПроцедуры
