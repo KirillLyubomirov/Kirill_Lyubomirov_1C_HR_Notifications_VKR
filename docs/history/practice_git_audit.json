@@ -1,0 +1,638 @@
+[
+  {
+    "sha": "e684de1716910ad2344e3ccc12f62f8b8813866e",
+    "date": "2026-05-30T15:03:00+03:00",
+    "message": "Fix issues in notification system",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "fa0c7f902c85707a3bf6d43cf58263dc7e9c9b00",
+    "date": "2026-05-30T13:09:00+03:00",
+    "message": "Add documentation and examples",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "072beaa5477936023c09fb76e763f8e71d13e9a1",
+    "date": "2026-05-30T13:01:00+03:00",
+    "message": "Add logging and error handling",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "3ca42990cadfe1c86cb4dd832b62895a4c140711",
+    "date": "2026-05-30T10:05:00+03:00",
+    "message": "Final adjustments and cleanup",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "7933bba41d2c85a611a9a69862e65f3b30ea127a",
+    "date": "2026-05-30T10:01:00+03:00",
+    "message": "Add logging and error handling",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "b25cd16d2431068b6d9da5ab2556c2de22add21e",
+    "date": "2026-05-31T19:45:00+03:00",
+    "message": "Fix issues in notification system",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "fc5ba846621b301553f1b52acdac3abd4e6782e0",
+    "date": "2026-05-31T18:58:00+03:00",
+    "message": "Update configuration files",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "12f3f43c926e1660571b06dc667192502f3b45ff",
+    "date": "2026-05-31T15:50:00+03:00",
+    "message": "Add documentation and examples",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "c8d07239158e3c321ef0e44009b34f21f5634248",
+    "date": "2026-05-31T19:48:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "ce0fd4831556e4d39ab95d8506d94e178715dabb",
+    "date": "2026-06-01T15:44:00+03:00",
+    "message": "Add new modules and reports",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "28eb5a452cf480413b866feec45369604ed144ee",
+    "date": "2026-06-01T14:04:00+03:00",
+    "message": "Fix issues in notification system",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "efcad36e1b50d386a36bb7f54aca6d062ef6118b",
+    "date": "2026-06-01T15:39:00+03:00",
+    "message": "Improve project structure",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "e97bb0c866cbe28a808b129005e6671be6b7c336",
+    "date": "2026-06-01T18:21:00+03:00",
+    "message": "Final adjustments and cleanup",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "8d3fb490eb8d752ded2702924fb6a2c5533d7b00",
+    "date": "2026-06-02T16:52:00+03:00",
+    "message": "Refactor email templates",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "d2973637fdb09916361804b45b43ec83acb20c2a",
+    "date": "2026-06-02T14:20:00+03:00",
+    "message": "Add logging and error handling",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "3d39c105931eaedb645a58426abc001a9aebbfa9",
+    "date": "2026-06-02T09:27:00+03:00",
+    "message": "Improve project structure",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "d4fa9a6fc39abc89a3840db9b7e31b49daefd8f0",
+    "date": "2026-06-02T19:11:00+03:00",
+    "message": "Fix issues in notification system",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "5401ad3ea8741dfe2abcc31fb8c2110689dec50d",
+    "date": "2026-06-03T09:12:00+03:00",
+    "message": "Update configuration files",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "edb5eac9f9411b9153832fd9028d6e9e01c44fe8",
+    "date": "2026-06-03T16:15:00+03:00",
+    "message": "Improve project structure",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "0b77e4343057d3bf582dd76c2e8883644019f6e1",
+    "date": "2026-06-03T12:59:00+03:00",
+    "message": "Update configuration files",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "00a335b96fd814f27233f98fa8b9ca5e024eb68e",
+    "date": "2026-06-03T09:21:00+03:00",
+    "message": "Add new modules and reports",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "b2e2f196ac6e60e3ce38039b8eef7b09c81a7692",
+    "date": "2026-06-04T13:05:00+03:00",
+    "message": "Fix issues in notification system",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "f41b2f3e0c99460c083ae97402318dc22ac14200",
+    "date": "2026-06-04T13:05:00+03:00",
+    "message": "Update test data and configurations",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "4f83d057079960a0c525935c521c92d246efa662",
+    "date": "2026-06-04T18:05:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "4d56ead56c1620e929b0db705e218a6ed2277324",
+    "date": "2026-06-04T09:38:00+03:00",
+    "message": "Refactor email templates",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "3ff1ac3b49d658f7ebc9607447d453a05bfd5404",
+    "date": "2026-06-05T13:48:00+03:00",
+    "message": "Add new modules and reports",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "0e37762069856311428a7af0cd00c3f91cb81788",
+    "date": "2026-06-05T10:11:00+03:00",
+    "message": "Add new modules and reports",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "d5cbe50fa8b3905d788e18a055d4c315b05c5478",
+    "date": "2026-06-05T14:54:00+03:00",
+    "message": "Update test data and configurations",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "b3ad9f6540252c556f4c92a8b9d473457e659e96",
+    "date": "2026-06-05T13:20:00+03:00",
+    "message": "Improve project structure",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "4de89ac15d989fe0b92950399889886d6431ed35",
+    "date": "2026-06-06T18:18:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "60fd23d5dd8ddee6d669c85b2407df0d55270abb",
+    "date": "2026-06-06T14:55:00+03:00",
+    "message": "Final adjustments and cleanup",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "59d20147b4a3eef3d999e8701e9ac47909e2bd70",
+    "date": "2026-06-06T13:10:00+03:00",
+    "message": "Improve project structure",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "04b87c21a17998f4b6e37a36be4e4cdbd11b8b88",
+    "date": "2026-06-06T15:18:00+03:00",
+    "message": "Add logging and error handling",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "025f902adfb87b0bfeec7f5713b6808e0be312ce",
+    "date": "2026-06-07T09:54:00+03:00",
+    "message": "Add logging and error handling",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "db18eab7b900aa0aadfd7cc3e85a0fa8602af2c3",
+    "date": "2026-06-07T18:18:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "c8e754baf790feda14cb26971b8f3c0aef6d51cb",
+    "date": "2026-06-07T09:58:00+03:00",
+    "message": "Add new modules and reports",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "97604f8ff04db513504871ab7e7bbfe2c1c336e0",
+    "date": "2026-06-07T19:52:00+03:00",
+    "message": "Add new modules and reports",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "458b94140579660a2fc07b0cdc7e1825d6e98cb8",
+    "date": "2026-06-08T19:34:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "6da317659a0c6d50915a7da6e8c619b0ccecab8f",
+    "date": "2026-06-08T10:09:00+03:00",
+    "message": "Add new modules and reports",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "0cdcf80ac23f258b86c50d6306fe26e718d98f81",
+    "date": "2026-06-08T10:57:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "7eac64b46cad6168bc9a5595672d6e8a74d71ab6",
+    "date": "2026-06-08T17:47:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "9348c2c71f4124e942db4c0a5dcd2d08c7d7df27",
+    "date": "2026-06-09T13:17:00+03:00",
+    "message": "Add logging and error handling",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "d6a8c3544133abceba6b3922572da11ea1fbfb5f",
+    "date": "2026-06-09T10:11:00+03:00",
+    "message": "Final adjustments and cleanup",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "92f8e80e94d9bc198d9bb8f263ae55fc2479c078",
+    "date": "2026-06-09T15:30:00+03:00",
+    "message": "Refactor email templates",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "7aba7127f983b758cbb1c7cdc75ea728e35529c0",
+    "date": "2026-06-09T19:57:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "d3042057e49fc867be2473fe20c14a8ff6399133",
+    "date": "2026-06-10T11:49:00+03:00",
+    "message": "Update configuration files",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "a3cd3c91a27107efe8ddd1c6c585712358a9dcc0",
+    "date": "2026-06-10T13:34:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "e20d6359cd79e2043620bd1d851b188a4daba424",
+    "date": "2026-06-10T17:35:00+03:00",
+    "message": "Improve project structure",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "c411ecc75a9df2ea1ef997ce718ccd746043379f",
+    "date": "2026-06-10T09:32:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "2f807bc911fe237fee5d4a8ab266509515994cb4",
+    "date": "2026-06-11T12:17:00+03:00",
+    "message": "Update configuration files",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "354d216138995da97e487a8b59000c3eeec46460",
+    "date": "2026-06-11T10:26:00+03:00",
+    "message": "Add new modules and reports",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "396b9a7a2d4a2bd2d48d4d61108f59b3c9c46478",
+    "date": "2026-06-11T19:51:00+03:00",
+    "message": "Final adjustments and cleanup",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "e3d0f56be862e4a4feef6dc34827de4f35993cd8",
+    "date": "2026-06-11T16:34:00+03:00",
+    "message": "Fix issues in notification system",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "b041cd3cc0f92660e1b0232f78cbf84587682499",
+    "date": "2026-06-12T16:51:00+03:00",
+    "message": "Add logging and error handling",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "fecc9c3bce8968aebc4c4bbb97ea3c944b0a5b86",
+    "date": "2026-06-12T16:40:00+03:00",
+    "message": "Update employee and organization data",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "4f5d5e478cac1202ed1a35d5316a788aaccf0a5b",
+    "date": "2026-06-12T19:18:00+03:00",
+    "message": "Update test data and configurations",
+    "added": 3,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "3c640002561d127d058547042e4ab774bb552ea4",
+    "date": "2026-06-14T21:34:00+03:00",
+    "message": "Finalize documentation and configuration",
+    "added": 5,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "6dd9552f098c66ff41561844f958fd6280ddf695",
+    "date": "2026-06-22T02:42:46+03:00",
+    "message": "Update 01_logical_model_1c_hr_email_notifications.dbml",
+    "added": 0,
+    "modified": 1,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": [
+      "diagrams/02. 2 part/dbdiagram/01_logical_model_1c_hr_email_notifications.dbml"
+    ]
+  },
+  {
+    "sha": "85e07e981e40f7a086381092c98b0b5cdbfffcb0",
+    "date": "2026-06-22T02:44:06+03:00",
+    "message": "Update 01_to_be_activity.mmd",
+    "added": 0,
+    "modified": 1,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": [
+      "diagrams/02. 2 part/mermaid/01_to_be_activity.mmd"
+    ]
+  },
+  {
+    "sha": "8a74d6bc1b07c35b25f7d880fd46b53d23bda847",
+    "date": "2026-06-22T02:45:25+03:00",
+    "message": "Update 05_infological_er.mmd",
+    "added": 0,
+    "modified": 1,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": [
+      "diagrams/02. 2 part/mermaid/05_infological_er.mmd"
+    ]
+  },
+  {
+    "sha": "677658063fc116f0cf2f02756ecc99b3f963f77d",
+    "date": "2026-06-22T02:49:49+03:00",
+    "message": "Create Lubomirov_Kirill_HR_Email_Notifications (edited).dt",
+    "added": 1,
+    "modified": 0,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "b30c59b24699def683caaf4bfa61ad7db1a945c5",
+    "date": "2026-06-22T02:50:55+03:00",
+    "message": "Delete Lubomirov_Kirill_HR_Email_Notifications (edited).dt",
+    "added": 0,
+    "modified": 0,
+    "deleted": 1,
+    "code_edits": [],
+    "design_edits": []
+  },
+  {
+    "sha": "d991b25c49a3fabba8a773386ef5861ff5416dbc",
+    "date": "2026-06-22T02:52:56+03:00",
+    "message": "Add files via upload",
+    "added": 0,
+    "modified": 2,
+    "deleted": 0,
+    "code_edits": [],
+    "design_edits": []
+  }
+]
