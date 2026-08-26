@@ -1,0 +1,17 @@
+digraph G {
+graph [compound=true,rankdir=TB,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55",fontname="DejaVu Sans",fontsize=16];
+node [shape=box,style="rounded,filled",fillcolor="#F5F7FA",color="#475569",fontname="DejaVu Sans",fontsize=15,margin="0.18,0.12"];
+edge [color="#475569",fontname="DejaVu Sans",fontsize=12,arrowsize=0.8];
+
+hr [label="Кадровик",shape=box,style=solid];head [label="Руководитель / бухгалтерия",shape=box,style=solid];
+p1 [label="1. Проверить\nи оформить изменение",shape=ellipse];
+p2 [label="2. Составить\nи отправить письмо",shape=ellipse];
+p3 [label="3. Сверить результаты\nи подготовить отчёт",shape=ellipse];
+d1 [shape=record,label="D1 | Кадровые сведения",style=solid];
+d2 [shape=record,label="D2 | Список адресатов",style=solid];
+d3 [shape=record,label="D3 | Ручной журнал отправок",style=solid];
+hr -> p1 [label="основание"];d1 -> p1 [label="данные сотрудника"];p1 -> p2 [label="оформленное изменение"];
+d2 -> p2 [label="контакты"];p2 -> head [label="письмо"];p2 -> d3 [label="отметка об отправке"];
+head -> p3 [label="обратная связь"];d3 -> p3 [label="записи журнала"];p3 -> hr [label="сводка / ошибки"];
+
+}

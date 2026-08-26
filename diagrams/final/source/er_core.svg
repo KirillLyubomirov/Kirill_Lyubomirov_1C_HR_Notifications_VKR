@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/></marker></defs>
+<rect width="1200" height="1200" fill="white"/>
+<g font-family="DejaVu Sans" fill="#172033">
+<rect x="65" y="70" width="435" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="282.5" y="98.20000000000002" text-anchor="middle" font-size="27">
+<tspan x="282.5" dy="0">Сотрудник</tspan>
+<tspan x="282.5" dy="33.48">организация, отдел,</tspan>
+<tspan x="282.5" dy="33.48">должность</tspan>
+</text>
+<rect x="700" y="70" width="435" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="917.5" y="115.22" text-anchor="middle" font-size="26">
+<tspan x="917.5" dy="0">Исходный кадровый документ</tspan>
+<tspan x="917.5" dy="32.24">вид изменения, основание</tspan>
+</text>
+<rect x="700" y="290" width="435" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="917.5" y="334.65999999999997" text-anchor="middle" font-size="28">
+<tspan x="917.5" dy="0">VKRDocumentLinks</tspan>
+<tspan x="917.5" dy="34.72">источник → событие</tspan>
+</text>
+<rect x="65" y="290" width="435" height="125" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="282.5" y="328.2" text-anchor="middle" font-size="27">
+<tspan x="282.5" dy="0">Кадровое изменение</tspan>
+<tspan x="282.5" dy="33.48">сотрудник, дата действия,</tspan>
+<tspan x="282.5" dy="33.48">значения до и после</tspan>
+</text>
+<rect x="700" y="480" width="435" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="917.5" y="524.9399999999999" text-anchor="middle" font-size="27">
+<tspan x="917.5" dy="0">VKRSourceStates</tspan>
+<tspan x="917.5" dy="33.48">ревизия и снимок события</tspan>
+</text>
+<rect x="65" y="555" width="435" height="125" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="282.5" y="592.3" text-anchor="middle" font-size="28">
+<tspan x="282.5" dy="0">Уведомление</tspan>
+<tspan x="282.5" dy="34.72">email, тема, текст,</tspan>
+<tspan x="282.5" dy="34.72">подразделение</tspan>
+</text>
+<rect x="65" y="810" width="435" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="282.5" y="854.9399999999999" text-anchor="middle" font-size="27">
+<tspan x="282.5" dy="0">VKRQueue</tspan>
+<tspan x="282.5" dy="33.48">состояние, попытки, захват</tspan>
+</text>
+<rect x="700" y="810" width="435" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="917.5" y="855.22" text-anchor="middle" font-size="26">
+<tspan x="917.5" dy="0">VKRAttempts</tspan>
+<tspan x="917.5" dy="32.24">начало, окончание, результат</tspan>
+</text>
+<rect x="65" y="1050" width="435" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="282.5" y="1094.94" text-anchor="middle" font-size="27">
+<tspan x="282.5" dy="0">VKRNotificationKeys</tspan>
+<tspan x="282.5" dy="33.48">событие + ревизия + email</tspan>
+</text>
+<rect x="700" y="1050" width="435" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="917.5" y="1094.94" text-anchor="middle" font-size="27">
+<tspan x="917.5" dy="0">VKROperatorDecisions</tspan>
+<tspan x="917.5" dy="33.48">оператор, время, основание</tspan>
+</text>
+<polyline points="500,122 700,122" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="600" y="102" text-anchor="middle" font-size="26">
+<tspan x="600" dy="0">1 : N</tspan>
+</text>
+<polyline points="918,175 918,290" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="970" y="244" text-anchor="middle" font-size="26">
+<tspan x="970" dy="0">1 : 1</tspan>
+</text>
+<polyline points="700,342 500,342" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="598" y="322" text-anchor="middle" font-size="26">
+<tspan x="598" dy="0">1 : 1</tspan>
+</text>
+<polyline points="500,385 595,440 595,532 700,532" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="646" y="504" text-anchor="middle" font-size="26">
+<tspan x="646" dy="0">1 : 1</tspan>
+</text>
+<polyline points="280,415 280,555" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="335" y="496" text-anchor="middle" font-size="26">
+<tspan x="335" dy="0">1 : N</tspan>
+</text>
+<polyline points="280,680 280,810" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="335" y="755" text-anchor="middle" font-size="26">
+<tspan x="335" dy="0">1 : 1</tspan>
+</text>
+<polyline points="500,594 648,650 918,650 918,810" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="970" y="748" text-anchor="middle" font-size="26">
+<tspan x="970" dy="0">1 : N</tspan>
+</text>
+<polyline points="500,643 580,700 580,1102 700,1102" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="640" y="1082" text-anchor="middle" font-size="26">
+<tspan x="640" dy="0">1 : N</tspan>
+</text>
+<polyline points="65,618 25,618 25,1102 65,1102" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="138" y="988" text-anchor="middle" font-size="26">
+<tspan x="138" dy="0">1 : 1</tspan>
+</text>
+</g></svg>
