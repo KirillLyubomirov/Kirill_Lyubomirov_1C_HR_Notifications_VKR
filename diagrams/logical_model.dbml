@@ -1,0 +1,166 @@
+// Версия 0.12.1. Логическая модель, а не физическая схема SQL-таблиц 1С.
+// Ref обозначает ссылку объекта 1С. Измерения регистров образуют ключ записи.
+// Источник является ссылкой на один из шести специализированных документов.
+// Таблица SourceHRDocument — только обобщение этих типов для схемы.
+// Полный перечень метаданных: 01_1C/FINAL_v12/source.
+
+Project HR_Notifications_0121 {
+  database_type: 'PostgreSQL'
+  Note: 'Логическая модель кадровых уведомлений 1С. PostgreSQL указан только для редактора DBML; стенд использует файловую информационную базу 1С.'
+}
+
+Enum QueueState {
+  Prepared
+  Sending
+  Retry
+  Unknown
+  Failed
+  Sent
+  Cancelled
+}
+
+Table Podrazdeleniya {
+  Ref uuid [pk]
+  Parent uuid [ref: > Podrazdeleniya.Ref]
+  Description varchar
+  IsFolder boolean
+  Note: 'Справочник подразделений; иерархия платформы.'
+}
+
+Table Sotrudniki {
+  Ref uuid [pk]
+  FIO varchar
+  TabelnyyNomer varchar
+  Podrazdelenie uuid [ref: > Podrazdeleniya.Ref]
+  Organizatsiya uuid [note: 'Ссылка на справочник организаций']
+  Dolzhnost uuid [note: 'Ссылка на справочник должностей']
+  Email varchar
+  Aktiven boolean
+  Note: 'Показаны реквизиты, существенные для событий, писем и ограничения доступа.'
+}
+
+Table SourceHRDocument {
+  Ref uuid [pk]
+  DocumentType varchar [note: 'Приём, перевод, увольнение, изменение должности, подразделения или оклада']
+  Employee uuid [ref: > Sotrudniki.Ref]
+  EffectiveDate datetime
+  Note: 'Обобщение шести ссылочных типов; отдельного объекта с таким именем в конфигурации нет.'
+}
+
+Table KadrovoyeIzmenenie {
+  Ref uuid [pk]
+  Sotrudnik uuid [ref: > Sotrudniki.Ref]
+  DataIzmeneniya datetime
+  VidIzmeneniya uuid
+  PodrazdelenieDo uuid [ref: > Podrazdeleniya.Ref]
+  PodrazdeleniePosle uuid [ref: > Podrazdeleniya.Ref]
+  DolzhnostDo uuid
+  DolzhnostPosle uuid
+  OkladDo decimal
+  OkladPosle decimal
+  TrebuyetsyaUvedomleniye boolean
+  Note: 'Документ общего кадрового события. Для доступа используется подразделение после изменения, а при его отсутствии — до изменения.'
+}
+
+Table VKRDocumentLinks {
+  Source uuid [pk, ref: > SourceHRDocument.Ref]
+  Event uuid [ref: > KadrovoyeIzmenenie.Ref]
+  Note: 'Регистр сведений. Повторное проведение источника использует сохранённую ссылку события.'
+}
+
+Table VKRSourceStates {
+  Event uuid [pk, ref: - KadrovoyeIzmenenie.Ref]
+  Payload text [note: 'Полный снимок значимых данных события']
+  Revision int
+  Cancelled boolean
+  Note: 'Регистр сведений; Event — измерение.'
+}
+
+Table OtpravkaUvedomleniya {
+  Ref uuid [pk]
+  KadrovoyeIzmenenie uuid [ref: > KadrovoyeIzmenenie.Ref]
+  Sotrudnik uuid [ref: > Sotrudniki.Ref]
+  Email varchar [note: 'Нормализованный адрес на момент подготовки']
+  TemaPisma varchar
+  TekstPisma text
+  VKRRevision int
+  VKRSourceSnapshot text
+  VKRDepartment uuid [ref: > Podrazdeleniya.Ref, note: 'Снимок подразделения для истории и доступа']
+  VKRRule uuid [note: 'Правило, применённое при подготовке']
+  VKRTemplate uuid [note: 'Применённый шаблон']
+  VKRSMTPProfile uuid [note: 'Сохранённый выбор почтового профиля']
+  VKRChannel uuid
+  VKRNotificationType uuid
+  Note: 'Документ уведомления. Тема, текст и адрес сохраняются до первой сетевой попытки.'
+}
+
+Table VKRNotificationKeys {
+  Event uuid [ref: > KadrovoyeIzmenenie.Ref]
+  Revision int
+  Email varchar
+  Notification uuid [ref: - OtpravkaUvedomleniya.Ref]
+  indexes {
+    (Event, Revision, Email) [pk]
+  }
+  Note: 'Составной ключ исключает повторную подготовку письма по той же ревизии и адресу.'
+}
+
+Table VKRQueue {
+  Notification uuid [pk, ref: - OtpravkaUvedomleniya.Ref]
+  Event uuid [ref: > KadrovoyeIzmenenie.Ref]
+  State QueueState
+  Attempts int
+  NextTry datetime
+  ClaimToken varchar
+  ClaimUntil datetime
+  LastError text
+  Note: 'Текущее состояние. Измерение — Notification; история попыток хранится отдельно.'
+}
+
+Table VKRAttempts {
+  AttemptID varchar [pk]
+  Notification uuid [ref: > OtpravkaUvedomleniya.Ref]
+  Started datetime
+  Finished datetime
+  Outcome QueueState
+  ErrorText text
+  Note: 'Одна запись на попытку передачи; итог Sent означает подтверждение SMTP.'
+}
+
+Table VKROperatorDecisions {
+  DecisionID varchar [pk]
+  Notification uuid [ref: > OtpravkaUvedomleniya.Ref]
+  DecidedAt datetime
+  OperatorName varchar
+  PreviousState QueueState
+  NewState QueueState
+  Reason text
+  Note: 'История решений оператора; обязательны основание и допустимый переход.'
+}
+
+Table VKRDepartmentAccess {
+  UserID varchar(36) [note: 'UUID пользователя информационной базы в строковом представлении']
+  Department uuid [ref: > Podrazdeleniya.Ref]
+  Enabled boolean
+  indexes {
+    (UserID, Department) [pk]
+  }
+  Note: 'Назначения доступа. Пользователь платформы не является элементом прикладного справочника. Пустой набор назначений не даёт руководителю доступа к кадровым записям.'
+}
+
+TableGroup HR {
+  Podrazdeleniya
+  Sotrudniki
+  SourceHRDocument
+  KadrovoyeIzmenenie
+  VKRDocumentLinks
+  VKRSourceStates
+}
+
+TableGroup Notifications {
+  OtpravkaUvedomleniya
+  VKRNotificationKeys
+  VKRQueue
+  VKRAttempts
+  VKROperatorDecisions
+}

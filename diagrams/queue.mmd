@@ -1,0 +1,24 @@
+stateDiagram-v2
+    direction TB
+    state "Подготовлено" as Prepared
+    state "Отправляется" as Sending
+    state "Ожидает повтора" as Retry
+    state "Результат неизвестен" as Unknown
+    state "Попытки исчерпаны / неустранимая ошибка" as Failed
+    state "Принято SMTP-сервером" as Sent
+    state "Обработка прекращена" as Cancelled
+    [*] --> Prepared
+    Prepared --> Sending: 1. Захват задания
+    Sending --> Sent: 2. Подтверждение SMTP
+    Sending --> Retry: 3. Отказ соединения
+    Sending --> Unknown: 4. Нет подтверждённого результата
+    Sending --> Failed: 5. Лимит или ошибка подготовки
+    Retry --> Sending: 6. Наступил срок повтора
+    Unknown --> Retry: 7. Решение оператора
+    Failed --> Retry: 8. Решение в пределах лимита
+    Prepared --> Cancelled: 9. Отмена события
+    Retry --> Cancelled: 9. Отмена события
+    Unknown --> Cancelled: 10. Решение с основанием
+    Failed --> Cancelled: 10. Решение с основанием
+    Sent --> [*]
+    Cancelled --> [*]
