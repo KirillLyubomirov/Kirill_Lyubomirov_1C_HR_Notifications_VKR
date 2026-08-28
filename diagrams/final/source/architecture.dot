@@ -1,0 +1,20 @@
+digraph G {
+graph [compound=true,rankdir=TB,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55",fontname="DejaVu Sans",fontsize=16];
+node [shape=box,style="rounded,filled",fillcolor="#F5F7FA",color="#475569",fontname="DejaVu Sans",fontsize=15,margin="0.18,0.12"];
+edge [color="#475569",fontname="DejaVu Sans",fontsize=12,arrowsize=0.8];
+
+user [label="Кадровик / оператор\nУправляемые формы"];
+src [label="6 кадровых документов\nVKRHR"];
+event [label="Кадровое изменение\nВерсия исходных данных"];
+rules [label="VKRRules\nПравило, группа, шаблон"];
+outbox [label="VKROutbox\nОчередь, попытки, журнал"];
+mail [label="VKRMail\nЛокальный SMTP"];
+server [label="Mailpit\nПодтверждение приёма"];
+reports [label="5 отчётов СКД\nСобытия, письма, ошибки"];
+operator [label="VKROperator\nРешение и его основание"];
+user -> src; src -> event; event -> rules; rules -> outbox;
+outbox -> mail [label="вне транзакции БД"]; mail -> server;
+server -> outbox [label="результат попытки",style=dashed];
+user -> operator; operator -> outbox; outbox -> reports; event -> reports;
+
+}

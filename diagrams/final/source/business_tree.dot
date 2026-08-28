@@ -1,0 +1,11 @@
+digraph G {
+graph [rankdir=LR,bgcolor="white",pad="0.18",nodesep="0.3",ranksep="0.4"];
+node [shape=box,style="rounded,filled",fillcolor="#F5F7FA",color="#475569",fontname="DejaVu Sans",fontsize=18,margin="0.15,0.12"];
+edge [color="#475569",arrowsize=0.8];
+org [label="Демонстрационная\nорганизация"];
+hr [label="Кадровая служба"];finance [label="Бухгалтерия"];
+heads [label="Руководство\nподразделениями"];it [label="ИТ-администрирование"];
+data [label="Сведения\nо сотрудниках"];events [label="Кадровые\nизменения"];notify [label="Уведомления\nи контроль"];
+org -> hr;org -> finance;org -> heads;org -> it;
+hr -> data;hr -> events;hr -> notify;
+}

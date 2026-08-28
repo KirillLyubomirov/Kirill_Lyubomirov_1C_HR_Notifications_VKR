@@ -1,0 +1,24 @@
+digraph G {
+graph [compound=true,rankdir=TB,bgcolor="white",pad="0.25",nodesep="0.24",ranksep="0.27",fontname="DejaVu Sans",fontsize=16];
+node [shape=box,style="rounded,filled",fillcolor="#F5F7FA",color="#475569",fontname="DejaVu Sans",fontsize=18,margin="0.18,0.12"];
+edge [color="#475569",fontname="DejaVu Sans",fontsize=14,arrowsize=0.8];
+
+s [shape=point,width=0.12]; end [shape=doublecircle,label="",width=0.18,style=solid];
+a [label="Провести документ"];
+g [shape=diamond,label="Данные и правило\nкорректны?",fillcolor="#FFF4D6"];
+fix [label="Исправить данные"];
+b [label="Создать событие\nи очередь"];
+c [label="Выполнить\nпередачу SMTP"];
+ok [shape=diamond,label="Итог попытки",fillcolor="#FFF4D6"];
+sent [label="Записать\nподтверждение SMTP"];
+retry [label="Назначить повтор\n(до 3 попыток)"];
+op [label="Сверить приёмник\nЗаписать решение"];
+report [label="Проверить отчёты\nЗавершить маршрут"];
+s -> a -> g;g -> fix [label="нет"];fix -> a [constraint=false];g -> b [label="да"];b -> c -> ok;
+ok -> sent [label="подтверждён"];
+ok -> retry [label="отказ соединения"];
+ok -> op [label="неизвестен / лимит"];
+retry -> c [constraint=false];op -> c [label="разрешён повтор",constraint=false];
+op -> report [label="прекращено"];sent -> report;report -> end;
+
+}
