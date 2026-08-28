@@ -1,0 +1,17 @@
+digraph G {
+graph [compound=true,rankdir=TB,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55",fontname="DejaVu Sans",fontsize=16];
+node [shape=box,style="rounded,filled",fillcolor="#F5F7FA",color="#475569",fontname="DejaVu Sans",fontsize=15,margin="0.18,0.12"];
+edge [color="#475569",fontname="DejaVu Sans",fontsize=12,arrowsize=0.8];
+
+login [label="Пользователь информационной базы"];
+session [label="VKRCurrentUserID\nУстанавливается сервером"];
+map [label="VKRDepartmentAccess\nUserID, Department, Enabled"];
+department [label="Разрешённые подразделения"];
+event [label="События и исходные документы"];
+notify [label="Уведомления и попытки"];
+report [label="Отчёты по разрешённым данным"];
+deny [label="Нет назначения\nНет доступных кадровых записей",fillcolor="#FBE9E7"];
+login -> session; session -> map; map -> department; map -> deny [label="нет записей"];
+department -> event; department -> notify; event -> report; notify -> report;
+
+}

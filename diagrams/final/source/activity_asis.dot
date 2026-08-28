@@ -1,0 +1,22 @@
+digraph G {
+graph [compound=true,rankdir=TB,bgcolor="white",pad="0.25",nodesep="0.24",ranksep="0.27",fontname="DejaVu Sans",fontsize=16];
+node [shape=box,style="rounded,filled",fillcolor="#F5F7FA",color="#475569",fontname="DejaVu Sans",fontsize=18,margin="0.18,0.12"];
+edge [color="#475569",fontname="DejaVu Sans",fontsize=14,arrowsize=0.8];
+
+s [shape=point,width=0.12]; end [shape=doublecircle,label="",width=0.18,style=solid];
+a [label="Получить основание"];
+g [shape=diamond,label="Данные полны?",fillcolor="#FFF4D6"];
+fix [label="Уточнить сведения"];
+b [label="Согласовать изменение\nОформить документ"];
+c [label="Выбрать адресатов\nСоставить письмо"];
+fork [shape=rect,height=0.06,width=3,fillcolor="#334155",label=""];
+head [label="Уведомить\nруководителя"]; acc [label="Уведомить\nбухгалтерию"];
+join [shape=rect,height=0.06,width=3,fillcolor="#334155",label=""];
+check [shape=diamond,label="Результат\nподтверждён?",fillcolor="#FFF4D6"];
+retry [label="Сверить почту\nРешить вопрос о повторе"];
+log [label="Обновить журнал\nПодготовить сводку"];
+s -> a -> g;g -> fix [label="нет"];fix -> a [constraint=false];g -> b [label="да"];b -> c -> fork;
+fork -> head;fork -> acc;head -> join;acc -> join;join -> check;
+check -> retry [label="нет"];retry -> c [constraint=false];check -> log [label="да"];log -> end;
+
+}
