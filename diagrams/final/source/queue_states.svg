@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="990" viewBox="0 0 1280 990">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/></marker></defs>
+<rect width="1280" height="990" fill="white"/>
+<g font-family="DejaVu Sans" fill="#172033">
+<circle cx="570" cy="30" r="9" fill="#475569"/>
+<polyline points="570,40 570,90" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<rect x="390" y="90" width="360" height="85" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="570.0" y="142.02" text-anchor="middle" font-size="28">
+<tspan x="570.0" dy="0">Подготовлено</tspan>
+</text>
+<rect x="390" y="280" width="360" height="85" rx="12" fill="#FFF4D6" stroke="#475569" stroke-width="2.3"/>
+<text x="570.0" y="332.02" text-anchor="middle" font-size="28">
+<tspan x="570.0" dy="0">Отправляется</tspan>
+</text>
+<rect x="900" y="280" width="345" height="85" rx="12" fill="#E7F1EC" stroke="#475569" stroke-width="2.3"/>
+<text x="1072.5" y="331.0" text-anchor="middle" font-size="25">
+<tspan x="1072.5" dy="0">Принято SMTP-сервером</tspan>
+</text>
+<rect x="907" y="287" width="331" height="71" rx="8" fill="none" stroke="#475569" stroke-width="2.3"/>
+<rect x="65" y="520" width="325" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="227.5" y="582.02" text-anchor="middle" font-size="28">
+<tspan x="227.5" dy="0">Ожидает повтора</tspan>
+</text>
+<rect x="465" y="520" width="360" height="105" rx="12" fill="#FFF4D6" stroke="#475569" stroke-width="2.3"/>
+<text x="645.0" y="564.66" text-anchor="middle" font-size="28">
+<tspan x="645.0" dy="0">Результат</tspan>
+<tspan x="645.0" dy="34.72">неизвестен</tspan>
+</text>
+<rect x="930" y="520" width="315" height="120" rx="12" fill="#FBE9E7" stroke="#475569" stroke-width="2.3"/>
+<text x="1087.5" y="573.0" text-anchor="middle" font-size="25">
+<tspan x="1087.5" dy="0">Попытки исчерпаны /</tspan>
+<tspan x="1087.5" dy="31.0">неустранимая ошибка</tspan>
+</text>
+<rect x="460" y="870" width="390" height="85" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="655.0" y="922.02" text-anchor="middle" font-size="28">
+<tspan x="655.0" dy="0">Обработка прекращена</tspan>
+</text>
+<rect x="467" y="877" width="376" height="71" rx="8" fill="none" stroke="#475569" stroke-width="2.3"/>
+<polyline points="570,175 570,280" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="597" y="236" text-anchor="middle" font-size="28">
+<tspan x="597" dy="0">1</tspan>
+</text>
+<polyline points="750,323 900,323" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="824" y="302" text-anchor="middle" font-size="28">
+<tspan x="824" dy="0">2</tspan>
+</text>
+<polyline points="430,365 270,455 270,520" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="335" y="434" text-anchor="middle" font-size="28">
+<tspan x="335" dy="0">3</tspan>
+</text>
+<polyline points="145,520 145,323 390,323" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="172" y="414" text-anchor="middle" font-size="28">
+<tspan x="172" dy="0">6</tspan>
+</text>
+<polyline points="645,365 645,520" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="670" y="447" text-anchor="middle" font-size="28">
+<tspan x="670" dy="0">4</tspan>
+</text>
+<polyline points="715,365 1088,455 1088,520" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="899" y="400" text-anchor="middle" font-size="28">
+<tspan x="899" dy="0">5</tspan>
+</text>
+<polyline points="465,572 390,572" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="427" y="553" text-anchor="middle" font-size="28">
+<tspan x="427" dy="0">7</tspan>
+</text>
+<polyline points="1000,640 1000,740 225,740 225,625" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="920" y="721" text-anchor="middle" font-size="28">
+<tspan x="920" dy="0">8</tspan>
+</text>
+<path d="M645 725 L645 755" stroke="white" stroke-width="12"/>
+<polyline points="645,625 645,870" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="672" y="811" text-anchor="middle" font-size="28">
+<tspan x="672" dy="0">10</tspan>
+</text>
+<polyline points="1145,640 1145,913 850,913" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="1173" y="790" text-anchor="middle" font-size="28">
+<tspan x="1173" dy="0">10</tspan>
+</text>
+<polyline points="390,131 25,131 25,913 460,913" fill="none" stroke="#475569" stroke-width="2.3" stroke-dasharray="9 6" marker-end="url(#arrow)"/>
+<text x="58" y="840" text-anchor="middle" font-size="28">
+<tspan x="58" dy="0">9</tspan>
+</text>
+<polyline points="325,625 325,837 500,837 500,870" fill="none" stroke="#475569" stroke-width="2.3" stroke-dasharray="9 6" marker-end="url(#arrow)"/>
+<text x="351" y="804" text-anchor="middle" font-size="28">
+<tspan x="351" dy="0">9</tspan>
+</text>
+</g></svg>

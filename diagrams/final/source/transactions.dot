@@ -1,0 +1,21 @@
+digraph G {
+graph [compound=true,rankdir=TB,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55",fontname="DejaVu Sans",fontsize=16];
+node [shape=box,style="rounded,filled",fillcolor="#F5F7FA",color="#475569",fontname="DejaVu Sans",fontsize=15,margin="0.18,0.12"];
+edge [color="#475569",fontname="DejaVu Sans",fontsize=12,arrowsize=0.8];
+
+subgraph cluster_prepare {label="Транзакция проведения";color="#CBD5E1";
+ v [label="Проверить кадровые данные"];
+ rev [label="Сравнить снимок события\nи определить ревизию"];
+ q [label="Записать событие и очередь\nКлюч: событие + ревизия + email"];
+ v -> rev -> q;}
+subgraph cluster_claim {label="Короткая транзакция захвата";color="#CBD5E1";
+ claim [label="Проверить состояние и лимит\nСохранить токен и срок захвата"];
+}
+smtp [label="Передать письмо по SMTP\nБез открытой транзакции БД",fillcolor="#FFF4D6"];
+subgraph cluster_finish {label="Короткая транзакция результата";color="#CBD5E1";
+ token [label="Проверить токен захвата"];
+ log [label="Записать результат попытки\nи движение регистра"];
+ token -> log;}
+q -> claim [ltail=cluster_prepare,lhead=cluster_claim]; claim -> smtp [ltail=cluster_claim]; smtp -> token [lhead=cluster_finish];
+
+}
