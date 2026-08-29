@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/></marker></defs>
+<rect width="1280" height="780" fill="white"/>
+<g font-family="DejaVu Sans" fill="#172033">
+<rect x="20" y="65" width="1240" height="245" rx="0" fill="#FAFBFC" stroke="#CBD5E1" stroke-width="2.3"/>
+<rect x="20" y="330" width="1240" height="410" rx="0" fill="#FAFBFC" stroke="#CBD5E1" stroke-width="2.3"/>
+<text x="48" y="107" text-anchor="start" font-size="29" font-weight="bold">
+<tspan x="48" dy="0">Кадровик</tspan>
+</text>
+<text x="48" y="370" text-anchor="start" font-size="29" font-weight="bold">
+<tspan x="48" dy="0">Оператор уведомлений</tspan>
+</text>
+<circle cx="92" cy="211" r="9" fill="#475569"/>
+<rect x="150" y="160" width="365" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="332.5" y="204.66" text-anchor="middle" font-size="28">
+<tspan x="332.5" dy="0">1. Проверить</tspan>
+<tspan x="332.5" dy="34.72">кадровое изменение</tspan>
+</text>
+<rect x="685" y="160" width="365" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="867.5" y="204.66" text-anchor="middle" font-size="28">
+<tspan x="867.5" dy="0">2. Подготовить</tspan>
+<tspan x="867.5" dy="34.72">уведомления</tspan>
+</text>
+<polyline points="103,211 150,211" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<polyline points="515,212 685,212" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<rect x="685" y="413" width="365" height="105" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="867.5" y="474.68" text-anchor="middle" font-size="27">
+<tspan x="867.5" dy="0">3. Обработать очередь</tspan>
+</text>
+<polyline points="867,265 867,413" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<polygon points="495,405 635,465 495,525 355,465" fill="#FFF4D6" stroke="#475569" stroke-width="2.3"/>
+<text x="495" y="439" text-anchor="middle" font-size="22">
+<tspan x="495" dy="0">Остались</tspan>
+<tspan x="495" dy="27.28">ожидающие</tspan>
+<tspan x="495" dy="27.28">задания?</tspan>
+</text>
+<polyline points="685,465 635,465" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<polyline points="495,525 495,570 1095,570 1095,465 1050,465" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="789" y="550" text-anchor="middle" font-size="24">
+<tspan x="789" dy="0">да — продолжить обработку</tspan>
+</text>
+<rect x="95" y="620" width="400" height="80" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="295.0" y="669.18" text-anchor="middle" font-size="27">
+<tspan x="295.0" dy="0">4. Проверить результаты</tspan>
+</text>
+<polyline points="355,465 295,465 295,620" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="327" y="580" text-anchor="middle" font-size="24">
+<tspan x="327" dy="0">нет</tspan>
+</text>
+<rect x="685" y="620" width="430" height="80" rx="12" fill="#F5F7FA" stroke="#475569" stroke-width="2.3"/>
+<text x="900.0" y="669.18" text-anchor="middle" font-size="27">
+<tspan x="900.0" dy="0">5. Зафиксировать итог</tspan>
+</text>
+<polyline points="495,660 685,660" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<circle cx="1200" cy="660" r="16" fill="white" stroke="#475569" stroke-width="2.3"/><circle cx="1200" cy="660" r="10" fill="#475569"/>
+<polyline points="1115,660 1183,660" fill="none" stroke="#475569" stroke-width="2.3" marker-end="url(#arrow)"/>
+<text x="640" y="775" text-anchor="middle" font-size="24">
+<tspan x="640" dy="0">Итог: подтверждение SMTP или прекращение обработки с основанием.</tspan>
+</text>
+</g></svg>
