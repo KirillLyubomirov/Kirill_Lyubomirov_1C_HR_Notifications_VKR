@@ -35,7 +35,7 @@
 ------
 
 1.  Загрузить [комплект запуска выпуска
-    v0.12.1-vkr](https://github.com/KirillLyubomirov/Kirill_Lyubomirov_1C_HR_Notifications_VKR/releases/).
+    v0.12.1-vkr](https://github.com/KirillLyubomirov/Kirill_Lyubomirov_1C_HR_Notifications_VKR/blob/main/releases/Lubomirov_1C_0_12_1_Run.zip).
 
 2.  Создать новую пустую базу на указанной платформе и восстановить
     `dist/Lubomirov_Kirill_Sergeevich_Accepted.dt` через Конфигуратор.
